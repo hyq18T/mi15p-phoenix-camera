@@ -1,0 +1,24 @@
+{
+  "output": "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\inputs\\com.xiaomi.plugin.m3style.so",
+  "sources": [
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\native\\m3_style_plugin.cpp",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\native\\m3_parameters.cpp",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\native\\m3_parameters.h",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\native\\m3_stream_geometry.cpp",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\native\\mivi14.h",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\native\\platform_libcpp.h",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\native\\m3_metadata.h"
+  ],
+  "libraries": [
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\inputs\\device-os4\\libc++_shared.so",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\inputs\\platform-15pro\\odm\\lib64\\libcom.xiaomi.pluginutils.so",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\inputs\\platform-15pro\\odm\\lib64\\libcom.xiaomi.metadatautils.so",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\inputs\\aec-hook\\libphoenix_m3_shadowhook.so",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\inputs\\libphoenix_m3_aec-runtime.so",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\inputs\\libphoenix_m3_style-renderer.so",
+    "D:\\GPT\\_phoenix_build\\addons\\LegendM3\\source\\inputs\\platform-15pro\\system\\system\\lib64\\libnativewindow.so"
+  ],
+  "compiler": "Android (12470979, based on r522817c) clang version 18.0.3 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "target": "aarch64-linux-android29",
+  "scope": "M3 style-plugin component; not a camera, LSP or flashable module build"
+}

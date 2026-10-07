@@ -1,0 +1,15 @@
+/work/
+/dist/
+/input/
+/_input/
+/_android-sdk/
+/_downloads/
+/lsp/original/
+lsp/_bak77/
+__pycache__/
+*.pyc
+*.keystore
+*.jks
+*.idsig
+*.apk
+!成品/*.apk

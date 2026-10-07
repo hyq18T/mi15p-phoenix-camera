@@ -1,0 +1,4554 @@
+{
+  "format": 1,
+  "entries": [
+    {
+      "path": "AndroidManifest.xml",
+      "targetPath": "AndroidManifest.xml"
+    },
+    {
+      "path": "assets/cloudfilter/cloud_filter_custom.json",
+      "targetPath": "assets/cloudfilter/cloud_filter_custom.json"
+    },
+    {
+      "path": "assets/cloudfilter/cloud_filter_not_custom.json",
+      "targetPath": "assets/cloudfilter/cloud_filter_not_custom.json"
+    },
+    {
+      "path": "assets/cloudfilter/filter_cover/72.webp",
+      "targetPath": "assets/cloudfilter/filter_cover/72.webp"
+    },
+    {
+      "path": "assets/cloudfilter/filter_cover/73.webp",
+      "targetPath": "assets/cloudfilter/filter_cover/73.webp"
+    },
+    {
+      "path": "assets/cloudfilter/filter_table/72",
+      "targetPath": "assets/cloudfilter/filter_table/72"
+    },
+    {
+      "path": "assets/cloudfilter/filter_table/73",
+      "targetPath": "assets/cloudfilter/filter_table/73"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable-nodpi/watermark_sample_disnep.webp",
+      "targetPath": "assets/obfu_res/res/drawable-nodpi/watermark_sample_disnep.webp"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/clear_subject_capture_image_res.png",
+      "targetPath": "assets/obfu_res/res/drawable/clear_subject_capture_image_res.png"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cv_logo.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cv_logo.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cvtype_item_1_mm.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cvtype_item_1_mm.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cvtype_item_1_top_mm.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cvtype_item_1_top_mm.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cvtype_item_2_mm.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cvtype_item_2_mm.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cvtype_item_2_top_mm.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cvtype_item_2_top_mm.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cvtype_item_master.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cvtype_item_master.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cvtype_item_master_top_menu.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cvtype_item_master_top_menu.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cvtype_item_other.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cvtype_item_other.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_cvtype_item_other_top_menu.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_cvtype_item_other_top_menu.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_west_coast_icon.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_west_coast_icon.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_west_coast_icon_princess.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_west_coast_icon_princess.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_west_coast_icon_queen.xml",
+      "targetPath": "assets/obfu_res/res/drawable/ic_west_coast_icon_queen.xml"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_west_coast_princess.webp",
+      "targetPath": "assets/obfu_res/res/drawable/ic_west_coast_princess.webp"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/ic_west_coast_queen.webp",
+      "targetPath": "assets/obfu_res/res/drawable/ic_west_coast_queen.webp"
+    },
+    {
+      "path": "assets/obfu_res/res/drawable/polaroid_print_btn.xml",
+      "targetPath": "assets/obfu_res/res/drawable/polaroid_print_btn.xml"
+    },
+    {
+      "path": "assets/phoenix/vignette-template.glsl",
+      "targetPath": "assets/phoenix/vignette-template.glsl"
+    },
+    {
+      "path": "assets/prometheus/fixed_lut_slots.json",
+      "targetPath": "assets/prometheus/fixed_lut_slots.json"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_1f000000.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_1f000000.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_1fffffff.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_1fffffff.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_33000000.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_33000000.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_33ffffff.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_33ffffff.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_4d000000.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_4d000000.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_4dffffff.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_4dffffff.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_74380b.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_74380b.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_80000000.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_80000000.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_80ffffff.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_80ffffff.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_b2ffffff.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_b2ffffff.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_b66e18.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_b66e18.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_bf000000.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_bf000000.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_bfce9238.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_bfce9238.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_bff4ca32.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_bff4ca32.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_bfffffff.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_bfffffff.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_black.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_black.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_black_shadow.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_black_shadow.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_cc000000.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_cc000000.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ccffffff.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ccffffff.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ccffffff_shadow.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ccffffff_shadow.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ce9238.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ce9238.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_de1010.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_de1010.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_e2433b.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_e2433b.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_e6a54f.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_e6a54f.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_f4ca32.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_f4ca32.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_f6c566.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_f6c566.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff000000.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff000000.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff121212.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff121212.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff141414.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff141414.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe099.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe099.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe20612.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe20612.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe6a54f.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe6a54f.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_fff383.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_fff383.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffffffff.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffffffff.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_white.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_white.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_white_shadow.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_white_shadow.webp"
+    },
+    {
+      "path": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_yellow.webp",
+      "targetPath": "assets/prometheus/watermark-suffix/prometheus_leica_suffix_yellow.webp"
+    },
+    {
+      "path": "assets/prometheus_runtime/MiSans Latin VF.ttf",
+      "targetPath": "assets/prometheus_runtime/MiSans Latin VF.ttf"
+    },
+    {
+      "path": "assets/shading_script/cv_style.c",
+      "targetPath": "assets/shading_script/cv_style.c"
+    },
+    {
+      "path": "assets/shading_script/frag_madrid.c",
+      "targetPath": "assets/shading_script/frag_madrid.c"
+    },
+    {
+      "path": "assets/shading_script/vertex_normal.txt",
+      "targetPath": "assets/shading_script/vertex_normal.txt"
+    },
+    {
+      "path": "assets/sounds/hasselblad/camera_click.ogg",
+      "targetPath": "assets/sounds/hasselblad/camera_click.ogg"
+    },
+    {
+      "path": "assets/sounds/hasselblad/camera_click.wav",
+      "targetPath": "assets/sounds/hasselblad/camera_click.wav"
+    },
+    {
+      "path": "assets/sounds/hasselblad/camera_fast_burst.ogg",
+      "targetPath": "assets/sounds/hasselblad/camera_fast_burst.ogg"
+    },
+    {
+      "path": "assets/sounds/hasselblad/camera_fast_burst.wav",
+      "targetPath": "assets/sounds/hasselblad/camera_fast_burst.wav"
+    },
+    {
+      "path": "assets/sounds/hasselblad/camera_focus.ogg",
+      "targetPath": "assets/sounds/hasselblad/camera_focus.ogg"
+    },
+    {
+      "path": "assets/sounds/hasselblad/camera_focus.wav",
+      "targetPath": "assets/sounds/hasselblad/camera_focus.wav"
+    },
+    {
+      "path": "assets/sounds/hasselblad/video_record_end.ogg",
+      "targetPath": "assets/sounds/hasselblad/video_record_end.ogg"
+    },
+    {
+      "path": "assets/sounds/hasselblad/video_record_end.wav",
+      "targetPath": "assets/sounds/hasselblad/video_record_end.wav"
+    },
+    {
+      "path": "assets/sounds/hasselblad/video_record_start.ogg",
+      "targetPath": "assets/sounds/hasselblad/video_record_start.ogg"
+    },
+    {
+      "path": "assets/sounds/hasselblad/video_record_start.wav",
+      "targetPath": "assets/sounds/hasselblad/video_record_start.wav"
+    },
+    {
+      "path": "assets/sounds/laoda/camera_click.ogg",
+      "targetPath": "assets/sounds/laoda/camera_click.ogg"
+    },
+    {
+      "path": "assets/sounds/laoda/camera_click.wav",
+      "targetPath": "assets/sounds/laoda/camera_click.wav"
+    },
+    {
+      "path": "assets/sounds/xpan/camera_click.ogg",
+      "targetPath": "assets/sounds/xpan/camera_click.ogg"
+    },
+    {
+      "path": "assets/sounds/xpan/camera_click.wav",
+      "targetPath": "assets/sounds/xpan/camera_click.wav"
+    },
+    {
+      "path": "assets/watermarks/classic/17/config.json",
+      "targetPath": "assets/watermarks/classic/17/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/17/meta.json",
+      "targetPath": "assets/watermarks/classic/17/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/18/config.json",
+      "targetPath": "assets/watermarks/classic/18/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/18/meta.json",
+      "targetPath": "assets/watermarks/classic/18/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/19/config.json",
+      "targetPath": "assets/watermarks/classic/19/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/19/meta.json",
+      "targetPath": "assets/watermarks/classic/19/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/20/config.json",
+      "targetPath": "assets/watermarks/classic/20/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/20/meta.json",
+      "targetPath": "assets/watermarks/classic/20/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/21/config.json",
+      "targetPath": "assets/watermarks/classic/21/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/21/meta.json",
+      "targetPath": "assets/watermarks/classic/21/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/22/config.json",
+      "targetPath": "assets/watermarks/classic/22/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/22/meta.json",
+      "targetPath": "assets/watermarks/classic/22/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/23/config.json",
+      "targetPath": "assets/watermarks/classic/23/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/23/meta.json",
+      "targetPath": "assets/watermarks/classic/23/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/95/config.json",
+      "targetPath": "assets/watermarks/classic/95/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/95/meta.json",
+      "targetPath": "assets/watermarks/classic/95/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/96/config.json",
+      "targetPath": "assets/watermarks/classic/96/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/96/meta.json",
+      "targetPath": "assets/watermarks/classic/96/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/97/config.json",
+      "targetPath": "assets/watermarks/classic/97/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/97/meta.json",
+      "targetPath": "assets/watermarks/classic/97/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/98/config.json",
+      "targetPath": "assets/watermarks/classic/98/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/98/meta.json",
+      "targetPath": "assets/watermarks/classic/98/meta.json"
+    },
+    {
+      "path": "assets/watermarks/classic/99/config.json",
+      "targetPath": "assets/watermarks/classic/99/config.json"
+    },
+    {
+      "path": "assets/watermarks/classic/99/meta.json",
+      "targetPath": "assets/watermarks/classic/99/meta.json"
+    },
+    {
+      "path": "assets/watermarks/film/103/config.json",
+      "targetPath": "assets/watermarks/film/103/config.json"
+    },
+    {
+      "path": "assets/watermarks/film/103/meta.json",
+      "targetPath": "assets/watermarks/film/103/meta.json"
+    },
+    {
+      "path": "assets/watermarks/film/12/config.json",
+      "targetPath": "assets/watermarks/film/12/config.json"
+    },
+    {
+      "path": "assets/watermarks/film/12/meta.json",
+      "targetPath": "assets/watermarks/film/12/meta.json"
+    },
+    {
+      "path": "assets/watermarks/film/13/config.json",
+      "targetPath": "assets/watermarks/film/13/config.json"
+    },
+    {
+      "path": "assets/watermarks/film/13/meta.json",
+      "targetPath": "assets/watermarks/film/13/meta.json"
+    },
+    {
+      "path": "assets/watermarks/film/14/config.json",
+      "targetPath": "assets/watermarks/film/14/config.json"
+    },
+    {
+      "path": "assets/watermarks/film/14/meta.json",
+      "targetPath": "assets/watermarks/film/14/meta.json"
+    },
+    {
+      "path": "assets/watermarks/film/15/config.json",
+      "targetPath": "assets/watermarks/film/15/config.json"
+    },
+    {
+      "path": "assets/watermarks/film/15/meta.json",
+      "targetPath": "assets/watermarks/film/15/meta.json"
+    },
+    {
+      "path": "assets/watermarks/film/16/config.json",
+      "targetPath": "assets/watermarks/film/16/config.json"
+    },
+    {
+      "path": "assets/watermarks/film/16/meta.json",
+      "targetPath": "assets/watermarks/film/16/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/1/config.json",
+      "targetPath": "assets/watermarks/leica/1/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/1/meta.json",
+      "targetPath": "assets/watermarks/leica/1/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/104/config.json",
+      "targetPath": "assets/watermarks/leica/104/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/104/meta.json",
+      "targetPath": "assets/watermarks/leica/104/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/111/config.json",
+      "targetPath": "assets/watermarks/leica/111/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/111/meta.json",
+      "targetPath": "assets/watermarks/leica/111/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/2/config.json",
+      "targetPath": "assets/watermarks/leica/2/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/2/meta.json",
+      "targetPath": "assets/watermarks/leica/2/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/3/config.json",
+      "targetPath": "assets/watermarks/leica/3/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/3/meta.json",
+      "targetPath": "assets/watermarks/leica/3/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/4/config.json",
+      "targetPath": "assets/watermarks/leica/4/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/4/meta.json",
+      "targetPath": "assets/watermarks/leica/4/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/5/config.json",
+      "targetPath": "assets/watermarks/leica/5/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/5/meta.json",
+      "targetPath": "assets/watermarks/leica/5/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/88/config.json",
+      "targetPath": "assets/watermarks/leica/88/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/88/meta.json",
+      "targetPath": "assets/watermarks/leica/88/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/89/config.json",
+      "targetPath": "assets/watermarks/leica/89/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/89/leica_looks_regular_black.webp",
+      "targetPath": "assets/watermarks/leica/89/leica_looks_regular_black.webp"
+    },
+    {
+      "path": "assets/watermarks/leica/89/leica_looks_regular_white.webp",
+      "targetPath": "assets/watermarks/leica/89/leica_looks_regular_white.webp"
+    },
+    {
+      "path": "assets/watermarks/leica/89/meta.json",
+      "targetPath": "assets/watermarks/leica/89/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/90/config.json",
+      "targetPath": "assets/watermarks/leica/90/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/90/meta.json",
+      "targetPath": "assets/watermarks/leica/90/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/91/config.json",
+      "targetPath": "assets/watermarks/leica/91/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/91/meta.json",
+      "targetPath": "assets/watermarks/leica/91/meta.json"
+    },
+    {
+      "path": "assets/watermarks/leica/92/config.json",
+      "targetPath": "assets/watermarks/leica/92/config.json"
+    },
+    {
+      "path": "assets/watermarks/leica/92/meta.json",
+      "targetPath": "assets/watermarks/leica/92/meta.json"
+    },
+    {
+      "path": "assets/watermarks/standard/107/config.json",
+      "targetPath": "assets/watermarks/standard/107/config.json"
+    },
+    {
+      "path": "assets/watermarks/standard/107/meta.json",
+      "targetPath": "assets/watermarks/standard/107/meta.json"
+    },
+    {
+      "path": "assets/watermarks/standard/6/config.json",
+      "targetPath": "assets/watermarks/standard/6/config.json"
+    },
+    {
+      "path": "assets/watermarks/standard/6/meta.json",
+      "targetPath": "assets/watermarks/standard/6/meta.json"
+    },
+    {
+      "path": "assets/watermarks/standard/7/config.json",
+      "targetPath": "assets/watermarks/standard/7/config.json"
+    },
+    {
+      "path": "assets/watermarks/standard/7/meta.json",
+      "targetPath": "assets/watermarks/standard/7/meta.json"
+    },
+    {
+      "path": "assets/watermarks/standard/8/config.json",
+      "targetPath": "assets/watermarks/standard/8/config.json"
+    },
+    {
+      "path": "assets/watermarks/standard/8/meta.json",
+      "targetPath": "assets/watermarks/standard/8/meta.json"
+    },
+    {
+      "path": "assets/watermarks/tag/10/config.json",
+      "targetPath": "assets/watermarks/tag/10/config.json"
+    },
+    {
+      "path": "assets/watermarks/tag/10/meta.json",
+      "targetPath": "assets/watermarks/tag/10/meta.json"
+    },
+    {
+      "path": "assets/watermarks/tag/11/config.json",
+      "targetPath": "assets/watermarks/tag/11/config.json"
+    },
+    {
+      "path": "assets/watermarks/tag/11/meta.json",
+      "targetPath": "assets/watermarks/tag/11/meta.json"
+    },
+    {
+      "path": "assets/watermarks/tag/9/config.json",
+      "targetPath": "assets/watermarks/tag/9/config.json"
+    },
+    {
+      "path": "assets/watermarks/tag/9/meta.json",
+      "targetPath": "assets/watermarks/tag/9/meta.json"
+    },
+    {
+      "path": "res/drawable-nodpi/ic_new_config_hdr_normal_top_mm.png",
+      "targetPath": "res/drawable-nodpi/ic_new_config_hdr_normal_top_mm.png"
+    },
+    {
+      "path": "res/drawable-nodpi/ic_top_config_hdr_auto_ox.png",
+      "targetPath": "res/drawable-nodpi/ic_top_config_hdr_auto_ox.png"
+    },
+    {
+      "path": "res/drawable-nodpi/ic_top_config_hdr_off_ox.png",
+      "targetPath": "res/drawable-nodpi/ic_top_config_hdr_off_ox.png"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_100.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_100.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_101.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_101.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_102.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_102.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_103.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_103.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_104.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_104.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_105.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_105.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_106.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_106.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_107.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_107.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_108.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_108.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_109.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_109.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_11.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_11.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_110.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_110.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_111.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_111.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_112.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_112.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_113.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_113.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_115.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_115.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_118.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_118.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_119.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_119.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_12.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_12.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_122.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_122.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_13.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_13.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_14.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_14.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_16.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_16.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_17.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_17.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_18.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_18.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_19.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_19.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_20.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_20.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_21.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_21.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_22.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_22.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_23.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_23.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_24.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_24.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_25.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_25.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_26.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_26.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_27.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_27.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_28.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_28.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_29.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_29.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_32.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_32.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_33.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_33.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_34.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_34.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_35.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_35.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_36.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_36.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_38.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_38.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_39.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_39.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_40.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_40.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_41.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_41.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_42.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_42.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_43.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_43.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_44.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_44.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_45.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_45.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_46.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_46.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_48.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_48.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_5.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_5.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_50.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_50.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_51.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_51.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_55.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_55.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_56.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_56.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_6.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_6.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_62.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_62.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_63.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_63.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_64.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_64.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_65.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_65.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_66.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_66.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_68.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_68.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_69.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_69.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_7.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_7.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_71.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_71.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_72.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_72.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_73.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_73.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_74.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_74.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_75.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_75.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_76.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_76.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_78.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_78.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_79.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_79.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_8.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_8.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_80.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_80.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_81.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_81.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_82.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_82.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_83.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_83.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_84.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_84.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_85.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_85.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_86.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_86.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_87.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_87.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_88.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_88.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_90.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_90.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9001.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9001.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9002.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9002.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9003.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9003.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9004.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9004.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9005.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9005.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9006.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9006.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9007.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9007.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9008.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9008.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9009.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9009.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9010.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9010.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9011.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9011.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9012.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9012.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9013.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9013.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9014.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9014.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9015.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9015.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9016.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9016.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_91.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_91.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9101.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9101.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9102.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9102.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9103.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9103.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9104.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9104.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9105.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9105.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9106.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9106.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9107.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9107.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9108.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9108.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9109.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9109.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9110.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9110.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9111.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9111.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9112.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9112.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9113.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9113.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9114.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9114.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9115.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9115.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9116.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9116.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9117.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9117.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9118.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9118.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9119.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9119.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9120.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9120.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9121.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9121.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9122.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9122.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9123.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9123.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9124.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9124.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9125.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9125.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9126.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9126.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9127.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9127.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9128.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9128.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9129.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9129.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9130.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9130.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9131.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9131.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9132.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9132.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9133.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9133.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9134.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9134.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9135.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9135.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9136.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9136.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9137.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9137.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9138.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9138.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9139.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9139.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9140.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9140.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9141.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9141.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9142.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9142.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9143.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9143.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9144.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9144.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9145.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9145.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9146.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9146.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9147.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9147.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9148.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9148.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9149.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9149.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9150.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9150.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9151.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9151.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9152.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9152.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9153.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9153.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9154.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9154.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9155.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9155.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9156.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9156.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9157.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9157.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9158.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9158.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9159.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9159.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9160.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9160.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9161.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9161.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9162.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9162.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9163.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9163.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9164.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9164.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9165.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9165.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9166.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9166.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9167.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9167.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9168.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9168.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9169.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9169.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9170.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9170.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9171.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9171.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9172.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9172.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9173.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9173.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9174.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9174.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9175.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9175.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9176.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9176.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9177.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9177.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9178.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9178.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9179.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9179.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9180.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9180.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9181.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9181.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9182.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9182.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9183.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9183.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9184.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9184.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9185.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9185.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9186.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9186.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9187.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9187.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9188.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9188.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9189.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9189.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9190.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9190.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9191.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9191.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9192.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9192.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9193.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9193.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9194.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9194.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9195.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9195.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9196.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9196.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9197.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9197.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9198.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9198.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_9199.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_9199.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_96.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_96.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_97.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_97.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_98.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_98.webp"
+    },
+    {
+      "path": "res/drawable-nodpi/prometheus_gallery_filter_cover_99.webp",
+      "targetPath": "res/drawable-nodpi/prometheus_gallery_filter_cover_99.webp"
+    },
+    {
+      "path": "res/drawable/prometheus_device_check.xml",
+      "targetPath": "res/drawable/prometheus_device_check.xml"
+    },
+    {
+      "path": "res/layout/es_.xml",
+      "targetPath": "res/layout/es_.xml"
+    },
+    {
+      "path": "res/layout/etz.xml",
+      "targetPath": "res/layout/etz.xml"
+    },
+    {
+      "path": "res/layout/ez0.xml",
+      "targetPath": "res/layout/ez0.xml"
+    },
+    {
+      "path": "res/layout/f25.xml",
+      "targetPath": "res/layout/f25.xml"
+    },
+    {
+      "path": "res/layout/phoenix_vignette_strength.xml",
+      "targetPath": "res/layout/phoenix_vignette_strength.xml"
+    },
+    {
+      "path": "res/layout/phoenix_vignette_switch.xml",
+      "targetPath": "res/layout/phoenix_vignette_switch.xml"
+    },
+    {
+      "path": "res/layout/prometheus_device_preset_widget.xml",
+      "targetPath": "res/layout/prometheus_device_preset_widget.xml"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_bixi_food.png",
+      "targetPath": "res/raw/lut_cvstyle_bixi_food.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_bixi_human.png",
+      "targetPath": "res/raw/lut_cvstyle_bixi_human.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_bixi_plants.png",
+      "targetPath": "res/raw/lut_cvstyle_bixi_plants.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_bixi_sunrise_sunset.png",
+      "targetPath": "res/raw/lut_cvstyle_bixi_sunrise_sunset.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_common.png",
+      "targetPath": "res/raw/lut_cvstyle_common.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_food.png",
+      "targetPath": "res/raw/lut_cvstyle_food.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_fuxi_common.png",
+      "targetPath": "res/raw/lut_cvstyle_fuxi_common.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_fuxi_food.png",
+      "targetPath": "res/raw/lut_cvstyle_fuxi_food.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_fuxi_human.png",
+      "targetPath": "res/raw/lut_cvstyle_fuxi_human.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_fuxi_night.png",
+      "targetPath": "res/raw/lut_cvstyle_fuxi_night.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_fuxi_plants.png",
+      "targetPath": "res/raw/lut_cvstyle_fuxi_plants.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_fuxi_sunrise_sunset.png",
+      "targetPath": "res/raw/lut_cvstyle_fuxi_sunrise_sunset.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_human.png",
+      "targetPath": "res/raw/lut_cvstyle_human.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_night.png",
+      "targetPath": "res/raw/lut_cvstyle_night.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_plants.png",
+      "targetPath": "res/raw/lut_cvstyle_plants.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_sunrise_sunset.png",
+      "targetPath": "res/raw/lut_cvstyle_sunrise_sunset.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_zizhan_common.png",
+      "targetPath": "res/raw/lut_cvstyle_zizhan_common.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_zizhan_food.png",
+      "targetPath": "res/raw/lut_cvstyle_zizhan_food.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_zizhan_human.png",
+      "targetPath": "res/raw/lut_cvstyle_zizhan_human.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_zizhan_night.png",
+      "targetPath": "res/raw/lut_cvstyle_zizhan_night.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_zizhan_plants.png",
+      "targetPath": "res/raw/lut_cvstyle_zizhan_plants.png"
+    },
+    {
+      "path": "res/raw/lut_cvstyle_zizhan_sunrise_sunset.png",
+      "targetPath": "res/raw/lut_cvstyle_zizhan_sunrise_sunset.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_1.png",
+      "targetPath": "res/raw/prometheus_custom_lut_1.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_10.png",
+      "targetPath": "res/raw/prometheus_custom_lut_10.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_11.png",
+      "targetPath": "res/raw/prometheus_custom_lut_11.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_12.png",
+      "targetPath": "res/raw/prometheus_custom_lut_12.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_13.png",
+      "targetPath": "res/raw/prometheus_custom_lut_13.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_14.png",
+      "targetPath": "res/raw/prometheus_custom_lut_14.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_15.png",
+      "targetPath": "res/raw/prometheus_custom_lut_15.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_16.png",
+      "targetPath": "res/raw/prometheus_custom_lut_16.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_17.png",
+      "targetPath": "res/raw/prometheus_custom_lut_17.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_18.png",
+      "targetPath": "res/raw/prometheus_custom_lut_18.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_19.png",
+      "targetPath": "res/raw/prometheus_custom_lut_19.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_2.png",
+      "targetPath": "res/raw/prometheus_custom_lut_2.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_20.png",
+      "targetPath": "res/raw/prometheus_custom_lut_20.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_21.png",
+      "targetPath": "res/raw/prometheus_custom_lut_21.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_22.png",
+      "targetPath": "res/raw/prometheus_custom_lut_22.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_23.png",
+      "targetPath": "res/raw/prometheus_custom_lut_23.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_24.png",
+      "targetPath": "res/raw/prometheus_custom_lut_24.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_25.png",
+      "targetPath": "res/raw/prometheus_custom_lut_25.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_26.png",
+      "targetPath": "res/raw/prometheus_custom_lut_26.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_27.png",
+      "targetPath": "res/raw/prometheus_custom_lut_27.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_28.png",
+      "targetPath": "res/raw/prometheus_custom_lut_28.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_29.png",
+      "targetPath": "res/raw/prometheus_custom_lut_29.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_3.png",
+      "targetPath": "res/raw/prometheus_custom_lut_3.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_30.png",
+      "targetPath": "res/raw/prometheus_custom_lut_30.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_31.png",
+      "targetPath": "res/raw/prometheus_custom_lut_31.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_32.png",
+      "targetPath": "res/raw/prometheus_custom_lut_32.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_33.png",
+      "targetPath": "res/raw/prometheus_custom_lut_33.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_34.png",
+      "targetPath": "res/raw/prometheus_custom_lut_34.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_35.png",
+      "targetPath": "res/raw/prometheus_custom_lut_35.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_36.png",
+      "targetPath": "res/raw/prometheus_custom_lut_36.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_37.png",
+      "targetPath": "res/raw/prometheus_custom_lut_37.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_38.png",
+      "targetPath": "res/raw/prometheus_custom_lut_38.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_39.png",
+      "targetPath": "res/raw/prometheus_custom_lut_39.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_4.png",
+      "targetPath": "res/raw/prometheus_custom_lut_4.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_40.png",
+      "targetPath": "res/raw/prometheus_custom_lut_40.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_41.png",
+      "targetPath": "res/raw/prometheus_custom_lut_41.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_42.png",
+      "targetPath": "res/raw/prometheus_custom_lut_42.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_43.png",
+      "targetPath": "res/raw/prometheus_custom_lut_43.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_44.png",
+      "targetPath": "res/raw/prometheus_custom_lut_44.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_45.png",
+      "targetPath": "res/raw/prometheus_custom_lut_45.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_46.png",
+      "targetPath": "res/raw/prometheus_custom_lut_46.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_47.png",
+      "targetPath": "res/raw/prometheus_custom_lut_47.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_48.png",
+      "targetPath": "res/raw/prometheus_custom_lut_48.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_49.png",
+      "targetPath": "res/raw/prometheus_custom_lut_49.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_5.png",
+      "targetPath": "res/raw/prometheus_custom_lut_5.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_50.png",
+      "targetPath": "res/raw/prometheus_custom_lut_50.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_51.png",
+      "targetPath": "res/raw/prometheus_custom_lut_51.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_52.png",
+      "targetPath": "res/raw/prometheus_custom_lut_52.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_53.png",
+      "targetPath": "res/raw/prometheus_custom_lut_53.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_54.png",
+      "targetPath": "res/raw/prometheus_custom_lut_54.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_55.png",
+      "targetPath": "res/raw/prometheus_custom_lut_55.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_56.png",
+      "targetPath": "res/raw/prometheus_custom_lut_56.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_57.png",
+      "targetPath": "res/raw/prometheus_custom_lut_57.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_58.png",
+      "targetPath": "res/raw/prometheus_custom_lut_58.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_59.png",
+      "targetPath": "res/raw/prometheus_custom_lut_59.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_6.png",
+      "targetPath": "res/raw/prometheus_custom_lut_6.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_60.png",
+      "targetPath": "res/raw/prometheus_custom_lut_60.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_61.png",
+      "targetPath": "res/raw/prometheus_custom_lut_61.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_62.png",
+      "targetPath": "res/raw/prometheus_custom_lut_62.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_63.png",
+      "targetPath": "res/raw/prometheus_custom_lut_63.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_64.png",
+      "targetPath": "res/raw/prometheus_custom_lut_64.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_65.png",
+      "targetPath": "res/raw/prometheus_custom_lut_65.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_66.png",
+      "targetPath": "res/raw/prometheus_custom_lut_66.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_67.png",
+      "targetPath": "res/raw/prometheus_custom_lut_67.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_68.png",
+      "targetPath": "res/raw/prometheus_custom_lut_68.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_69.png",
+      "targetPath": "res/raw/prometheus_custom_lut_69.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_7.png",
+      "targetPath": "res/raw/prometheus_custom_lut_7.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_70.png",
+      "targetPath": "res/raw/prometheus_custom_lut_70.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_71.png",
+      "targetPath": "res/raw/prometheus_custom_lut_71.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_72.png",
+      "targetPath": "res/raw/prometheus_custom_lut_72.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_73.png",
+      "targetPath": "res/raw/prometheus_custom_lut_73.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_74.png",
+      "targetPath": "res/raw/prometheus_custom_lut_74.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_75.png",
+      "targetPath": "res/raw/prometheus_custom_lut_75.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_76.png",
+      "targetPath": "res/raw/prometheus_custom_lut_76.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_77.png",
+      "targetPath": "res/raw/prometheus_custom_lut_77.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_78.png",
+      "targetPath": "res/raw/prometheus_custom_lut_78.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_79.png",
+      "targetPath": "res/raw/prometheus_custom_lut_79.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_8.png",
+      "targetPath": "res/raw/prometheus_custom_lut_8.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_80.png",
+      "targetPath": "res/raw/prometheus_custom_lut_80.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_81.png",
+      "targetPath": "res/raw/prometheus_custom_lut_81.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_82.png",
+      "targetPath": "res/raw/prometheus_custom_lut_82.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_83.png",
+      "targetPath": "res/raw/prometheus_custom_lut_83.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_84.png",
+      "targetPath": "res/raw/prometheus_custom_lut_84.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_85.png",
+      "targetPath": "res/raw/prometheus_custom_lut_85.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_86.png",
+      "targetPath": "res/raw/prometheus_custom_lut_86.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_87.png",
+      "targetPath": "res/raw/prometheus_custom_lut_87.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_88.png",
+      "targetPath": "res/raw/prometheus_custom_lut_88.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_89.png",
+      "targetPath": "res/raw/prometheus_custom_lut_89.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_9.png",
+      "targetPath": "res/raw/prometheus_custom_lut_9.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_90.png",
+      "targetPath": "res/raw/prometheus_custom_lut_90.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_91.png",
+      "targetPath": "res/raw/prometheus_custom_lut_91.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_92.png",
+      "targetPath": "res/raw/prometheus_custom_lut_92.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_93.png",
+      "targetPath": "res/raw/prometheus_custom_lut_93.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_94.png",
+      "targetPath": "res/raw/prometheus_custom_lut_94.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_95.png",
+      "targetPath": "res/raw/prometheus_custom_lut_95.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_96.png",
+      "targetPath": "res/raw/prometheus_custom_lut_96.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_97.png",
+      "targetPath": "res/raw/prometheus_custom_lut_97.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_98.png",
+      "targetPath": "res/raw/prometheus_custom_lut_98.png"
+    },
+    {
+      "path": "res/raw/prometheus_custom_lut_99.png",
+      "targetPath": "res/raw/prometheus_custom_lut_99.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_100.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_100.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_101.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_101.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_102.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_102.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_103.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_103.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_104.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_104.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_105.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_105.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_106.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_106.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_107.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_107.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_108.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_108.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_109.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_109.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_11.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_11.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_110.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_110.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_111.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_111.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_112.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_112.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_113.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_113.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_115.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_115.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_118.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_118.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_119.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_119.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_12.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_12.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_122.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_122.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_13.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_13.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_14.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_14.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_16.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_16.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_17.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_17.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_18.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_18.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_19.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_19.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_20.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_20.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_21.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_21.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_22.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_22.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_23.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_23.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_24.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_24.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_25.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_25.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_26.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_26.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_27.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_27.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_28.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_28.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_29.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_29.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_32.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_32.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_33.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_33.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_34.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_34.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_35.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_35.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_36.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_36.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_38.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_38.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_39.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_39.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_40.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_40.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_41.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_41.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_42.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_42.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_43.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_43.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_44.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_44.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_45.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_45.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_46.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_46.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_48.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_48.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_5.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_5.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_50.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_50.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_51.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_51.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_55.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_55.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_56.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_56.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_6.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_6.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_62.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_62.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_63.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_63.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_64.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_64.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_65.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_65.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_66.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_66.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_68.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_68.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_69.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_69.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_7.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_7.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_71.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_71.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_72.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_72.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_73.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_73.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_74.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_74.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_75.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_75.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_76.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_76.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_78.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_78.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_79.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_79.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_8.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_8.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_80.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_80.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_81.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_81.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_82.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_82.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_83.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_83.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_84.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_84.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_85.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_85.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_86.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_86.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_87.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_87.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_88.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_88.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_90.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_90.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9001.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9001.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9002.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9002.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9003.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9003.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9004.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9004.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9005.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9005.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9006.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9006.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9007.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9007.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9008.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9008.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9009.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9009.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9010.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9010.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9011.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9011.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9012.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9012.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9013.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9013.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9014.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9014.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9015.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9015.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9016.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9016.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_91.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_91.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9101.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9101.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9102.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9102.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9103.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9103.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9104.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9104.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9105.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9105.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9106.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9106.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9107.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9107.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9108.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9108.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9109.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9109.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9110.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9110.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9111.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9111.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9112.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9112.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9113.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9113.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9114.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9114.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9115.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9115.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9116.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9116.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9117.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9117.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9118.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9118.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9119.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9119.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9120.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9120.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9121.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9121.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9122.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9122.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9123.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9123.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9124.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9124.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9125.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9125.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9126.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9126.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9127.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9127.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9128.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9128.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9129.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9129.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9130.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9130.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9131.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9131.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9132.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9132.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9133.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9133.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9134.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9134.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9135.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9135.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9136.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9136.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9137.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9137.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9138.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9138.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9139.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9139.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9140.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9140.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9141.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9141.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9142.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9142.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9143.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9143.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9144.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9144.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9145.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9145.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9146.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9146.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9147.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9147.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9148.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9148.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9149.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9149.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9150.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9150.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9151.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9151.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9152.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9152.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9153.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9153.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9154.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9154.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9155.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9155.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9156.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9156.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9157.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9157.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9158.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9158.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9159.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9159.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9160.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9160.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9161.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9161.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9162.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9162.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9163.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9163.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9164.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9164.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9165.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9165.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9166.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9166.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9167.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9167.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9168.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9168.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9169.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9169.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9170.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9170.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9171.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9171.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9172.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9172.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9173.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9173.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9174.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9174.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9175.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9175.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9176.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9176.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9177.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9177.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9178.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9178.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9179.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9179.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9180.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9180.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9181.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9181.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9182.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9182.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9183.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9183.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9184.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9184.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9185.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9185.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9186.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9186.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9187.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9187.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9188.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9188.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9189.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9189.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9190.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9190.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9191.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9191.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9192.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9192.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9193.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9193.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9194.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9194.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9195.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9195.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9196.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9196.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9197.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9197.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9198.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9198.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_9199.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_9199.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_96.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_96.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_97.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_97.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_98.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_98.png"
+    },
+    {
+      "path": "res/raw/prometheus_gallery_filter_99.png",
+      "targetPath": "res/raw/prometheus_gallery_filter_99.png"
+    },
+    {
+      "path": "res/values-as-rIN/plurals.xml",
+      "targetPath": "res/values-as-rIN/plurals.xml"
+    },
+    {
+      "path": "res/values-ca/plurals.xml",
+      "targetPath": "res/values-ca/plurals.xml"
+    },
+    {
+      "path": "res/values-en-rAU/plurals.xml",
+      "targetPath": "res/values-en-rAU/plurals.xml"
+    },
+    {
+      "path": "res/values-en-rGB/plurals.xml",
+      "targetPath": "res/values-en-rGB/plurals.xml"
+    },
+    {
+      "path": "res/values-en-rIN/plurals.xml",
+      "targetPath": "res/values-en-rIN/plurals.xml"
+    },
+    {
+      "path": "res/values-fr/plurals.xml",
+      "targetPath": "res/values-fr/plurals.xml"
+    },
+    {
+      "path": "res/values-ha-rNG/plurals.xml",
+      "targetPath": "res/values-ha-rNG/plurals.xml"
+    },
+    {
+      "path": "res/values-it/plurals.xml",
+      "targetPath": "res/values-it/plurals.xml"
+    },
+    {
+      "path": "res/values-mt-rMT/plurals.xml",
+      "targetPath": "res/values-mt-rMT/plurals.xml"
+    },
+    {
+      "path": "res/values-night/drawables.xml",
+      "targetPath": "res/values-night/drawables.xml"
+    },
+    {
+      "path": "res/values/arrays.xml",
+      "targetPath": "res/values/arrays.xml"
+    },
+    {
+      "path": "res/values/attrs.xml",
+      "targetPath": "res/values/attrs.xml"
+    },
+    {
+      "path": "res/values/drawables.xml",
+      "targetPath": "res/values/drawables.xml"
+    },
+    {
+      "path": "res/values/ids.xml",
+      "targetPath": "res/values/ids.xml"
+    },
+    {
+      "path": "res/values/phoenix_backup.xml",
+      "targetPath": "res/values/phoenix_backup.xml"
+    },
+    {
+      "path": "res/values/plurals.xml",
+      "targetPath": "res/values/plurals.xml"
+    },
+    {
+      "path": "res/values/public.xml",
+      "targetPath": "res/values/public.xml"
+    },
+    {
+      "path": "res/values/strings.xml",
+      "targetPath": "res/values/strings.xml"
+    },
+    {
+      "path": "smali/A3/j.smali",
+      "targetPath": "smali/A3/j.smali"
+    },
+    {
+      "path": "smali/A3/t.smali",
+      "targetPath": "smali/A3/t.smali"
+    },
+    {
+      "path": "smali/A6/b.smali",
+      "targetPath": "smali/A6/b.smali"
+    },
+    {
+      "path": "smali/B1/B.smali",
+      "targetPath": "smali/B1/B.smali"
+    },
+    {
+      "path": "smali/B1/K.smali",
+      "targetPath": "smali/B1/K.smali"
+    },
+    {
+      "path": "smali/B1/b.1.smali",
+      "targetPath": "smali/B1/b.1.smali"
+    },
+    {
+      "path": "smali/B1/c.1.smali",
+      "targetPath": "smali/B1/c.1.smali"
+    },
+    {
+      "path": "smali/B1/f.1.smali",
+      "targetPath": "smali/B1/f.1.smali"
+    },
+    {
+      "path": "smali/B1/h.1.smali",
+      "targetPath": "smali/B1/h.1.smali"
+    },
+    {
+      "path": "smali/B1/i.1.smali",
+      "targetPath": "smali/B1/i.1.smali"
+    },
+    {
+      "path": "smali/B1/p.smali",
+      "targetPath": "smali/B1/p.smali"
+    },
+    {
+      "path": "smali/B1/q.smali",
+      "targetPath": "smali/B1/q.smali"
+    },
+    {
+      "path": "smali/B1/t.smali",
+      "targetPath": "smali/B1/t.smali"
+    },
+    {
+      "path": "smali/B1/v.smali",
+      "targetPath": "smali/B1/v.smali"
+    },
+    {
+      "path": "smali/B2/c.smali",
+      "targetPath": "smali/B2/c.smali"
+    },
+    {
+      "path": "smali/C4/H.smali",
+      "targetPath": "smali/C4/H.smali"
+    },
+    {
+      "path": "smali/C4/q.1.smali",
+      "targetPath": "smali/C4/q.1.smali"
+    },
+    {
+      "path": "smali/C5/j.smali",
+      "targetPath": "smali/C5/j.smali"
+    },
+    {
+      "path": "smali/D8/p.smali",
+      "targetPath": "smali/D8/p.smali"
+    },
+    {
+      "path": "smali/E2/a.smali",
+      "targetPath": "smali/E2/a.smali"
+    },
+    {
+      "path": "smali/E4/p$a.smali",
+      "targetPath": "smali/E4/p$a.smali"
+    },
+    {
+      "path": "smali/E4/s.smali",
+      "targetPath": "smali/E4/s.smali"
+    },
+    {
+      "path": "smali/E4/t.smali",
+      "targetPath": "smali/E4/t.smali"
+    },
+    {
+      "path": "smali/E4/u.smali",
+      "targetPath": "smali/E4/u.smali"
+    },
+    {
+      "path": "smali/F1/B4$b.smali",
+      "targetPath": "smali/F1/B4$b.smali"
+    },
+    {
+      "path": "smali/F1/B4.smali",
+      "targetPath": "smali/F1/B4.smali"
+    },
+    {
+      "path": "smali/F1/F2.smali",
+      "targetPath": "smali/F1/F2.smali"
+    },
+    {
+      "path": "smali/F1/L0.smali",
+      "targetPath": "smali/F1/L0.smali"
+    },
+    {
+      "path": "smali/F1/R1.smali",
+      "targetPath": "smali/F1/R1.smali"
+    },
+    {
+      "path": "smali/F1/S2.smali",
+      "targetPath": "smali/F1/S2.smali"
+    },
+    {
+      "path": "smali/F1/V0.smali",
+      "targetPath": "smali/F1/V0.smali"
+    },
+    {
+      "path": "smali/F1/c3.1.smali",
+      "targetPath": "smali/F1/c3.1.smali"
+    },
+    {
+      "path": "smali/F1/e3.1.smali",
+      "targetPath": "smali/F1/e3.1.smali"
+    },
+    {
+      "path": "smali/F1/h4.smali",
+      "targetPath": "smali/F1/h4.smali"
+    },
+    {
+      "path": "smali/F1/n0.1.smali",
+      "targetPath": "smali/F1/n0.1.smali"
+    },
+    {
+      "path": "smali/F1/q0.1.smali",
+      "targetPath": "smali/F1/q0.1.smali"
+    },
+    {
+      "path": "smali/F1/r0.1.smali",
+      "targetPath": "smali/F1/r0.1.smali"
+    },
+    {
+      "path": "smali/F1/t0.1.smali",
+      "targetPath": "smali/F1/t0.1.smali"
+    },
+    {
+      "path": "smali/F1/t2.1.smali",
+      "targetPath": "smali/F1/t2.1.smali"
+    },
+    {
+      "path": "smali/F1/w4.smali",
+      "targetPath": "smali/F1/w4.smali"
+    },
+    {
+      "path": "smali/F6/c.smali",
+      "targetPath": "smali/F6/c.smali"
+    },
+    {
+      "path": "smali/F6/q.smali",
+      "targetPath": "smali/F6/q.smali"
+    },
+    {
+      "path": "smali/G8/n.smali",
+      "targetPath": "smali/G8/n.smali"
+    },
+    {
+      "path": "smali/H0/b.smali",
+      "targetPath": "smali/H0/b.smali"
+    },
+    {
+      "path": "smali/H1/a.smali",
+      "targetPath": "smali/H1/a.smali"
+    },
+    {
+      "path": "smali/H3/l.smali",
+      "targetPath": "smali/H3/l.smali"
+    },
+    {
+      "path": "smali/H4/E.smali",
+      "targetPath": "smali/H4/E.smali"
+    },
+    {
+      "path": "smali/H8/H.smali",
+      "targetPath": "smali/H8/H.smali"
+    },
+    {
+      "path": "smali/I1/a.smali",
+      "targetPath": "smali/I1/a.smali"
+    },
+    {
+      "path": "smali/I2/C.1.smali",
+      "targetPath": "smali/I2/C.1.smali"
+    },
+    {
+      "path": "smali/I2/c.smali",
+      "targetPath": "smali/I2/c.smali"
+    },
+    {
+      "path": "smali/I5/c.smali",
+      "targetPath": "smali/I5/c.smali"
+    },
+    {
+      "path": "smali/J4/t.smali",
+      "targetPath": "smali/J4/t.smali"
+    },
+    {
+      "path": "smali/J5/a.smali",
+      "targetPath": "smali/J5/a.smali"
+    },
+    {
+      "path": "smali/J8/b$a.smali",
+      "targetPath": "smali/J8/b$a.smali"
+    },
+    {
+      "path": "smali/J8/b.smali",
+      "targetPath": "smali/J8/b.smali"
+    },
+    {
+      "path": "smali/K0/c.smali",
+      "targetPath": "smali/K0/c.smali"
+    },
+    {
+      "path": "smali/K0/d.smali",
+      "targetPath": "smali/K0/d.smali"
+    },
+    {
+      "path": "smali/K2/e.smali",
+      "targetPath": "smali/K2/e.smali"
+    },
+    {
+      "path": "smali/K4/p.smali",
+      "targetPath": "smali/K4/p.smali"
+    },
+    {
+      "path": "smali/K4/r.smali",
+      "targetPath": "smali/K4/r.smali"
+    },
+    {
+      "path": "smali/K7/l.smali",
+      "targetPath": "smali/K7/l.smali"
+    },
+    {
+      "path": "smali/L5/a.smali",
+      "targetPath": "smali/L5/a.smali"
+    },
+    {
+      "path": "smali/L5/b.smali",
+      "targetPath": "smali/L5/b.smali"
+    },
+    {
+      "path": "smali/L5/f.smali",
+      "targetPath": "smali/L5/f.smali"
+    },
+    {
+      "path": "smali/L5/h.smali",
+      "targetPath": "smali/L5/h.smali"
+    },
+    {
+      "path": "smali/M/d.smali",
+      "targetPath": "smali/M/d.smali"
+    },
+    {
+      "path": "smali/N5/c.smali",
+      "targetPath": "smali/N5/c.smali"
+    },
+    {
+      "path": "smali/O/g.smali",
+      "targetPath": "smali/O/g.smali"
+    },
+    {
+      "path": "smali/P0/i.smali",
+      "targetPath": "smali/P0/i.smali"
+    },
+    {
+      "path": "smali/P1/c.smali",
+      "targetPath": "smali/P1/c.smali"
+    },
+    {
+      "path": "smali/P4/C.smali",
+      "targetPath": "smali/P4/C.smali"
+    },
+    {
+      "path": "smali/P4/G.smali",
+      "targetPath": "smali/P4/G.smali"
+    },
+    {
+      "path": "smali/Q/c.smali",
+      "targetPath": "smali/Q/c.smali"
+    },
+    {
+      "path": "smali/R/e.smali",
+      "targetPath": "smali/R/e.smali"
+    },
+    {
+      "path": "smali/R/f.smali",
+      "targetPath": "smali/R/f.smali"
+    },
+    {
+      "path": "smali/R/j.smali",
+      "targetPath": "smali/R/j.smali"
+    },
+    {
+      "path": "smali/R/l.smali",
+      "targetPath": "smali/R/l.smali"
+    },
+    {
+      "path": "smali/R/n.smali",
+      "targetPath": "smali/R/n.smali"
+    },
+    {
+      "path": "smali/R/s.smali",
+      "targetPath": "smali/R/s.smali"
+    },
+    {
+      "path": "smali/R/v.smali",
+      "targetPath": "smali/R/v.smali"
+    },
+    {
+      "path": "smali/S7/c.1.smali",
+      "targetPath": "smali/S7/c.1.smali"
+    },
+    {
+      "path": "smali/S8/e.smali",
+      "targetPath": "smali/S8/e.smali"
+    },
+    {
+      "path": "smali/S8/i.smali",
+      "targetPath": "smali/S8/i.smali"
+    },
+    {
+      "path": "smali/T3/d.smali",
+      "targetPath": "smali/T3/d.smali"
+    },
+    {
+      "path": "smali/U0/b.smali",
+      "targetPath": "smali/U0/b.smali"
+    },
+    {
+      "path": "smali/V0/b.1.smali",
+      "targetPath": "smali/V0/b.1.smali"
+    },
+    {
+      "path": "smali/V4/t.smali",
+      "targetPath": "smali/V4/t.smali"
+    },
+    {
+      "path": "smali/W8/b.smali",
+      "targetPath": "smali/W8/b.smali"
+    },
+    {
+      "path": "smali/X/b.smali",
+      "targetPath": "smali/X/b.smali"
+    },
+    {
+      "path": "smali/X0/d.smali",
+      "targetPath": "smali/X0/d.smali"
+    },
+    {
+      "path": "smali/X1/j.smali",
+      "targetPath": "smali/X1/j.smali"
+    },
+    {
+      "path": "smali/X6/q$a.smali",
+      "targetPath": "smali/X6/q$a.smali"
+    },
+    {
+      "path": "smali/Y1/g.smali",
+      "targetPath": "smali/Y1/g.smali"
+    },
+    {
+      "path": "smali/Y1/h.smali",
+      "targetPath": "smali/Y1/h.smali"
+    },
+    {
+      "path": "smali/Y2/f.smali",
+      "targetPath": "smali/Y2/f.smali"
+    },
+    {
+      "path": "smali/Y2/j.smali",
+      "targetPath": "smali/Y2/j.smali"
+    },
+    {
+      "path": "smali/a3.1/a.smali",
+      "targetPath": "smali/a3.1/a.smali"
+    },
+    {
+      "path": "smali/a3.1/d.smali",
+      "targetPath": "smali/a3.1/d.smali"
+    },
+    {
+      "path": "smali/androidx/appcompat/app/AppCompatDialog.smali",
+      "targetPath": "smali/androidx/appcompat/app/AppCompatDialog.smali"
+    },
+    {
+      "path": "smali/androidx/appcompat/app/AppCompatDialogFragment.smali",
+      "targetPath": "smali/androidx/appcompat/app/AppCompatDialogFragment.smali"
+    },
+    {
+      "path": "smali/androidx/appfunctions/c$b.smali",
+      "targetPath": "smali/androidx/appfunctions/c$b.smali"
+    },
+    {
+      "path": "smali/androidx/appfunctions/metadata/$$__AppSearch__AppFunctionMetadataDocument.smali",
+      "targetPath": "smali/androidx/appfunctions/metadata/$$__AppSearch__AppFunctionMetadataDocument.smali"
+    },
+    {
+      "path": "smali/androidx/appsearch/safeparcel/GenericDocumentParcel.smali",
+      "targetPath": "smali/androidx/appsearch/safeparcel/GenericDocumentParcel.smali"
+    },
+    {
+      "path": "smali/androidx/appsearch/safeparcel/a.smali",
+      "targetPath": "smali/androidx/appsearch/safeparcel/a.smali"
+    },
+    {
+      "path": "smali/androidx/constraintlayout/widget/c.smali",
+      "targetPath": "smali/androidx/constraintlayout/widget/c.smali"
+    },
+    {
+      "path": "smali/androidx/core/view/p.smali",
+      "targetPath": "smali/androidx/core/view/p.smali"
+    },
+    {
+      "path": "smali/androidx/core/view/q.smali",
+      "targetPath": "smali/androidx/core/view/q.smali"
+    },
+    {
+      "path": "smali/androidx/fragment/app/A.smali",
+      "targetPath": "smali/androidx/fragment/app/A.smali"
+    },
+    {
+      "path": "smali/androidx/fragment/app/Fragment.smali",
+      "targetPath": "smali/androidx/fragment/app/Fragment.smali"
+    },
+    {
+      "path": "smali/androidx/fragment/app/FragmentManager.smali",
+      "targetPath": "smali/androidx/fragment/app/FragmentManager.smali"
+    },
+    {
+      "path": "smali/androidx/lifecycle/U.smali",
+      "targetPath": "smali/androidx/lifecycle/U.smali"
+    },
+    {
+      "path": "smali/androidx/recyclerview/widget/a$a.smali",
+      "targetPath": "smali/androidx/recyclerview/widget/a$a.smali"
+    },
+    {
+      "path": "smali/androidx/work/impl/WorkDatabase_Impl$a.smali",
+      "targetPath": "smali/androidx/work/impl/WorkDatabase_Impl$a.smali"
+    },
+    {
+      "path": "smali/b3.1/c.smali",
+      "targetPath": "smali/b3.1/c.smali"
+    },
+    {
+      "path": "smali/b3.1/d.smali",
+      "targetPath": "smali/b3.1/d.smali"
+    },
+    {
+      "path": "smali/b4.1/a.smali",
+      "targetPath": "smali/b4.1/a.smali"
+    },
+    {
+      "path": "smali/c1.1/c.smali",
+      "targetPath": "smali/c1.1/c.smali"
+    },
+    {
+      "path": "smali/c5.1/o.smali",
+      "targetPath": "smali/c5.1/o.smali"
+    },
+    {
+      "path": "smali/c5.1/t.smali",
+      "targetPath": "smali/c5.1/t.smali"
+    },
+    {
+      "path": "smali/c6.1/B.smali",
+      "targetPath": "smali/c6.1/B.smali"
+    },
+    {
+      "path": "smali/c6.1/J.smali",
+      "targetPath": "smali/c6.1/J.smali"
+    },
+    {
+      "path": "smali/c6.1/x.1.smali",
+      "targetPath": "smali/c6.1/x.1.smali"
+    },
+    {
+      "path": "smali/com/android/camera/Camera.smali",
+      "targetPath": "smali/com/android/camera/Camera.smali"
+    },
+    {
+      "path": "smali/com/android/camera/CameraAppImpl.smali",
+      "targetPath": "smali/com/android/camera/CameraAppImpl.smali"
+    },
+    {
+      "path": "smali/com/android/camera/CameraPreferenceActivity.smali",
+      "targetPath": "smali/com/android/camera/CameraPreferenceActivity.smali"
+    },
+    {
+      "path": "smali/com/android/camera/DocumentTileService.smali",
+      "targetPath": "smali/com/android/camera/DocumentTileService.smali"
+    },
+    {
+      "path": "smali/com/android/camera/OneShotCamera.smali",
+      "targetPath": "smali/com/android/camera/OneShotCamera.smali"
+    },
+    {
+      "path": "smali/com/android/camera/OneShotLivephotoCamera.smali",
+      "targetPath": "smali/com/android/camera/OneShotLivephotoCamera.smali"
+    },
+    {
+      "path": "smali/com/android/camera/PreloadReceiver.smali",
+      "targetPath": "smali/com/android/camera/PreloadReceiver.smali"
+    },
+    {
+      "path": "smali/com/android/camera/a$d.smali",
+      "targetPath": "smali/com/android/camera/a$d.smali"
+    },
+    {
+      "path": "smali/com/android/camera/a.smali",
+      "targetPath": "smali/com/android/camera/a.smali"
+    },
+    {
+      "path": "smali/com/android/camera/data/data/m.smali",
+      "targetPath": "smali/com/android/camera/data/data/m.smali"
+    },
+    {
+      "path": "smali/com/android/camera/external/mivi/MiviInfoContentProvider.smali",
+      "targetPath": "smali/com/android/camera/external/mivi/MiviInfoContentProvider.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/ai/AiModule.smali",
+      "targetPath": "smali/com/android/camera/features/mode/ai/AiModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/capture/c.1.smali",
+      "targetPath": "smali/com/android/camera/features/mode/capture/c.1.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/capture/h0.smali",
+      "targetPath": "smali/com/android/camera/features/mode/capture/h0.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/capture/i0.smali",
+      "targetPath": "smali/com/android/camera/features/mode/capture/i0.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/capture/j0.smali",
+      "targetPath": "smali/com/android/camera/features/mode/capture/j0.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/cinematic/c.smali",
+      "targetPath": "smali/com/android/camera/features/mode/cinematic/c.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/cosmeticmirror/CosmeticMirrorModule$a.smali",
+      "targetPath": "smali/com/android/camera/features/mode/cosmeticmirror/CosmeticMirrorModule$a.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/doc/DocModule.smali",
+      "targetPath": "smali/com/android/camera/features/mode/doc/DocModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/idcard/IdCardModule.smali",
+      "targetPath": "smali/com/android/camera/features/mode/idcard/IdCardModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/idphoto/IdPhotoModule.smali",
+      "targetPath": "smali/com/android/camera/features/mode/idphoto/IdPhotoModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/masterlive/MasterLiveModule.smali",
+      "targetPath": "smali/com/android/camera/features/mode/masterlive/MasterLiveModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/night/photo/NightModule.smali",
+      "targetPath": "smali/com/android/camera/features/mode/night/photo/NightModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/features/mode/sticker/StickerModule.smali",
+      "targetPath": "smali/com/android/camera/features/mode/sticker/StickerModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/D0.smali",
+      "targetPath": "smali/com/android/camera/fragment/D0.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/cai/CustomCaiActivity.smali",
+      "targetPath": "smali/com/android/camera/fragment/cai/CustomCaiActivity.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/clone/a.smali",
+      "targetPath": "smali/com/android/camera/fragment/clone/a.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/clone/b.smali",
+      "targetPath": "smali/com/android/camera/fragment/clone/b.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/settings/CameraAdvancePreferenceFragment.smali",
+      "targetPath": "smali/com/android/camera/fragment/settings/CameraAdvancePreferenceFragment.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/settings/VignetteExperimentalActivity.smali",
+      "targetPath": "smali/com/android/camera/fragment/settings/VignetteExperimentalActivity.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/smartComposition/cloud/AIPoseRequest.smali",
+      "targetPath": "smali/com/android/camera/fragment/smartComposition/cloud/AIPoseRequest.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/smartComposition/cloud/AiTunningParamV1Request.smali",
+      "targetPath": "smali/com/android/camera/fragment/smartComposition/cloud/AiTunningParamV1Request.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/smartComposition/cloud/AiTunningParamV3Request$Text.smali",
+      "targetPath": "smali/com/android/camera/fragment/smartComposition/cloud/AiTunningParamV3Request$Text.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/smartComposition/cloud/AiTunningParamV3Request.smali",
+      "targetPath": "smali/com/android/camera/fragment/smartComposition/cloud/AiTunningParamV3Request.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/watermark/wmSettingV2/preference/WmLayoutTypePreference.smali",
+      "targetPath": "smali/com/android/camera/fragment/watermark/wmSettingV2/preference/WmLayoutTypePreference.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/watermark/wmSettingV2/signature/SignatureByHandActivity.smali",
+      "targetPath": "smali/com/android/camera/fragment/watermark/wmSettingV2/signature/SignatureByHandActivity.smali"
+    },
+    {
+      "path": "smali/com/android/camera/fragment/watermark/wmSettingV2/signature/keyboard/download/b.smali",
+      "targetPath": "smali/com/android/camera/fragment/watermark/wmSettingV2/signature/keyboard/download/b.smali"
+    },
+    {
+      "path": "smali/com/android/camera/log/LogUtil.smali",
+      "targetPath": "smali/com/android/camera/log/LogUtil.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/AmbilightModule.smali",
+      "targetPath": "smali/com/android/camera/module/AmbilightModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/Camera2Module.smali",
+      "targetPath": "smali/com/android/camera/module/Camera2Module.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/CloneModule$d.smali",
+      "targetPath": "smali/com/android/camera/module/CloneModule$d.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/CloneModule.smali",
+      "targetPath": "smali/com/android/camera/module/CloneModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/DollyZoomModule.smali",
+      "targetPath": "smali/com/android/camera/module/DollyZoomModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/FunModule.smali",
+      "targetPath": "smali/com/android/camera/module/FunModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/SuperMoonModule.smali",
+      "targetPath": "smali/com/android/camera/module/SuperMoonModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/TimeFreezeModule.smali",
+      "targetPath": "smali/com/android/camera/module/TimeFreezeModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/VideoBase.smali",
+      "targetPath": "smali/com/android/camera/module/VideoBase.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/VideoModule.smali",
+      "targetPath": "smali/com/android/camera/module/VideoModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/WideSelfieModule$b.smali",
+      "targetPath": "smali/com/android/camera/module/WideSelfieModule$b.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/WideSelfieModule.smali",
+      "targetPath": "smali/com/android/camera/module/WideSelfieModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/pano/PanoramaModule.smali",
+      "targetPath": "smali/com/android/camera/module/pano/PanoramaModule.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/pano/PanoramaModuleBase.smali",
+      "targetPath": "smali/com/android/camera/module/pano/PanoramaModuleBase.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/r.smali",
+      "targetPath": "smali/com/android/camera/module/r.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/video/A.smali",
+      "targetPath": "smali/com/android/camera/module/video/A.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/video/G.smali",
+      "targetPath": "smali/com/android/camera/module/video/G.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/video/H.smali",
+      "targetPath": "smali/com/android/camera/module/video/H.smali"
+    },
+    {
+      "path": "smali/com/android/camera/module/video/o.smali",
+      "targetPath": "smali/com/android/camera/module/video/o.smali"
+    },
+    {
+      "path": "smali/com/android/camera/panorama/PanoramaSetting.smali",
+      "targetPath": "smali/com/android/camera/panorama/PanoramaSetting.smali"
+    },
+    {
+      "path": "smali/com/android/camera/provider/CameraAgentProvider.smali",
+      "targetPath": "smali/com/android/camera/provider/CameraAgentProvider.smali"
+    },
+    {
+      "path": "smali/com/android/camera/statistic/SettingUploadWorker$a.smali",
+      "targetPath": "smali/com/android/camera/statistic/SettingUploadWorker$a.smali"
+    },
+    {
+      "path": "smali/com/android/camera/ui/HorizontalScopeZoomView.smali",
+      "targetPath": "smali/com/android/camera/ui/HorizontalScopeZoomView.smali"
+    },
+    {
+      "path": "smali/com/android/camera/ui/ModeLayoutManager.smali",
+      "targetPath": "smali/com/android/camera/ui/ModeLayoutManager.smali"
+    },
+    {
+      "path": "smali/com/android/camera/ui/reference/GradienterDrawerV2.smali",
+      "targetPath": "smali/com/android/camera/ui/reference/GradienterDrawerV2.smali"
+    },
+    {
+      "path": "smali/com/android/camera/ui/seekbar/TimerBurstSeekBar$b.smali",
+      "targetPath": "smali/com/android/camera/ui/seekbar/TimerBurstSeekBar$b.smali"
+    },
+    {
+      "path": "smali/com/android/camera/ui/zoom/ZoomRatioToggleView.smali",
+      "targetPath": "smali/com/android/camera/ui/zoom/ZoomRatioToggleView.smali"
+    },
+    {
+      "path": "smali/com/android/camera/ui/zoom/ZoomTextImageView.smali",
+      "targetPath": "smali/com/android/camera/ui/zoom/ZoomTextImageView.smali"
+    },
+    {
+      "path": "smali/com/android/camera/videoplayer/ui/VideoPlayerView$c.smali",
+      "targetPath": "smali/com/android/camera/videoplayer/ui/VideoPlayerView$c.smali"
+    },
+    {
+      "path": "smali/e.1/i$d.smali",
+      "targetPath": "smali/e.1/i$d.smali"
+    },
+    {
+      "path": "smali/e1.1/T.smali",
+      "targetPath": "smali/e1.1/T.smali"
+    },
+    {
+      "path": "smali/e3.1/J.smali",
+      "targetPath": "smali/e3.1/J.smali"
+    },
+    {
+      "path": "smali/e3.1/K.smali",
+      "targetPath": "smali/e3.1/K.smali"
+    },
+    {
+      "path": "smali/e3.1/a0.smali",
+      "targetPath": "smali/e3.1/a0.smali"
+    },
+    {
+      "path": "smali/e3.1/d0.smali",
+      "targetPath": "smali/e3.1/d0.smali"
+    },
+    {
+      "path": "smali/e3.1/f.1.smali",
+      "targetPath": "smali/e3.1/f.1.smali"
+    },
+    {
+      "path": "smali/f0.1/d.smali",
+      "targetPath": "smali/f0.1/d.smali"
+    },
+    {
+      "path": "smali/f1.1/d.smali",
+      "targetPath": "smali/f1.1/d.smali"
+    },
+    {
+      "path": "smali/f4.1/a.smali",
+      "targetPath": "smali/f4.1/a.smali"
+    },
+    {
+      "path": "smali/f6.1/g$a.smali",
+      "targetPath": "smali/f6.1/g$a.smali"
+    },
+    {
+      "path": "smali/g4.1/v.smali",
+      "targetPath": "smali/g4.1/v.smali"
+    },
+    {
+      "path": "smali/g5/I.smali",
+      "targetPath": "smali/g5/I.smali"
+    },
+    {
+      "path": "smali/h4.1/m.smali",
+      "targetPath": "smali/h4.1/m.smali"
+    },
+    {
+      "path": "smali/i0.1/f0$e.smali",
+      "targetPath": "smali/i0.1/f0$e.smali"
+    },
+    {
+      "path": "smali/i5.1/g.smali",
+      "targetPath": "smali/i5.1/g.smali"
+    },
+    {
+      "path": "smali/j.1/g.smali",
+      "targetPath": "smali/j.1/g.smali"
+    },
+    {
+      "path": "smali/j6.1/a.smali",
+      "targetPath": "smali/j6.1/a.smali"
+    },
+    {
+      "path": "smali/j9/D0$k.smali",
+      "targetPath": "smali/j9/D0$k.smali"
+    },
+    {
+      "path": "smali/j9/D0.smali",
+      "targetPath": "smali/j9/D0.smali"
+    },
+    {
+      "path": "smali/j9/D1.smali",
+      "targetPath": "smali/j9/D1.smali"
+    },
+    {
+      "path": "smali/j9/Z0.smali",
+      "targetPath": "smali/j9/Z0.smali"
+    },
+    {
+      "path": "smali/j9/h1.1.smali",
+      "targetPath": "smali/j9/h1.1.smali"
+    },
+    {
+      "path": "smali/k5.1/a.smali",
+      "targetPath": "smali/k5.1/a.smali"
+    },
+    {
+      "path": "smali/k7.1/K.smali",
+      "targetPath": "smali/k7.1/K.smali"
+    },
+    {
+      "path": "smali/k7.1/P.smali",
+      "targetPath": "smali/k7.1/P.smali"
+    },
+    {
+      "path": "smali/k7.1/d$a.smali",
+      "targetPath": "smali/k7.1/d$a.smali"
+    },
+    {
+      "path": "smali/k7.1/e.1.smali",
+      "targetPath": "smali/k7.1/e.1.smali"
+    },
+    {
+      "path": "smali/k7.1/f.1.smali",
+      "targetPath": "smali/k7.1/f.1.smali"
+    },
+    {
+      "path": "smali/k7.1/i.1.smali",
+      "targetPath": "smali/k7.1/i.1.smali"
+    },
+    {
+      "path": "smali/k7.1/w.smali",
+      "targetPath": "smali/k7.1/w.smali"
+    },
+    {
+      "path": "smali/k9/l.smali",
+      "targetPath": "smali/k9/l.smali"
+    },
+    {
+      "path": "smali/l1.1/m.smali",
+      "targetPath": "smali/l1.1/m.smali"
+    },
+    {
+      "path": "smali/l1.1/r.smali",
+      "targetPath": "smali/l1.1/r.smali"
+    },
+    {
+      "path": "smali/l5.1/a$a.smali",
+      "targetPath": "smali/l5.1/a$a.smali"
+    },
+    {
+      "path": "smali/l6.1/b.1.smali",
+      "targetPath": "smali/l6.1/b.1.smali"
+    },
+    {
+      "path": "smali/l6.1/c.1.smali",
+      "targetPath": "smali/l6.1/c.1.smali"
+    },
+    {
+      "path": "smali/l6.1/l$a.smali",
+      "targetPath": "smali/l6.1/l$a.smali"
+    },
+    {
+      "path": "smali/l6.1/n.1.smali",
+      "targetPath": "smali/l6.1/n.1.smali"
+    },
+    {
+      "path": "smali/m5.1/a.smali",
+      "targetPath": "smali/m5.1/a.smali"
+    },
+    {
+      "path": "smali/m9/b.smali",
+      "targetPath": "smali/m9/b.smali"
+    },
+    {
+      "path": "smali/n8.1/a.smali",
+      "targetPath": "smali/n8.1/a.smali"
+    },
+    {
+      "path": "smali/o3.1/b.smali",
+      "targetPath": "smali/o3.1/b.smali"
+    },
+    {
+      "path": "smali/o3.1/d.smali",
+      "targetPath": "smali/o3.1/d.smali"
+    },
+    {
+      "path": "smali/o5.1/M.smali",
+      "targetPath": "smali/o5.1/M.smali"
+    },
+    {
+      "path": "smali/o5.1/c.1.smali",
+      "targetPath": "smali/o5.1/c.1.smali"
+    },
+    {
+      "path": "smali/o7.1/a.smali",
+      "targetPath": "smali/o7.1/a.smali"
+    },
+    {
+      "path": "smali/p3.1/a.smali",
+      "targetPath": "smali/p3.1/a.smali"
+    },
+    {
+      "path": "smali/p3.1/g.smali",
+      "targetPath": "smali/p3.1/g.smali"
+    },
+    {
+      "path": "smali/p3.1/k.smali",
+      "targetPath": "smali/p3.1/k.smali"
+    },
+    {
+      "path": "smali/p4.1/k.smali",
+      "targetPath": "smali/p4.1/k.smali"
+    },
+    {
+      "path": "smali/p4.1/q.smali",
+      "targetPath": "smali/p4.1/q.smali"
+    },
+    {
+      "path": "smali/q3.1/a.smali",
+      "targetPath": "smali/q3.1/a.smali"
+    },
+    {
+      "path": "smali/q5.1/h.1.smali",
+      "targetPath": "smali/q5.1/h.1.smali"
+    },
+    {
+      "path": "smali/q6.1/X.smali",
+      "targetPath": "smali/q6.1/X.smali"
+    },
+    {
+      "path": "smali/q6.1/Y0.smali",
+      "targetPath": "smali/q6.1/Y0.smali"
+    },
+    {
+      "path": "smali/q6.1/Z.smali",
+      "targetPath": "smali/q6.1/Z.smali"
+    },
+    {
+      "path": "smali/q6.1/b0.1.smali",
+      "targetPath": "smali/q6.1/b0.1.smali"
+    },
+    {
+      "path": "smali/q6.1/m1.smali",
+      "targetPath": "smali/q6.1/m1.smali"
+    },
+    {
+      "path": "smali/q6.1/y1.smali",
+      "targetPath": "smali/q6.1/y1.smali"
+    },
+    {
+      "path": "smali/q8.1/f.1.smali",
+      "targetPath": "smali/q8.1/f.1.smali"
+    },
+    {
+      "path": "smali/q8.1/t.1.smali",
+      "targetPath": "smali/q8.1/t.1.smali"
+    },
+    {
+      "path": "smali/r2.1/F.smali",
+      "targetPath": "smali/r2.1/F.smali"
+    },
+    {
+      "path": "smali/r2.1/Q.smali",
+      "targetPath": "smali/r2.1/Q.smali"
+    },
+    {
+      "path": "smali/r2.1/i.1.smali",
+      "targetPath": "smali/r2.1/i.1.smali"
+    },
+    {
+      "path": "smali/r2.1/k.1.smali",
+      "targetPath": "smali/r2.1/k.1.smali"
+    },
+    {
+      "path": "smali/r2.1/m0.1.smali",
+      "targetPath": "smali/r2.1/m0.1.smali"
+    },
+    {
+      "path": "smali/r4.1/b.smali",
+      "targetPath": "smali/r4.1/b.smali"
+    },
+    {
+      "path": "smali/r6.1/g0.smali",
+      "targetPath": "smali/r6.1/g0.smali"
+    },
+    {
+      "path": "smali/s.1/f.smali",
+      "targetPath": "smali/s.1/f.smali"
+    },
+    {
+      "path": "smali/s.1/m.smali",
+      "targetPath": "smali/s.1/m.smali"
+    },
+    {
+      "path": "smali/s3.1/e.smali",
+      "targetPath": "smali/s3.1/e.smali"
+    },
+    {
+      "path": "smali/s7.1/c.smali",
+      "targetPath": "smali/s7.1/c.smali"
+    },
+    {
+      "path": "smali/s7.1/d.smali",
+      "targetPath": "smali/s7.1/d.smali"
+    },
+    {
+      "path": "smali/s7.1/f.smali",
+      "targetPath": "smali/s7.1/f.smali"
+    },
+    {
+      "path": "smali/s7.1/g.smali",
+      "targetPath": "smali/s7.1/g.smali"
+    },
+    {
+      "path": "smali/u.1/k.smali",
+      "targetPath": "smali/u.1/k.smali"
+    },
+    {
+      "path": "smali/u2.1/P.smali",
+      "targetPath": "smali/u2.1/P.smali"
+    },
+    {
+      "path": "smali/u2.1/S.smali",
+      "targetPath": "smali/u2.1/S.smali"
+    },
+    {
+      "path": "smali/u2.1/t.smali",
+      "targetPath": "smali/u2.1/t.smali"
+    },
+    {
+      "path": "smali/u5.1/C.smali",
+      "targetPath": "smali/u5.1/C.smali"
+    },
+    {
+      "path": "smali/u5.1/c.1.smali",
+      "targetPath": "smali/u5.1/c.1.smali"
+    },
+    {
+      "path": "smali/u6.1/d.smali",
+      "targetPath": "smali/u6.1/d.smali"
+    },
+    {
+      "path": "smali/u6.1/i.smali",
+      "targetPath": "smali/u6.1/i.smali"
+    },
+    {
+      "path": "smali/u6.1/l.smali",
+      "targetPath": "smali/u6.1/l.smali"
+    },
+    {
+      "path": "smali/u7.1/b.smali",
+      "targetPath": "smali/u7.1/b.smali"
+    },
+    {
+      "path": "smali/v2.1/h.1.smali",
+      "targetPath": "smali/v2.1/h.1.smali"
+    },
+    {
+      "path": "smali/v2.1/k0.smali",
+      "targetPath": "smali/v2.1/k0.smali"
+    },
+    {
+      "path": "smali/v8.1/b.smali",
+      "targetPath": "smali/v8.1/b.smali"
+    },
+    {
+      "path": "smali/w5.1/b.smali",
+      "targetPath": "smali/w5.1/b.smali"
+    },
+    {
+      "path": "smali/x.1/h.smali",
+      "targetPath": "smali/x.1/h.smali"
+    },
+    {
+      "path": "smali/x4.1/A.smali",
+      "targetPath": "smali/x4.1/A.smali"
+    },
+    {
+      "path": "smali/x4.1/D.smali",
+      "targetPath": "smali/x4.1/D.smali"
+    },
+    {
+      "path": "smali/z4.1/C.smali",
+      "targetPath": "smali/z4.1/C.smali"
+    },
+    {
+      "path": "smali_classes10/Cu/d.1.smali",
+      "targetPath": "smali_classes10/Cu/d.1.smali"
+    },
+    {
+      "path": "smali_classes10/Cu/i.1.smali",
+      "targetPath": "smali_classes10/Cu/i.1.smali"
+    },
+    {
+      "path": "smali_classes10/Cu/k.1.smali",
+      "targetPath": "smali_classes10/Cu/k.1.smali"
+    },
+    {
+      "path": "smali_classes10/Es/CclockTop.smali",
+      "targetPath": "smali_classes10/Es/CclockTop.smali"
+    },
+    {
+      "path": "smali_classes10/Es/S.smali",
+      "targetPath": "smali_classes10/Es/S.smali"
+    },
+    {
+      "path": "smali_classes10/Gr/b.smali",
+      "targetPath": "smali_classes10/Gr/b.smali"
+    },
+    {
+      "path": "smali_classes10/Mv/n$B.smali",
+      "targetPath": "smali_classes10/Mv/n$B.smali"
+    },
+    {
+      "path": "smali_classes10/Mv/n$b.1.smali",
+      "targetPath": "smali_classes10/Mv/n$b.1.smali"
+    },
+    {
+      "path": "smali_classes10/Nv/A.1.smali",
+      "targetPath": "smali_classes10/Nv/A.1.smali"
+    },
+    {
+      "path": "smali_classes10/Nv/a.smali",
+      "targetPath": "smali_classes10/Nv/a.smali"
+    },
+    {
+      "path": "smali_classes10/Ot/A.smali",
+      "targetPath": "smali_classes10/Ot/A.smali"
+    },
+    {
+      "path": "smali_classes10/Ot/C.smali",
+      "targetPath": "smali_classes10/Ot/C.smali"
+    },
+    {
+      "path": "smali_classes10/Ot/a.1.smali",
+      "targetPath": "smali_classes10/Ot/a.1.smali"
+    },
+    {
+      "path": "smali_classes10/Ot/c.1.smali",
+      "targetPath": "smali_classes10/Ot/c.1.smali"
+    },
+    {
+      "path": "smali_classes10/St/x.smali",
+      "targetPath": "smali_classes10/St/x.smali"
+    },
+    {
+      "path": "smali_classes10/Zv/B.1.smali",
+      "targetPath": "smali_classes10/Zv/B.1.smali"
+    },
+    {
+      "path": "smali_classes10/Zv/b.smali",
+      "targetPath": "smali_classes10/Zv/b.smali"
+    },
+    {
+      "path": "smali_classes10/br.1/j.smali",
+      "targetPath": "smali_classes10/br.1/j.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/camera/cloudfilter/util/StaticFilterAssets.smali",
+      "targetPath": "smali_classes10/com/xiaomi/camera/cloudfilter/util/StaticFilterAssets.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/mediacodec/MoviePlayer.smali",
+      "targetPath": "smali_classes10/com/xiaomi/mediacodec/MoviePlayer.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/onetrack/CrashAnalysis.smali",
+      "targetPath": "smali_classes10/com/xiaomi/onetrack/CrashAnalysis.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/onetrack/OneTrack.smali",
+      "targetPath": "smali_classes10/com/xiaomi/onetrack/OneTrack.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/onetrack/api/ah.smali",
+      "targetPath": "smali_classes10/com/xiaomi/onetrack/api/ah.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/onetrack/f/a.smali",
+      "targetPath": "smali_classes10/com/xiaomi/onetrack/f/a.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/onetrack/util/r.smali",
+      "targetPath": "smali_classes10/com/xiaomi/onetrack/util/r.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/onetrack/util/s.smali",
+      "targetPath": "smali_classes10/com/xiaomi/onetrack/util/s.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/push/service/XMPushService.smali",
+      "targetPath": "smali_classes10/com/xiaomi/push/service/XMPushService.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/push/service/r.smali",
+      "targetPath": "smali_classes10/com/xiaomi/push/service/r.smali"
+    },
+    {
+      "path": "smali_classes10/com/xiaomi/push/service/receivers/NetworkStatusReceiver.smali",
+      "targetPath": "smali_classes10/com/xiaomi/push/service/receivers/NetworkStatusReceiver.smali"
+    },
+    {
+      "path": "smali_classes10/is.1/c.smali",
+      "targetPath": "smali_classes10/is.1/c.smali"
+    },
+    {
+      "path": "smali_classes10/js.1/a.smali",
+      "targetPath": "smali_classes10/js.1/a.smali"
+    },
+    {
+      "path": "smali_classes10/js.1/l.smali",
+      "targetPath": "smali_classes10/js.1/l.smali"
+    },
+    {
+      "path": "smali_classes10/js.1/n.smali",
+      "targetPath": "smali_classes10/js.1/n.smali"
+    },
+    {
+      "path": "smali_classes10/ou.1/O2.smali",
+      "targetPath": "smali_classes10/ou.1/O2.smali"
+    },
+    {
+      "path": "smali_classes10/ou.1/P2.smali",
+      "targetPath": "smali_classes10/ou.1/P2.smali"
+    },
+    {
+      "path": "smali_classes10/wu.1/g.smali",
+      "targetPath": "smali_classes10/wu.1/g.smali"
+    },
+    {
+      "path": "smali_classes2/com/prometheus/camera/backup/BackupPreferenceFragment$1.smali",
+      "targetPath": "smali_classes2/com/prometheus/camera/backup/BackupPreferenceFragment$1.smali"
+    },
+    {
+      "path": "smali_classes2/com/prometheus/camera/backup/BackupPreferenceFragment.smali",
+      "targetPath": "smali_classes2/com/prometheus/camera/backup/BackupPreferenceFragment.smali"
+    },
+    {
+      "path": "smali_classes2/com/prometheus/camera/backup/BackupScope.smali",
+      "targetPath": "smali_classes2/com/prometheus/camera/backup/BackupScope.smali"
+    },
+    {
+      "path": "smali_classes2/com/prometheus/camera/backup/SettingsBackupArchive$RestoreResult.smali",
+      "targetPath": "smali_classes2/com/prometheus/camera/backup/SettingsBackupArchive$RestoreResult.smali"
+    },
+    {
+      "path": "smali_classes2/com/prometheus/camera/backup/SettingsBackupArchive$Scope.smali",
+      "targetPath": "smali_classes2/com/prometheus/camera/backup/SettingsBackupArchive$Scope.smali"
+    },
+    {
+      "path": "smali_classes2/com/prometheus/camera/backup/SettingsBackupArchive.smali",
+      "targetPath": "smali_classes2/com/prometheus/camera/backup/SettingsBackupArchive.smali"
+    },
+    {
+      "path": "smali_classes2/miuix/autodensity/d.smali",
+      "targetPath": "smali_classes2/miuix/autodensity/d.smali"
+    },
+    {
+      "path": "smali_classes2/miuix/core/util/SystemProperties.smali",
+      "targetPath": "smali_classes2/miuix/core/util/SystemProperties.smali"
+    },
+    {
+      "path": "smali_classes2/mx.1/c.smali",
+      "targetPath": "smali_classes2/mx.1/c.smali"
+    },
+    {
+      "path": "smali_classes2/py.1/a.smali",
+      "targetPath": "smali_classes2/py.1/a.smali"
+    },
+    {
+      "path": "smali_classes2/wz.1/d.smali",
+      "targetPath": "smali_classes2/wz.1/d.smali"
+    },
+    {
+      "path": "smali_classes2/xcrash/XCrash.smali",
+      "targetPath": "smali_classes2/xcrash/XCrash.smali"
+    },
+    {
+      "path": "smali_classes3/A9/h.smali",
+      "targetPath": "smali_classes3/A9/h.smali"
+    },
+    {
+      "path": "smali_classes3/B9/e.smali",
+      "targetPath": "smali_classes3/B9/e.smali"
+    },
+    {
+      "path": "smali_classes3/B9/h.smali",
+      "targetPath": "smali_classes3/B9/h.smali"
+    },
+    {
+      "path": "smali_classes3/De/c.smali",
+      "targetPath": "smali_classes3/De/c.smali"
+    },
+    {
+      "path": "smali_classes3/I9/u.smali",
+      "targetPath": "smali_classes3/I9/u.smali"
+    },
+    {
+      "path": "smali_classes3/J9/g.smali",
+      "targetPath": "smali_classes3/J9/g.smali"
+    },
+    {
+      "path": "smali_classes3/Je/c.smali",
+      "targetPath": "smali_classes3/Je/c.smali"
+    },
+    {
+      "path": "smali_classes3/T9/m.1.smali",
+      "targetPath": "smali_classes3/T9/m.1.smali"
+    },
+    {
+      "path": "smali_classes3/V9/A0.smali",
+      "targetPath": "smali_classes3/V9/A0.smali"
+    },
+    {
+      "path": "smali_classes3/V9/M1.smali",
+      "targetPath": "smali_classes3/V9/M1.smali"
+    },
+    {
+      "path": "smali_classes3/V9/M5.smali",
+      "targetPath": "smali_classes3/V9/M5.smali"
+    },
+    {
+      "path": "smali_classes3/V9/i0.1.smali",
+      "targetPath": "smali_classes3/V9/i0.1.smali"
+    },
+    {
+      "path": "smali_classes3/W9/O.smali",
+      "targetPath": "smali_classes3/W9/O.smali"
+    },
+    {
+      "path": "smali_classes3/W9/p.1.smali",
+      "targetPath": "smali_classes3/W9/p.1.smali"
+    },
+    {
+      "path": "smali_classes3/Wd/h.smali",
+      "targetPath": "smali_classes3/Wd/h.smali"
+    },
+    {
+      "path": "smali_classes3/X9/b.1.smali",
+      "targetPath": "smali_classes3/X9/b.1.smali"
+    },
+    {
+      "path": "smali_classes3/X9/h.1.smali",
+      "targetPath": "smali_classes3/X9/h.1.smali"
+    },
+    {
+      "path": "smali_classes3/X9/j.smali",
+      "targetPath": "smali_classes3/X9/j.smali"
+    },
+    {
+      "path": "smali_classes3/Z9/f.smali",
+      "targetPath": "smali_classes3/Z9/f.smali"
+    },
+    {
+      "path": "smali_classes3/Z9/h.smali",
+      "targetPath": "smali_classes3/Z9/h.smali"
+    },
+    {
+      "path": "smali_classes3/aa.1/a.smali",
+      "targetPath": "smali_classes3/aa.1/a.smali"
+    },
+    {
+      "path": "smali_classes3/com/android/camera2/compat/theme/custom/mm/top/LabelItemViewMM.smali",
+      "targetPath": "smali_classes3/com/android/camera2/compat/theme/custom/mm/top/LabelItemViewMM.smali"
+    },
+    {
+      "path": "smali_classes3/com/android/camera2/compat/theme/custom/mm/top/StrikethroughImageView.smali",
+      "targetPath": "smali_classes3/com/android/camera2/compat/theme/custom/mm/top/StrikethroughImageView.smali"
+    },
+    {
+      "path": "smali_classes3/com/android/camera2/compat/theme/custom/mm/top/TimerBurstView.smali",
+      "targetPath": "smali_classes3/com/android/camera2/compat/theme/custom/mm/top/TimerBurstView.smali"
+    },
+    {
+      "path": "smali_classes3/com/arcsoft/camera/wideselfie/b.smali",
+      "targetPath": "smali_classes3/com/arcsoft/camera/wideselfie/b.smali"
+    },
+    {
+      "path": "smali_classes3/com/bytedance/android/bytehook/ByteHook.smali",
+      "targetPath": "smali_classes3/com/bytedance/android/bytehook/ByteHook.smali"
+    },
+    {
+      "path": "smali_classes3/com/bytedance/shadowhook/ShadowHook.smali",
+      "targetPath": "smali_classes3/com/bytedance/shadowhook/ShadowHook.smali"
+    },
+    {
+      "path": "smali_classes3/com/faceunity/core/media/video/encoder/MediaAudioFileEncoder.smali",
+      "targetPath": "smali_classes3/com/faceunity/core/media/video/encoder/MediaAudioFileEncoder.smali"
+    },
+    {
+      "path": "smali_classes3/com/faceunity/core/media/video/encoder/MediaMuxerWrapper.smali",
+      "targetPath": "smali_classes3/com/faceunity/core/media/video/encoder/MediaMuxerWrapper.smali"
+    },
+    {
+      "path": "smali_classes3/com/faceunity/wrapper/faceunity$LoadConfig.smali",
+      "targetPath": "smali_classes3/com/faceunity/wrapper/faceunity$LoadConfig.smali"
+    },
+    {
+      "path": "smali_classes3/com/miui/camerainfra/router/components/UriSourceTools.smali",
+      "targetPath": "smali_classes3/com/miui/camerainfra/router/components/UriSourceTools.smali"
+    },
+    {
+      "path": "smali_classes3/com/miui/camerainfra/router/core/Debugger.smali",
+      "targetPath": "smali_classes3/com/miui/camerainfra/router/core/Debugger.smali"
+    },
+    {
+      "path": "smali_classes3/com/xiaomi/ai/android/vad/Vad2.smali",
+      "targetPath": "smali_classes3/com/xiaomi/ai/android/vad/Vad2.smali"
+    },
+    {
+      "path": "smali_classes3/com/xiaomi/cam/watermark/a.smali",
+      "targetPath": "smali_classes3/com/xiaomi/cam/watermark/a.smali"
+    },
+    {
+      "path": "smali_classes3/gd.1/d.1.smali",
+      "targetPath": "smali_classes3/gd.1/d.1.smali"
+    },
+    {
+      "path": "smali_classes3/ng.1/a.smali",
+      "targetPath": "smali_classes3/ng.1/a.smali"
+    },
+    {
+      "path": "smali_classes3/y9.1/e.smali",
+      "targetPath": "smali_classes3/y9.1/e.smali"
+    },
+    {
+      "path": "smali_classes3/y9.1/u.smali",
+      "targetPath": "smali_classes3/y9.1/u.smali"
+    },
+    {
+      "path": "smali_classes3/\u3a5b\u3a57\u3a55\u3a16\u3a55\u3a51\u3a16\u3a5c\u3a5d\u3a4e\u3a51\u3a5b\u3a5d\u3a16\u3a7c\u3a59\u3a4a\u3a4f\u3a51\u3a56.smali",
+      "targetPath": "smali_classes3/\u3a5b\u3a57\u3a55\u3a16\u3a55\u3a51\u3a16\u3a5c\u3a5d\u3a4e\u3a51\u3a5b\u3a5d\u3a16\u3a7c\u3a59\u3a4a\u3a4f\u3a51\u3a56.smali"
+    },
+    {
+      "path": "smali_classes3/\u404b\u4047\u4045\u4006\u4045\u4041\u4006\u404c\u404d\u405e\u4041\u404b\u404d\u4006\u406b\u4040\u4049\u404f\u4049\u4044\u4044\u4077\u404f\u4044.smali",
+      "targetPath": "smali_classes3/\u404b\u4047\u4045\u4006\u4045\u4041\u4006\u404c\u404d\u405e\u4041\u404b\u404d\u4006\u406b\u4040\u4049\u404f\u4049\u4044\u4044\u4077\u404f\u4044.smali"
+    },
+    {
+      "path": "smali_classes3/\u47a1\u47ad\u47af\u47ec\u47af\u47ab\u47ec\u47a6\u47a7\u47b4\u47ab\u47a1\u47a7\u47ec\u4789\u47ae\u47ab\u47af\u47b6.smali",
+      "targetPath": "smali_classes3/\u47a1\u47ad\u47af\u47ec\u47af\u47ab\u47ec\u47a6\u47a7\u47b4\u47ab\u47a1\u47a7\u47ec\u4789\u47ae\u47ab\u47af\u47b6.smali"
+    },
+    {
+      "path": "smali_classes3/\u4bed\u4be1\u4be3\u4ba0\u4be3\u4be7\u4ba0\u4bea\u4beb\u4bf8\u4be7\u4bed\u4beb\u4ba0\u4bcd\u4be1\u4bfc\u4be1\u4bfa.smali",
+      "targetPath": "smali_classes3/\u4bed\u4be1\u4be3\u4ba0\u4be3\u4be7\u4ba0\u4bea\u4beb\u4bf8\u4be7\u4bed\u4beb\u4ba0\u4bcd\u4be1\u4bfc\u4be1\u4bfa.smali"
+    },
+    {
+      "path": "smali_classes3/\u510a\u5106\u5104\u5147\u5104\u5100\u5147\u510d\u510c\u511f\u5100\u510a\u510c\u5147\u513f\u510c\u511b\u5104\u510c\u510c\u511b.smali",
+      "targetPath": "smali_classes3/\u510a\u5106\u5104\u5147\u5104\u5100\u5147\u510d\u510c\u511f\u5100\u510a\u510c\u5147\u513f\u510c\u511b\u5104\u510c\u510c\u511b.smali"
+    },
+    {
+      "path": "smali_classes3/\u5240\u524c\u524e\u520d\u524e\u524a\u520d\u5247\u5246\u5255\u524a\u5240\u5246\u520d\u5270\u524b\u5246\u524d\u524d\u524c\u524d\u5244.smali",
+      "targetPath": "smali_classes3/\u5240\u524c\u524e\u520d\u524e\u524a\u520d\u5247\u5246\u5255\u524a\u5240\u5246\u520d\u5270\u524b\u5246\u524d\u524d\u524c\u524d\u5244.smali"
+    },
+    {
+      "path": "smali_classes3/\u54de\u54d2\u54d0\u5493\u54d0\u54d4\u5493\u54d9\u54d8\u54cb\u54d4\u54de\u54d8\u5493\u54f5\u54d2\u54c8\u54d7\u54d4.smali",
+      "targetPath": "smali_classes3/\u54de\u54d2\u54d0\u5493\u54d0\u54d4\u5493\u54d9\u54d8\u54cb\u54d4\u54de\u54d8\u5493\u54f5\u54d2\u54c8\u54d7\u54d4.smali"
+    },
+    {
+      "path": "smali_classes3/\u5890\u589c\u589e\u58dd\u589e\u589a\u58dd\u5897\u5896\u5885\u589a\u5890\u5896\u58dd\u58b7\u5886\u5890\u589b\u5892\u589e\u5883.smali",
+      "targetPath": "smali_classes3/\u5890\u589c\u589e\u58dd\u589e\u589a\u58dd\u5897\u5896\u5885\u589a\u5890\u5896\u58dd\u58b7\u5886\u5890\u589b\u5892\u589e\u5883.smali"
+    },
+    {
+      "path": "smali_classes3/\u59f9\u59f5\u59f7\u59b4\u59f7\u59f3\u59b4\u59fe\u59ff\u59ec\u59f3\u59f9\u59ff\u59b4\u59d5\u59f4\u59e3\u59e2.smali",
+      "targetPath": "smali_classes3/\u59f9\u59f5\u59f7\u59b4\u59f7\u59f3\u59b4\u59fe\u59ff\u59ec\u59f3\u59f9\u59ff\u59b4\u59d5\u59f4\u59e3\u59e2.smali"
+    },
+    {
+      "path": "smali_classes3/\u5cf1\u5cfd\u5cff\u5cbc\u5cff\u5cfb\u5cbc\u5cf6\u5cf7\u5ce4\u5cfb\u5cf1\u5cf7\u5cbc\u5cc5\u5cf3\u5ce0\u5ce1\u5cf3\u5ce5.smali",
+      "targetPath": "smali_classes3/\u5cf1\u5cfd\u5cff\u5cbc\u5cff\u5cfb\u5cbc\u5cf6\u5cf7\u5ce4\u5cfb\u5cf1\u5cf7\u5cbc\u5cc5\u5cf3\u5ce0\u5ce1\u5cf3\u5ce5.smali"
+    },
+    {
+      "path": "smali_classes3/\u5f2d\u5f21\u5f23\u5f60\u5f23\u5f27\u5f60\u5f2a\u5f2b\u5f38\u5f27\u5f2d\u5f2b\u5f60\u5f16\u5f3b\u5f2f\u5f20\u5f37\u5f3b\u5f2f\u5f20.smali",
+      "targetPath": "smali_classes3/\u5f2d\u5f21\u5f23\u5f60\u5f23\u5f27\u5f60\u5f2a\u5f2b\u5f38\u5f27\u5f2d\u5f2b\u5f60\u5f16\u5f3b\u5f2f\u5f20\u5f37\u5f3b\u5f2f\u5f20.smali"
+    },
+    {
+      "path": "smali_classes3/\u6885\u6889\u688b\u68c8\u688b\u688f\u68c8\u6882\u6883\u6890\u688f\u6885\u6883\u68c8\u68a2\u6887\u688a\u688f.smali",
+      "targetPath": "smali_classes3/\u6885\u6889\u688b\u68c8\u688b\u688f\u68c8\u6882\u6883\u6890\u688f\u6885\u6883\u68c8\u68a2\u6887\u688a\u688f.smali"
+    },
+    {
+      "path": "smali_classes3/\u6f69\u6f65\u6f67\u6f24\u6f67\u6f63\u6f24\u6f6e\u6f6f\u6f7c\u6f63\u6f69\u6f6f\u6f24\u6f42\u6f6b\u6f65\u6f7e\u6f63\u6f6b\u6f64.smali",
+      "targetPath": "smali_classes3/\u6f69\u6f65\u6f67\u6f24\u6f67\u6f63\u6f24\u6f6e\u6f6f\u6f7c\u6f63\u6f69\u6f6f\u6f24\u6f42\u6f6b\u6f65\u6f7e\u6f63\u6f6b\u6f64.smali"
+    },
+    {
+      "path": "smali_classes3/\u71a6\u71aa\u71a8\u71eb\u71a8\u71ac\u71eb\u71a1\u71a0\u71b3\u71ac\u71a6\u71a0\u71eb\u7188\u71a4\u71ab\u71a0\u71b1.smali",
+      "targetPath": "smali_classes3/\u71a6\u71aa\u71a8\u71eb\u71a8\u71ac\u71eb\u71a1\u71a0\u71b3\u71ac\u71a6\u71a0\u71eb\u7188\u71a4\u71ab\u71a0\u71b1.smali"
+    },
+    {
+      "path": "smali_classes3/\u71ad\u71a1\u71a3\u71e0\u71a3\u71a7\u71e0\u71aa\u71ab\u71b8\u71a7\u71ad\u71ab\u71e0\u718f\u71bc\u71a7\u71bd\u71ba\u71a1\u71ba\u71a2\u71ab.smali",
+      "targetPath": "smali_classes3/\u71ad\u71a1\u71a3\u71e0\u71a3\u71a7\u71e0\u71aa\u71ab\u71b8\u71a7\u71ad\u71ab\u71e0\u718f\u71bc\u71a7\u71bd\u71ba\u71a1\u71ba\u71a2\u71ab.smali"
+    },
+    {
+      "path": "smali_classes3/\u76aa\u76a6\u76a4\u76e7\u76a4\u76a0\u76e7\u76ad\u76ac\u76bf\u76a0\u76aa\u76ac\u76e7\u768b\u76b0\u76bb\u76a6\u76a7.smali",
+      "targetPath": "smali_classes3/\u76aa\u76a6\u76a4\u76e7\u76a4\u76a0\u76e7\u76ad\u76ac\u76bf\u76a0\u76aa\u76ac\u76e7\u768b\u76b0\u76bb\u76a6\u76a7.smali"
+    },
+    {
+      "path": "smali_classes3/\u7ee7\u7eeb\u7ee9\u7eaa\u7ee9\u7eed\u7eaa\u7ee0\u7ee1\u7ef2\u7eed\u7ee7\u7ee1\u7eaa\u7ec3\u7eeb\u7efd\u7ee5.smali",
+      "targetPath": "smali_classes3/\u7ee7\u7eeb\u7ee9\u7eaa\u7ee9\u7eed\u7eaa\u7ee0\u7ee1\u7ef2\u7eed\u7ee7\u7ee1\u7eaa\u7ec3\u7eeb\u7efd\u7ee5.smali"
+    },
+    {
+      "path": "smali_classes3/\u85f9\u85f5\u85f7\u85b4\u85f7\u85f3\u85b4\u85fe\u85ff\u85ec\u85f3\u85f9\u85ff\u85b4\u85f9\u85f5\u85f7\u85f7\u85f5\u85f4\u85b4\u85d9\u85f5\u85f7\u85f7\u85f5\u85f4.smali",
+      "targetPath": "smali_classes3/\u85f9\u85f5\u85f7\u85b4\u85f7\u85f3\u85b4\u85fe\u85ff\u85ec\u85f3\u85f9\u85ff\u85b4\u85f9\u85f5\u85f7\u85f7\u85f5\u85f4\u85b4\u85d9\u85f5\u85f7\u85f7\u85f5\u85f4.smali"
+    },
+    {
+      "path": "smali_classes3/\u9130\u913c\u913e\u917d\u913e\u913a\u917d\u9137\u9136\u9125\u913a\u9130\u9136\u917d\u9115\u9126\u912b\u913a.smali",
+      "targetPath": "smali_classes3/\u9130\u913c\u913e\u917d\u913e\u913a\u917d\u9137\u9136\u9125\u913a\u9130\u9136\u917d\u9115\u9126\u912b\u913a.smali"
+    },
+    {
+      "path": "smali_classes3/\u9f05\u9f09\u9f0b\u9f48\u9f0b\u9f0f\u9f48\u9f02\u9f03\u9f10\u9f0f\u9f05\u9f03\u9f48\u9f2a\u9f13\u9f0b\u9f0f\u9f08\u9f01.smali",
+      "targetPath": "smali_classes3/\u9f05\u9f09\u9f0b\u9f48\u9f0b\u9f0f\u9f48\u9f02\u9f03\u9f10\u9f0f\u9f05\u9f03\u9f48\u9f2a\u9f13\u9f0b\u9f0f\u9f08\u9f01.smali"
+    },
+    {
+      "path": "smali_classes3/\uad12\uad1e\uad1c\uad5f\uad1c\uad18\uad5f\uad15\uad14\uad07\uad18\uad12\uad14\uad5f\uad3f\uad04\uad06\uad10.smali",
+      "targetPath": "smali_classes3/\uad12\uad1e\uad1c\uad5f\uad1c\uad18\uad5f\uad15\uad14\uad07\uad18\uad12\uad14\uad5f\uad3f\uad04\uad06\uad10.smali"
+    },
+    {
+      "path": "smali_classes3/\uad4b\uad47\uad45\uad06\uad45\uad41\uad06\uad4c\uad4d\uad5e\uad41\uad4b\uad4d\uad06\uad6b\uad40\uad4d\uad46\uad4e\uad4d\uad46\uad4f.smali",
+      "targetPath": "smali_classes3/\uad4b\uad47\uad45\uad06\uad45\uad41\uad06\uad4c\uad4d\uad5e\uad41\uad4b\uad4d\uad06\uad6b\uad40\uad4d\uad46\uad4e\uad4d\uad46\uad4f.smali"
+    },
+    {
+      "path": "smali_classes3/\ub23b\ub237\ub235\ub276\ub235\ub231\ub276\ub23c\ub23d\ub22e\ub231\ub23b\ub23d\ub276\ub215\ub231\ub22a\ub237.smali",
+      "targetPath": "smali_classes3/\ub23b\ub237\ub235\ub276\ub235\ub231\ub276\ub23c\ub23d\ub22e\ub231\ub23b\ub23d\ub276\ub215\ub231\ub22a\ub237.smali"
+    },
+    {
+      "path": "smali_classes3/\ub25d\ub251\ub253\ub210\ub253\ub257\ub210\ub25a\ub25b\ub248\ub257\ub25d\ub25b\ub210\ub27f\ub24a\ub256\ub25b\ub250\ub24d.smali",
+      "targetPath": "smali_classes3/\ub25d\ub251\ub253\ub210\ub253\ub257\ub210\ub25a\ub25b\ub248\ub257\ub25d\ub25b\ub210\ub27f\ub24a\ub256\ub25b\ub250\ub24d.smali"
+    },
+    {
+      "path": "smali_classes3/\ub8b1\ub8bd\ub8bf\ub8fc\ub8bf\ub8bb\ub8fc\ub8b6\ub8b7\ub8a4\ub8bb\ub8b1\ub8b7\ub8fc\ub888\ub8bd\ub8a0\ub8bc.smali",
+      "targetPath": "smali_classes3/\ub8b1\ub8bd\ub8bf\ub8fc\ub8bf\ub8bb\ub8fc\ub8b6\ub8b7\ub8a4\ub8bb\ub8b1\ub8b7\ub8fc\ub888\ub8bd\ub8a0\ub8bc.smali"
+    },
+    {
+      "path": "smali_classes3/\ub90f\ub903\ub901\ub942\ub901\ub905\ub942\ub908\ub909\ub91a\ub905\ub90f\ub909\ub942\ub921\ub915\ub91e\ub903\ub902.smali",
+      "targetPath": "smali_classes3/\ub90f\ub903\ub901\ub942\ub901\ub905\ub942\ub908\ub909\ub91a\ub905\ub90f\ub909\ub942\ub921\ub915\ub91e\ub903\ub902.smali"
+    },
+    {
+      "path": "smali_classes3/\uc334\uc338\uc33a\uc379\uc33a\uc33e\uc379\uc333\uc332\uc321\uc33e\uc334\uc332\uc379\uc304\uc338\uc339\uc330\uc32e\uc322\uc336\uc339.smali",
+      "targetPath": "smali_classes3/\uc334\uc338\uc33a\uc379\uc33a\uc33e\uc379\uc333\uc332\uc321\uc33e\uc334\uc332\uc379\uc304\uc338\uc339\uc330\uc32e\uc322\uc336\uc339.smali"
+    },
+    {
+      "path": "smali_classes3/\ucc48\ucc44\ucc46\ucc05\ucc46\ucc42\ucc05\ucc4f\ucc4e\ucc5d\ucc42\ucc48\ucc4e\ucc05\ucc62\ucc58\ucc43\ucc5f\ucc4a\ucc59.smali",
+      "targetPath": "smali_classes3/\ucc48\ucc44\ucc46\ucc05\ucc46\ucc42\ucc05\ucc4f\ucc4e\ucc5d\ucc42\ucc48\ucc4e\ucc05\ucc62\ucc58\ucc43\ucc5f\ucc4a\ucc59.smali"
+    },
+    {
+      "path": "smali_classes3/\uce10\uce1c\uce1e\uce5d\uce1e\uce1a\uce5d\uce17\uce16\uce05\uce1a\uce10\uce16\uce5d\uce23\uce01\uce12\uce14\uce06\uce16.smali",
+      "targetPath": "smali_classes3/\uce10\uce1c\uce1e\uce5d\uce1e\uce1a\uce5d\uce17\uce16\uce05\uce1a\uce10\uce16\uce5d\uce23\uce01\uce12\uce14\uce06\uce16.smali"
+    },
+    {
+      "path": "smali_classes3/\uce46\uce4a\uce48\uce0b\uce48\uce4c\uce0b\uce41\uce40\uce53\uce4c\uce46\uce40\uce0b\uce61\uce44\uce41\uce44.smali",
+      "targetPath": "smali_classes3/\uce46\uce4a\uce48\uce0b\uce48\uce4c\uce0b\uce41\uce40\uce53\uce4c\uce46\uce40\uce0b\uce61\uce44\uce41\uce44.smali"
+    },
+    {
+      "path": "smali_classes3/\ucf0e\ucf02\ucf00\ucf43\ucf00\ucf04\ucf43\ucf09\ucf08\ucf1b\ucf04\ucf0e\ucf08\ucf43\ucf29\ucf04\ucf07\ucf18\ucf03.smali",
+      "targetPath": "smali_classes3/\ucf0e\ucf02\ucf00\ucf43\ucf00\ucf04\ucf43\ucf09\ucf08\ucf1b\ucf04\ucf0e\ucf08\ucf43\ucf29\ucf04\ucf07\ucf18\ucf03.smali"
+    },
+    {
+      "path": "smali_classes3/\ucf3c\ucf30\ucf32\ucf71\ucf32\ucf36\ucf71\ucf3b\ucf3a\ucf29\ucf36\ucf3c\ucf3a\ucf71\ucf0f\ucf30\ucf2f\ucf2c\ucf36\ucf3c\ucf33\ucf3a.smali",
+      "targetPath": "smali_classes3/\ucf3c\ucf30\ucf32\ucf71\ucf32\ucf36\ucf71\ucf3b\ucf3a\ucf29\ucf36\ucf3c\ucf3a\ucf71\ucf0f\ucf30\ucf2f\ucf2c\ucf36\ucf3c\ucf33\ucf3a.smali"
+    },
+    {
+      "path": "smali_classes3/\ucf6b\ucf67\ucf65\ucf26\ucf65\ucf61\ucf26\ucf6c\ucf6d\ucf7e\ucf61\ucf6b\ucf6d\ucf26\ucf46\ucf6d\ucf72\ucf60\ucf69.smali",
+      "targetPath": "smali_classes3/\ucf6b\ucf67\ucf65\ucf26\ucf65\ucf61\ucf26\ucf6c\ucf6d\ucf7e\ucf61\ucf6b\ucf6d\ucf26\ucf46\ucf6d\ucf72\ucf60\ucf69.smali"
+    },
+    {
+      "path": "smali_classes3/\ud1c4\ud1c8\ud1ca\ud189\ud1ca\ud1ce\ud189\ud1c3\ud1c2\ud1d1\ud1ce\ud1c4\ud1c2\ud189\ud1f7\ud1c6\ud1c9\ud1c3\ud1c8\ud1d5\ud1c6.smali",
+      "targetPath": "smali_classes3/\ud1c4\ud1c8\ud1ca\ud189\ud1ca\ud1ce\ud189\ud1c3\ud1c2\ud1d1\ud1ce\ud1c4\ud1c2\ud189\ud1f7\ud1c6\ud1c9\ud1c3\ud1c8\ud1d5\ud1c6.smali"
+    },
+    {
+      "path": "smali_classes3/\ud1e4\ud1e8\ud1ea\ud1a9\ud1ea\ud1ee\ud1a9\ud1e3\ud1e2\ud1f1\ud1ee\ud1e4\ud1e2\ud1a9\ud1d5\ud1e8\ud1e3\ud1ee\ud1e9.smali",
+      "targetPath": "smali_classes3/\ud1e4\ud1e8\ud1ea\ud1a9\ud1ea\ud1ee\ud1a9\ud1e3\ud1e2\ud1f1\ud1ee\ud1e4\ud1e2\ud1a9\ud1d5\ud1e8\ud1e3\ud1ee\ud1e9.smali"
+    },
+    {
+      "path": "smali_classes3/\ud45b\ud457\ud455\ud416\ud455\ud451\ud416\ud45c\ud45d\ud44e\ud451\ud45b\ud45d\ud416\ud46f\ud459\ud44a\ud450\ud457\ud454\ud467\ud45f\ud454.smali",
+      "targetPath": "smali_classes3/\ud45b\ud457\ud455\ud416\ud455\ud451\ud416\ud45c\ud45d\ud44e\ud451\ud45b\ud45d\ud416\ud46f\ud459\ud44a\ud450\ud457\ud454\ud467\ud45f\ud454.smali"
+    },
+    {
+      "path": "smali_classes3/\ud5fa\ud5f6\ud5f4\ud5b7\ud5f4\ud5f0\ud5b7\ud5fd\ud5fc\ud5ef\ud5f0\ud5fa\ud5fc\ud5b7\ud5c9\ud5ec\ud5fd\ud5fd\ud5f0\ud5f7\ud5fe.smali",
+      "targetPath": "smali_classes3/\ud5fa\ud5f6\ud5f4\ud5b7\ud5f4\ud5f0\ud5b7\ud5fd\ud5fc\ud5ef\ud5f0\ud5fa\ud5fc\ud5b7\ud5c9\ud5ec\ud5fd\ud5fd\ud5f0\ud5f7\ud5fe.smali"
+    },
+    {
+      "path": "smali_classes4/com/xiaomi/camera/cloudfilter/FilterDataSource$isResourceExist$2.smali",
+      "targetPath": "smali_classes4/com/xiaomi/camera/cloudfilter/FilterDataSource$isResourceExist$2.smali"
+    },
+    {
+      "path": "smali_classes5/ri/e.smali",
+      "targetPath": "smali_classes5/ri/e.smali"
+    },
+    {
+      "path": "smali_classes6/miuix/animation/utils/LogUtils.smali",
+      "targetPath": "smali_classes6/miuix/animation/utils/LogUtils.smali"
+    },
+    {
+      "path": "smali/v2.1/d0.1.smali",
+      "targetPath": "smali/v2.1/d0.1.smali"
+    },
+    {
+      "path": "smali/v2.1/v0.smali",
+      "targetPath": "smali/v2.1/v0.smali"
+    }
+  ],
+  "deletions": [
+    "res/drawable/ic_new_config_hdr_normal_top_mm.xml",
+    "smali/I2/C.smali",
+    "smali/I2/c.1.smali",
+    "smali/u5.1/C.1.smali",
+    "smali/u5.1/c.smali",
+    "smali_classes10/Mv/n$B.1.smali",
+    "smali_classes10/Mv/n$b.smali",
+    "smali_classes10/Nv/A.smali",
+    "smali_classes10/Nv/a.1.smali",
+    "smali_classes10/Ot/A.1.smali",
+    "smali_classes10/Ot/C.1.smali",
+    "smali_classes10/Ot/a.smali",
+    "smali_classes10/Ot/c.smali",
+    "smali_classes10/Zv/B.smali",
+    "smali_classes10/Zv/b.1.smali"
+  ],
+  "deletedClasses": {
+    "smali/I2/C.smali": "LI2/C;",
+    "smali/I2/c.1.smali": "LI2/c;",
+    "smali/u5.1/C.1.smali": "Lu5/C;",
+    "smali/u5.1/c.smali": "Lu5/c;",
+    "smali_classes10/Mv/n$B.1.smali": "LMv/n$B;",
+    "smali_classes10/Mv/n$b.smali": "LMv/n$b;",
+    "smali_classes10/Nv/A.smali": "LNv/A;",
+    "smali_classes10/Nv/a.1.smali": "LNv/a;",
+    "smali_classes10/Ot/A.1.smali": "LOt/A;",
+    "smali_classes10/Ot/C.1.smali": "LOt/C;",
+    "smali_classes10/Ot/a.smali": "LOt/a;",
+    "smali_classes10/Ot/c.smali": "LOt/c;",
+    "smali_classes10/Zv/B.smali": "LZv/B;",
+    "smali_classes10/Zv/b.1.smali": "LZv/b;"
+  }
+}

@@ -1,0 +1,6 @@
+id=phoenix_camera_15pro
+name=Phoenix Camera - Xiaomi 15 Pro（槐蔭區2改）
+version=Phoenix-1.3.0
+versionCode=2010300
+author=Prometheus Port / 槐蔭區2改
+description=Prometheus Cam 根模块：相机与 LSP 协同，内置滤镜与水印开机即用。本包按 Xiaomi 15 Pro（haotian）适配。二改：槐蔭區2改。
