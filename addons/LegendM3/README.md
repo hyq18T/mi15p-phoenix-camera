@@ -2,13 +2,16 @@
 
 当前版本：**V1.0.0**
 
+> 本仓库已移除旧版 `release/PhoenixAddon-LegendM3-V1.0.0-Package.zip`（14 Ultra 原版可刷面具模块）。
+> 小米 15 Pro 请使用 `成品/PhoenixAddon-LegendM3-V2.0.0-15Pro-Module-r17-final.zip`（模块 ID 同为 `phoenix_m3`，属同模块的新版本，不能与旧版共存）。
+
 PhoenixAddon-LegendM3 为 Phoenix 提供徕卡经典 M3 成像链路。Addon 使用独立版本号；升级时保持 APK 包名 `com.phoenix.camera.m3` 与根模块 ID `phoenix_m3`，可覆盖安装同一 Addon 的旧版本。
 
 ## 下载
 
 | 文件 | 内容 |
 | --- | --- |
-| [`PhoenixAddon-LegendM3-V1.0.0-Package.zip`](release/PhoenixAddon-LegendM3-V1.0.0-Package.zip) | 正式交付包，包含 KernelSU 模块、LSPosed APK、安装说明和验收清单 |
+| ~~`PhoenixAddon-LegendM3-V1.0.0-Package.zip`~~（**已移除**） | 旧版正式交付包（14 Ultra 原版，含旧 `phoenix_m3` 面具模块）。为避免误刷导致降级，已从本仓库删除；小米 15 Pro 请用 `成品/PhoenixAddon-LegendM3-V2.0.0-15Pro-Module-r17-final.zip` |
 | [`PhoenixAddon-LegendM3-V1.0.0-Source.zip`](release/PhoenixAddon-LegendM3-V1.0.0-Source.zip) | 可下载的源码归档，与 [`source/`](source/) 内容一致 |
 | [`PhoenixAddon-LegendM3-V1.0.0-Reference.zip`](release/PhoenixAddon-LegendM3-V1.0.0-Reference.zip) | 完整移植说明、14 Ultra 适配方法、相册兼容说明和结构化证据 |
 
@@ -31,7 +34,7 @@ PhoenixAddon-LegendM3 为 Phoenix 提供徕卡经典 M3 成像链路。Addon 使
 
 | 文件 | SHA-256 |
 | --- | --- |
-| `PhoenixAddon-LegendM3-V1.0.0-Package.zip` | `7F28D9E5C3EFB21FA493AFF18BF75664BB1DC9A4ADFF41C74F3DCB42FA63A18C` |
+| ~~`PhoenixAddon-LegendM3-V1.0.0-Package.zip`~~（已移除，SHA 仅作历史记录） | `7F28D9E5C3EFB21FA493AFF18BF75664BB1DC9A4ADFF41C74F3DCB42FA63A18C` |
 | `PhoenixAddon-LegendM3-V1.0.0-Source.zip` | `0917D684D11B115691624CDD6C4B5BD44BD5F2E9605368C71FDCB87C72E8FD9D` |
 | `PhoenixAddon-LegendM3-V1.0.0-Reference.zip` | `8A71B1C6C7D833CCC6BE0737C71552D5E7E50164D45800CF11D64E29CBD50C38` |
 
