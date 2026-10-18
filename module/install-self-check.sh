@@ -45,11 +45,36 @@ for script in customize.sh service.sh post-fs-data.sh seed-watermark.sh \
   say "通过｜执行脚本=$script｜权限可用"
 done
 
+for script in post-fs-data-camera.sh service-camera.sh post-fs-data-m3.sh \
+  service-m3.sh refresh-gallery-cache.sh; do
+  [ -x "$MODROOT/$script" ] || fail "二合一脚本不可执行：$script"
+  say "通过｜二合一脚本=$script｜权限可用"
+done
+[ -x "$MODROOT/bin/m3_aux_relay" ] || fail "M3 aux relay 不可执行"
+say "通过｜M3 aux relay｜权限可用"
+
+ODM_ROOT="$MODROOT/system/odm"
+[ -d "$ODM_ROOT" ] || ODM_ROOT="$MODROOT/payload/odm"
+for file in \
+  "$ODM_ROOT/etc/camera/xiaomi/phoenix_m3/leica_filter_param_m3.bin" \
+  "$ODM_ROOT/etc/camera/xiaomi/phoenix_m3/mialgo_monopan_cl.bin" \
+  "$ODM_ROOT/etc/camera/xiaomi/leicasnapshot.json" \
+  "$ODM_ROOT/etc/camera/xiaomi/normalsnapshot.json" \
+  "$ODM_ROOT/etc/camera/xiaomi/satsnapshot.json" \
+  "$ODM_ROOT/lib64/camera/plugins/libphoenix_m3_aec-runtime.so" \
+  "$ODM_ROOT/lib64/camera/plugins/libphoenix_m3_style-renderer.so" \
+  "$ODM_ROOT/lib64/camera/plugins/libphoenix_m3_shadowhook.so" \
+  "$ODM_ROOT/lib64/camera/plugins/com.xiaomi.plugin.m3style.so" \
+  "$ODM_ROOT/lib64/camera/plugins/com.xiaomi.plugin.m3grain.so"; do
+  [ -s "$file" ] || fail "M3 载荷缺失或为空：${file##*/}"
+  say "通过｜M3 载荷=${file##*/}｜存在且非空"
+done
+
 # test module revisions may change while the Camera and LSP payloads remain
 # byte-identical. Validate the payload versions explicitly instead of deriving
 # them from the root-module versionCode.
 CAMERA_CODE=760010300
-LSP_CODE=2010300
+LSP_CODE=2010400
 for package in com.android.camera com.prometheus.camera.rev; do
   path="$(pm path "$package" 2>/dev/null | sed -n 's/^package://p' | head -n 1)"
   [ -n "$path" ] || fail "应用安装后不可见：$package"

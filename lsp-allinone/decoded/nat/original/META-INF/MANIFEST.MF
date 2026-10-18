@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA-256-Digest: lbVaeTvBcZAkvu8HJAAo75/gUSvHer9gAGRdKyHm00M=
+
+Name: assets/prometheus/natural-15pro/lut_cvstyle_natural.png
+SHA-256-Digest: zrqXslLn/oHUNaAvlK6QbB/FdsKjvCv0tfqI+Kcl8yA=
+
+Name: assets/xposed_init
+SHA-256-Digest: 3Kjh0J4pT1Js61KYnsW44igE0GjCBVzEiUcjX+OXZOc=
+
+Name: classes.dex
+SHA-256-Digest: G18peqrY6R58Sz6Vk+L74TpWNYP9rVDCtKyflRGDkXE=
+
+Name: resources.arsc
+SHA-256-Digest: qoLAIj2a+uEUjdShHfRpoLPwTl8eVldQA9s3Gyr7E8Y=
+

@@ -1,0 +1,668 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA-256-Digest-Manifest: kxc/HrmviUirahc50IvkRT6NhlPT/OhflN9oFArcK+k=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: E52W8FwCX/UEVy1bgKjLQSPNRm3MsCpgpECRcjsc2/8=
+
+Name: META-INF/xposed/module.prop
+SHA-256-Digest: MSzZsvq6CgF9Dp3DMl4Ei2bZMYhr4G3Krfy60KSllxo=
+
+Name: META-INF/xposed/scope.list
+SHA-256-Digest: /rblYBE2V58IsSBWJwl9xSC8Thnn34p5HC6/Ws9vQ1I=
+
+Name: assets/content/filters.json
+SHA-256-Digest: yQP0I2/UFONWd7a5d5BuFTBK3cSYUGG1/0LNfkqpYFY=
+
+Name: assets/content/lut-presets.json
+SHA-256-Digest: gw9frgFlqAYVvJgwgrsIMtRpUdmO0pogOVUYI/9kxiU=
+
+Name: assets/content/mediaeditor-local-watermarks.json
+SHA-256-Digest: aQ9RYm5CJweOqBuBDt+000LYmKStD+9vu30fww/63Q0=
+
+Name: assets/content/watermarks.json
+SHA-256-Digest: SaFUJLTMQ7J85VrF3QyofJhWS3YPKnWtu0EEny/+58Y=
+
+Name: assets/phoenix-glsl-specification.txt
+SHA-256-Digest: ln/N+ID7W7HHgk/R6NhImL6MoeWFTrDnj30Epxk5lZw=
+
+Name: assets/profiles/aurora.json
+SHA-256-Digest: 6EKpPGp16P4/Jodo3VFFeAMNmbeRFGKdod7IgVNCqWM=
+
+Name: assets/prometheus/classic-style/12su/lut_cvstyle_common.png
+SHA-256-Digest: iQK0iJQudTbE0EUOsWrpnWV+MDQAaqvn69Bqzi2hN/s=
+
+Name: assets/prometheus/classic-style/12su/lut_cvstyle_food.png
+SHA-256-Digest: reMM9ld5gtZLoOBtxVdSOCiGEkyaQgF/24V5qwcA458=
+
+Name: assets/prometheus/classic-style/12su/lut_cvstyle_human.png
+SHA-256-Digest: TtiFS+kCtlHZaqZbXaOjsz2j2FYjhLb6TGu6yyKeL1U=
+
+Name: assets/prometheus/classic-style/12su/lut_cvstyle_night.png
+SHA-256-Digest: o8ekgYt421i670M3TUmP6HjlUEaa8RSkWA3Msnhwhbk=
+
+Name: assets/prometheus/classic-style/12su/lut_cvstyle_plants.png
+SHA-256-Digest: rcRr2tSBAwuWQISTa9z31TdtVYKtBBB0jxedNAXjfV0=
+
+Name: assets/prometheus/classic-style/12su/lut_cvstyle_sunrise_sunset.
+ png
+SHA-256-Digest: ozhrSaA7rh6XSBHVU1dt9FXa56yy8LQjNY8RFPkoHrQ=
+
+Name: assets/prometheus/classic-style/13u/lut_cvstyle_common.png
+SHA-256-Digest: VnEl7d+/srxFe7dT9S6GB3k+5+x3y2q2bBx6TiBlACQ=
+
+Name: assets/prometheus/classic-style/13u/lut_cvstyle_food.png
+SHA-256-Digest: dUkM3L39BMRKnQDe+kaLqdUdpVqOW2D1UAXbJcCwDL0=
+
+Name: assets/prometheus/classic-style/13u/lut_cvstyle_human.png
+SHA-256-Digest: ozuNvZoLTl2nYnlqKSQ5Yxn1zXHto4nEu/jOkYBUPsM=
+
+Name: assets/prometheus/classic-style/13u/lut_cvstyle_night.png
+SHA-256-Digest: acYB2yKCfzIoliIF05k6ehkmE7rS5BD7G8Yw41NNLT8=
+
+Name: assets/prometheus/classic-style/13u/lut_cvstyle_plants.png
+SHA-256-Digest: J37aKoNC1ZGfTFcKQ9zVNXJIlDIKm6ZEaHh72m6dl70=
+
+Name: assets/prometheus/classic-style/13u/lut_cvstyle_sunrise_sunset.p
+ ng
+SHA-256-Digest: FafaHsJdJyxleZLHXhAa+8wU5bljOtS0tjOHYAfHIGM=
+
+Name: assets/prometheus/classic-style/14u/lut_cvstyle_common.png
+SHA-256-Digest: A5NePLS0Jyp5xfgdd4fCo34h3JApHBHaTZlQY2GfZi8=
+
+Name: assets/prometheus/classic-style/14u/lut_cvstyle_food.png
+SHA-256-Digest: 1RUfzl8ELkvUcT9X3/JfXRybTG5oyGvQfY2D5Io8Y6k=
+
+Name: assets/prometheus/classic-style/14u/lut_cvstyle_human.png
+SHA-256-Digest: y+ah+emPX+ulpKXBzmV36hJ1lq1yA9y8d2n8ZrXvBlk=
+
+Name: assets/prometheus/classic-style/14u/lut_cvstyle_night.png
+SHA-256-Digest: 6lAtxrBGc4Nw/erx3VsyLKH7aTi06sLEd7QI8ZtcKWw=
+
+Name: assets/prometheus/classic-style/14u/lut_cvstyle_plants.png
+SHA-256-Digest: MiM45tH+8dmRb7kqOp778NMTiQ/+Prf4dQOktcj7zaQ=
+
+Name: assets/prometheus/classic-style/14u/lut_cvstyle_sunrise_sunset.p
+ ng
+SHA-256-Digest: 01KF1KV9OeWGbK8F04kyDTq362SwwbXtGO+rcKXcefg=
+
+Name: assets/prometheus/classic-style/17u/lut_cvstyle_common.png
+SHA-256-Digest: TBuslFvkHI8am0QpO7LwiM3lKM4HaOgJZWWMX5AZWNI=
+
+Name: assets/prometheus/classic-style/17u/lut_cvstyle_food.png
+SHA-256-Digest: fJb0yhNYoLTfUhY5WzLN7VN826gzdOjlVdUE9V6ZdnY=
+
+Name: assets/prometheus/classic-style/17u/lut_cvstyle_human.png
+SHA-256-Digest: QBaNIB2+qdTTwUyo67rY5E5l2fmMU5NNhV+nUrR4uOk=
+
+Name: assets/prometheus/classic-style/17u/lut_cvstyle_night.png
+SHA-256-Digest: mS9MKf5u7v30/HtC8wMFNsaFA9c6S4o5i+m4RHYq6Xo=
+
+Name: assets/prometheus/classic-style/17u/lut_cvstyle_plants.png
+SHA-256-Digest: 1Ybt+5LX3mPzhnZO5zA/5U9MgJGUmZ+JUA5saNlaTi0=
+
+Name: assets/prometheus/classic-style/17u/lut_cvstyle_sunrise_sunset.p
+ ng
+SHA-256-Digest: fXXoF4IdVdu1lYpV4PHyps848sE2XaKXw1+kSNf5HaQ=
+
+Name: assets/prometheus/classic-style/blackwhite/lut_cvstyle_common.pn
+ g
+SHA-256-Digest: T/PTdFcvSuCmiq8SYhKpKGVfsWQG+dIkpE/F4wG+0DY=
+
+Name: assets/prometheus/classic-style/blackwhite/lut_cvstyle_food.png
+SHA-256-Digest: Rr7WPyppfdPK2/uDil/0nEgMfLZ5Tm29haBZsMNTyOQ=
+
+Name: assets/prometheus/classic-style/blackwhite/lut_cvstyle_human.png
+SHA-256-Digest: n59HkS8UqgjfnHu+u+zbpxXamusAhR+/JEGeUpVktO0=
+
+Name: assets/prometheus/classic-style/blackwhite/lut_cvstyle_night.png
+SHA-256-Digest: x4fGCxRwqYnABHdtAVGMZaElcx/p2pnvES2YSR6PY8E=
+
+Name: assets/prometheus/classic-style/blackwhite/lut_cvstyle_plants.pn
+ g
+SHA-256-Digest: VenL31IW18ibdFIi23uixPJfayMjrhVZiToxgbEp9yk=
+
+Name: assets/prometheus/classic-style/blackwhite/lut_cvstyle_sunrise_s
+ unset.png
+SHA-256-Digest: jAJsNddHOBPKZM9wAjCqy5dgQd5fZu5ODRvLpbv4/BM=
+
+Name: assets/prometheus/classic-style/fuxi/lut_cvstyle_common.png
+SHA-256-Digest: 0AiYpd47uG7Cp+PiwmRNQPSpNgtst39RW+9Dg6o+HfY=
+
+Name: assets/prometheus/classic-style/fuxi/lut_cvstyle_food.png
+SHA-256-Digest: Du0Q+4sjoTTV7Hw/rjMwA2YDMMZKRsvEHRZVdyH9Bbo=
+
+Name: assets/prometheus/classic-style/fuxi/lut_cvstyle_human.png
+SHA-256-Digest: 0EVapZMEPiklE+yyNfNilTAFBM9lf3bSZDG3VKPSy90=
+
+Name: assets/prometheus/classic-style/fuxi/lut_cvstyle_night.png
+SHA-256-Digest: dFum0OAyLXj3RHtTZPtQKBNPNyN40NEN9vjHNjwHqV4=
+
+Name: assets/prometheus/classic-style/fuxi/lut_cvstyle_plants.png
+SHA-256-Digest: 2YE3QViqIMRa8XHQd3XbI4X3GERi8oA1yq16bhEZcHw=
+
+Name: assets/prometheus/classic-style/fuxi/lut_cvstyle_sunrise_sunset.
+ png
+SHA-256-Digest: axZxWzhUtcWylGGPf/uRrdxWSasQqyeoDJgOdfA633U=
+
+Name: assets/prometheus/classic-style/m9/lut_cvstyle_common.png
+SHA-256-Digest: ZIfEXZyxIgiyfuIB2MPebjIEgSLXG+8mMx9LV6iJxGM=
+
+Name: assets/prometheus/classic-style/m9/lut_cvstyle_food.png
+SHA-256-Digest: F9/WEgxi4M8GJq6YHh7YAZ4inv2Vfu83SSaNPwEKtRk=
+
+Name: assets/prometheus/classic-style/m9/lut_cvstyle_human.png
+SHA-256-Digest: 4vWKo50QCpUQjx5MvLH+F3KnTzt9oIkjYetrQ8inwq4=
+
+Name: assets/prometheus/classic-style/m9/lut_cvstyle_night.png
+SHA-256-Digest: ILtdbOnYr+KD8AVaCjGCSdcW+BTLWAQi0X2k79qc5zo=
+
+Name: assets/prometheus/classic-style/m9/lut_cvstyle_plants.png
+SHA-256-Digest: 2QpD9NuTHJPNPYney+IXeEm95babbQZlVVJmBxei/Qk=
+
+Name: assets/prometheus/classic-style/m9/lut_cvstyle_sunrise_sunset.pn
+ g
+SHA-256-Digest: RmJjrTpKbs6pO1e/1GUrW+LhmL3yOcUE3AcQdMio+ZA=
+
+Name: assets/prometheus/classic-style/neutral/lut_cvstyle_common.png
+SHA-256-Digest: Bp4HhylntrRGWepnFUYHil9mrXraXnqyEQOQXjq2Iro=
+
+Name: assets/prometheus/classic-style/neutral/lut_cvstyle_food.png
+SHA-256-Digest: stvCnYr+ACRTR0H7qE2VFqzsooGu9kP73styKMIux9w=
+
+Name: assets/prometheus/classic-style/neutral/lut_cvstyle_human.png
+SHA-256-Digest: 5zQA52bCfYmwb0A22290mas9zRE9XDRgh2I+nbxCnIU=
+
+Name: assets/prometheus/classic-style/neutral/lut_cvstyle_night.png
+SHA-256-Digest: J/vMIfwbZoesoVwbJO8RhcR4OopbGFQPEF2ofD/NIAk=
+
+Name: assets/prometheus/classic-style/neutral/lut_cvstyle_plants.png
+SHA-256-Digest: LR+tFEJp7vvzGe9CIDJwTUX52AvYhfOMBV/uaO9ZsAM=
+
+Name: assets/prometheus/classic-style/neutral/lut_cvstyle_sunrise_suns
+ et.png
+SHA-256-Digest: fFczxXwkaxr5RDAMDYiTS+PXyhFWU6LMLqhuirxmp6c=
+
+Name: assets/prometheus/classic-style/passthrough/lut_cvstyle_common.p
+ ng
+SHA-256-Digest: M4DxdQSKadZEaAKqSeH8lWJHs/Vu1csEnlj5m9HrZrY=
+
+Name: assets/prometheus/classic-style/passthrough/lut_cvstyle_food.png
+SHA-256-Digest: zkN5QeXNkto1BtOuma9EYzFl8z5NwnxqoHpId+Nw9es=
+
+Name: assets/prometheus/classic-style/passthrough/lut_cvstyle_human.pn
+ g
+SHA-256-Digest: RXAi0ZHXAZNGHwn8z30AQnNoeI3jrGb/+rRG2AwBb4U=
+
+Name: assets/prometheus/classic-style/passthrough/lut_cvstyle_night.pn
+ g
+SHA-256-Digest: rQbkwh/kSzj+KAHV1JDvvjXOx9mp5kEH3LSKrAsYWqI=
+
+Name: assets/prometheus/classic-style/passthrough/lut_cvstyle_plants.p
+ ng
+SHA-256-Digest: OTG/Is+FpNn2g3h1qYF7OocAitdgWBDfS4tCNvos/NY=
+
+Name: assets/prometheus/classic-style/passthrough/lut_cvstyle_sunrise_
+ sunset.png
+SHA-256-Digest: Tm8Idk2uI7MhGROPMA7laAhXxqr16ThsiQWoh5W/raU=
+
+Name: assets/prometheus/lut-presets.json
+SHA-256-Digest: riJ/exxoYluOgy3JEfMq0qGDFZA5SvY8YlTdrGcXdFs=
+
+Name: assets/prometheus/lut-presets/slot_1.png
+SHA-256-Digest: oUMw55b2EtneFPzgcSG8GSUK7kjNwrIk/sMzBltRdFc=
+
+Name: assets/prometheus/lut-presets/slot_10.png
+SHA-256-Digest: DnSnsq2pUMsNEpMexLf2WepNUf7IPAwOfoobL/KIXfg=
+
+Name: assets/prometheus/lut-presets/slot_11.png
+SHA-256-Digest: hEDGhMMPhrjg9siXPdIsVxjFz5RL6A6hdWI90YWG5PQ=
+
+Name: assets/prometheus/lut-presets/slot_12.png
+SHA-256-Digest: t7n9V9z/A9ZmewlQg+4qZrthzXsU+yAWvb13eOxNJg0=
+
+Name: assets/prometheus/lut-presets/slot_13.png
+SHA-256-Digest: oKZ6JcO0kik4NoR4z1q97ZCHPpNEcdmhQfpuDA0bHDc=
+
+Name: assets/prometheus/lut-presets/slot_14.png
+SHA-256-Digest: G0j0Wz2/QNPqC7tSt4+bM7d67GxMmsV5PNinPwqqZ9M=
+
+Name: assets/prometheus/lut-presets/slot_15.png
+SHA-256-Digest: ZZ7nSNqELQuBZSoOAUntYDg1z2y1bs5CgBFEj1wLQvY=
+
+Name: assets/prometheus/lut-presets/slot_16.png
+SHA-256-Digest: Nwv8y2r4NUNLA54nTyeexT1J05w4yt64lK6FLWVwpPM=
+
+Name: assets/prometheus/lut-presets/slot_17.png
+SHA-256-Digest: iIy7xsPG1mcbi6NLKonSt5kFdEDqy8cy4CvtPSDk/EM=
+
+Name: assets/prometheus/lut-presets/slot_18.png
+SHA-256-Digest: 0wE1LqK+ReYh8yckIu4tAlVmUkMibKV+maCIwzkUPzs=
+
+Name: assets/prometheus/lut-presets/slot_19.png
+SHA-256-Digest: wrEW2BMh4p6Ew3DdCuNGgpkcGMgeyQ7wPeki6qrT130=
+
+Name: assets/prometheus/lut-presets/slot_2.png
+SHA-256-Digest: tLyR8sXuteQnORwPR5Zf9My5Gu9Snps6flQvkdZbL50=
+
+Name: assets/prometheus/lut-presets/slot_20.png
+SHA-256-Digest: iIodV0cxA6E9eU7H/tZjk4p+WXmTMoRbj2PKp5V7T88=
+
+Name: assets/prometheus/lut-presets/slot_21.png
+SHA-256-Digest: H/HCkXC+0ADRDQxrotRDYKe/JVkcNkI7LN7HWhub/qE=
+
+Name: assets/prometheus/lut-presets/slot_22.png
+SHA-256-Digest: jeg0rBBApOfGwYRgurtqc4ff5akQeehkBzr8u061luY=
+
+Name: assets/prometheus/lut-presets/slot_23.png
+SHA-256-Digest: etUD5vuP6Cj9UU5PhDnQy+5lYRYhQGgVO99EpI4g6WI=
+
+Name: assets/prometheus/lut-presets/slot_24.png
+SHA-256-Digest: 6d15Clbic2YHahF9PMGHiwHxxUzFeRWT8uJHCERp7e4=
+
+Name: assets/prometheus/lut-presets/slot_25.png
+SHA-256-Digest: QElSZdZMD4l4YnUtBlkikWnxgR4rCUH2qWQExuj7DPo=
+
+Name: assets/prometheus/lut-presets/slot_26.png
+SHA-256-Digest: 1CafHp+SuOAuLBOpY0ZP03uaKjy45x0P0e1hshe5mpA=
+
+Name: assets/prometheus/lut-presets/slot_27.png
+SHA-256-Digest: J9vhwn36qkW6bUZD/srN3kv8BZcqkUsbpVxbrjw8lJQ=
+
+Name: assets/prometheus/lut-presets/slot_28.png
+SHA-256-Digest: QVT8cQPJnMvlUNMvrCeMjsdkyWpXpoBInkLLDGjau8A=
+
+Name: assets/prometheus/lut-presets/slot_29.png
+SHA-256-Digest: LCSL7HmfOYpOymybX+4jKYrynOHNL0POi8PgNGYgdIc=
+
+Name: assets/prometheus/lut-presets/slot_3.png
+SHA-256-Digest: mfcAs4ua6Y8DKwtykoxnvwgD5/kp4fP8iwcReb5Pcrw=
+
+Name: assets/prometheus/lut-presets/slot_30.png
+SHA-256-Digest: TF7/Czt8qdujzohcRc+rcJGH1hevLwgo2a1sUhEDq78=
+
+Name: assets/prometheus/lut-presets/slot_31.png
+SHA-256-Digest: lKVL24gnecoikVGq50+CE5Z2jalz8BLvZbzkLzD2kJ4=
+
+Name: assets/prometheus/lut-presets/slot_32.png
+SHA-256-Digest: 8syxt0FZtZiawVaf6FAbMLdo9Y18TFGUCmxSuhfR2tc=
+
+Name: assets/prometheus/lut-presets/slot_33.png
+SHA-256-Digest: ZYwRnteNgJyGHuIy6rXvEqrfX/zJj/H787ALMZhHHHo=
+
+Name: assets/prometheus/lut-presets/slot_34.png
+SHA-256-Digest: 7JQeI0DCkvGtEz3T5/ICW0MzvZcJDtRqLRev94Gpf1Q=
+
+Name: assets/prometheus/lut-presets/slot_35.png
+SHA-256-Digest: L19oeSehmNdsWXL/DYfJ3O6au9hO7G+DmTsSeXRbEJU=
+
+Name: assets/prometheus/lut-presets/slot_36.png
+SHA-256-Digest: 2E3TlN5t/cOUXjGgvDBLihxmBvu1QVXj0zVgCrdI2B8=
+
+Name: assets/prometheus/lut-presets/slot_37.png
+SHA-256-Digest: bqZcTYpYZ8lKd8c8EYVj58ic0UD+Mz0wH2uy00PZY20=
+
+Name: assets/prometheus/lut-presets/slot_38.png
+SHA-256-Digest: JBv8H7p4TEqwSkbfS4fwLJJoW6DrtEfsycWLiTY5QDY=
+
+Name: assets/prometheus/lut-presets/slot_39.png
+SHA-256-Digest: rgdb8N5ZpgVf+kjrXNQ15QhgDqOkWxvFU7KbrcL0Hxo=
+
+Name: assets/prometheus/lut-presets/slot_4.png
+SHA-256-Digest: tVNPO9lyiGMd+A7AgB6JJG0/eHmA8Q0kjRIg+3pIbCQ=
+
+Name: assets/prometheus/lut-presets/slot_40.png
+SHA-256-Digest: Q7XoUpeNgN3Ow8thhv/NfIevtN7LvDGWaXCiQWuXKPw=
+
+Name: assets/prometheus/lut-presets/slot_41.png
+SHA-256-Digest: cu7FI/4eS+DCWdXzSJf38fCyzhWiUh0zTyd1d47AL+0=
+
+Name: assets/prometheus/lut-presets/slot_42.png
+SHA-256-Digest: 5V1XgnGvjwqPcGqKXMWSnkjx3CDos4+6tIqcaNcg2FE=
+
+Name: assets/prometheus/lut-presets/slot_5.png
+SHA-256-Digest: l7Q9lmgh1UMt7+0dVmtYYvN7Ayp6AL+7O5VK3SWgqcI=
+
+Name: assets/prometheus/lut-presets/slot_6.png
+SHA-256-Digest: C7nnqDT7Yb7Z3KTjDA9E4IfTTxJUTFQKMPH5MUkTOiU=
+
+Name: assets/prometheus/lut-presets/slot_7.png
+SHA-256-Digest: Y7CvpeXy8OXxk+kUZGLUwgBWI1QTMfPeZtkkvMJg6As=
+
+Name: assets/prometheus/lut-presets/slot_8.png
+SHA-256-Digest: aBccKPGR9wSn8VQbtVouxJz6GstQhcl1jaTz6RRWFxc=
+
+Name: assets/prometheus/lut-presets/slot_9.png
+SHA-256-Digest: qBYh/wjmswVfiMXI88L3hqxY6gGNMOLb0Ef01lMOFuA=
+
+Name: assets/prometheus/watermark-suffix/111/config.json
+SHA-256-Digest: rwE5JckD/9HaQEFzHlVusNgmmdK41DB1EXGCi6b0MPQ=
+
+Name: assets/prometheus/watermark-suffix/111/i18n.json
+SHA-256-Digest: sgX3K7oKdU1MSw4PCZP4e5mHvpSXr08yZymxK3FjjEQ=
+
+Name: assets/prometheus/watermark-suffix/111/icon_background_black.web
+ p
+SHA-256-Digest: CrIPl+7lU6Ht8+fneZ5biESe1+O+3MMXnOPQbXSVQ2k=
+
+Name: assets/prometheus/watermark-suffix/111/leica.webp
+SHA-256-Digest: ooqunA6nJSNkeI+7VCg+qsUJjWAT4AKSw7KZE3B4zxw=
+
+Name: assets/prometheus/watermark-suffix/111/leica_p3.webp
+SHA-256-Digest: wZ9LmiaZJWflc6ys5yDGIZrEUIHHkS64phyaI3Flk3k=
+
+Name: assets/prometheus/watermark-suffix/111/lg1056_regular.otf
+SHA-256-Digest: m7cWCo8Nni5mUZHKgaXJxMUOWc34GhrO/ieoUEphmbc=
+
+Name: assets/prometheus/watermark-suffix/111/meta.json
+SHA-256-Digest: KPIKIYCjk8ijnoQAXlrbrFgHeG5V2jltX9usQoUjYB8=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_1.json
+SHA-256-Digest: UPP3wH8a1J5ghEGmhRrOozlRQ2We4YSZEmH5/tK52BI=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_10.json
+SHA-256-Digest: r0Rl39IRzy07EsnBG2ignQ5n645exeSmborHipRjXpo=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_11.json
+SHA-256-Digest: HJceofhDnsLm/qwgK2myzIodcAW0N+syYaq5EkmbRjY=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_12.json
+SHA-256-Digest: m4YfmN8Bv8w1pL7E/TVDqdEMliFAlaEu7sGyyH8fdPw=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_13.json
+SHA-256-Digest: mHzmHXLyFtULTV8nmG9sJpcfRv77zqckhW0RNOTofaI=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_14.json
+SHA-256-Digest: 6/V+Ivn3WkhrCO/B8CKXuJkruVbao93/FnHQFmyuqpg=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_15.json
+SHA-256-Digest: laA2mqbrGB5v2DGvNJHAMoeyNI1NUePZ/6KNmvpr+sc=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_16.json
+SHA-256-Digest: 8rBHgrpWNTsmGlA3fAW4kjkLrufX/crOklQEY7DQNVU=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_17.json
+SHA-256-Digest: krwGsy9SR2touyv9DtIwBmDffwMud6XFMv7EeaHcVEY=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_18.json
+SHA-256-Digest: miOWQTMm2rNYu0HM11vLHbwLIxwtDkTlk2xbyS6qojM=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_19.json
+SHA-256-Digest: GpDZkvumqNB3eo5NtfK8AZW4wEIpJfmqq0QkaSQgwKs=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_2.json
+SHA-256-Digest: RQdo+6Dr55g4X0bcFJrIKz32WvbF1ht4uxiPRJfh4kk=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_20.json
+SHA-256-Digest: QPjDB9NXeKrIpgTw+2pm3dxcTplc0x9hw68JWv6Z+eU=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_21.json
+SHA-256-Digest: TVt1Q9OHxNkk7nyjOSNr2/Z17v6+3FZWOFOjmE2Uu8A=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_22.json
+SHA-256-Digest: XSzteHTYvHAegkGSBdiFT/U2hBUon1h/GC2K9kVJBt4=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_23.json
+SHA-256-Digest: Kiz5si1wqQO67oOpQhoibNv8xkJb2avHyP10WHK8MY4=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_24.json
+SHA-256-Digest: bhmfotjO72FpR6gew11DUS33MylTCzI4loYvfa01W4k=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_25.json
+SHA-256-Digest: 2Y9KWJ/uwAJu2HSiO4HzcBT3ZkW5vyprLCwtReIZpX4=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_26.json
+SHA-256-Digest: 9mbpY9SbpSJ6DmQ1cDzA6PucyRJCwuGGIT1w3rv3LNQ=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_27.json
+SHA-256-Digest: tBD5faRKr+Rmbdjt3lFUHWc5NYVonY74OjdFtdV0yV8=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_28.json
+SHA-256-Digest: 9yrlpLdtU2Q08amLEt+vtAypR5+4HaG82ivMvaKd4No=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_29.json
+SHA-256-Digest: vruzGrookX2c3qC2QJMveSENRQWTE/8zhprRKpNx3+I=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_3.json
+SHA-256-Digest: 8Pd8CSH0pBZyh+3bqKPQY4p2CZg4f7AogC27BS8gvTc=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_30.json
+SHA-256-Digest: FKhSU4Vl5KecFFrFKeWAcJpzPSPDEck62YtlN8EZZ8k=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_31.json
+SHA-256-Digest: 00pu5GUEnYPYO0a78r6rY+O6ma4SawppB5jIej4wXTE=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_32.json
+SHA-256-Digest: W09zPrL8Yij9p9g3X3CVubpKzxr5RkCU9IV3Cx9KRyc=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_33.json
+SHA-256-Digest: uYBeSDNizWKu43/eEwAXQQeA+ZtnkpsW0QMLWoG57G4=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_34.json
+SHA-256-Digest: ApaX7Tqsty1HE2S/QAzV9aFM+XGDlbHR8x4qOJ5PQ9w=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_35.json
+SHA-256-Digest: tKOCZNt6m99UY1QVVWUn6HLWNVgww+alVunuPQ/LGK4=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_36.json
+SHA-256-Digest: gWqjjAYYral9OwHjZvNuI+uVqBavy18iuw8TzR6CT+c=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_37.json
+SHA-256-Digest: RrvpkTdmbT+XpMkJ7Bl84bOkLAcRs0Q9Nq2aq/58Gzw=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_4.json
+SHA-256-Digest: 5QHXYoHzcY6wMUdbHgcUK7SFJa5dRmmcGmUkbKjgslg=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_5.json
+SHA-256-Digest: 26asPmD+CtDRDcjSDmg3fl8l8Gckw5ZdajkyAJDAcDA=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_6.json
+SHA-256-Digest: 4qFhYa91o6KECl5KtpvtQgLix3ElXx47hDzcO1rVf4I=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_7.json
+SHA-256-Digest: SCHFbSTmL/ciJhcf60ThIO1dAExKfxcsAO/TPuS6JYU=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_8.json
+SHA-256-Digest: ePJujktP436nogwrO1SW/iIPN599uzkxNyRFS27nzec=
+
+Name: assets/prometheus/watermark-suffix/111/mivi_9.json
+SHA-256-Digest: 9Ef+hjyP9UqMVyXo4Nocs8EBMhsdqlomRIMyFYwI2Y4=
+
+Name: assets/prometheus/watermark-suffix/111/userData/current/userConf
+ ig.json
+SHA-256-Digest: 5SpJvnWzeLJa/97JOBMqN++jhB43ZkgSYZYyYuXkTpI=
+
+Name: assets/prometheus/watermark-suffix/111/xiaomi_E6A54F.webp
+SHA-256-Digest: V87foHeY+tujmMfca3+SgLb550iEDL3Z3X213Cc0FaM=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_1f000
+ 000.webp
+SHA-256-Digest: w9qZjQaGuMtI3/9Nmr7F26AdSGx1yV55awYoo4YHEcg=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_1ffff
+ fff.webp
+SHA-256-Digest: H6gdUNYgPCm+YV9pRLXp0fu7zeP3LuqrZuDkDM6MmM4=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_33000
+ 000.webp
+SHA-256-Digest: IoRf4xKOIQsjTN1udD82Q9qDjJxmBUhZzEpFzx/jSqc=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_33fff
+ fff.webp
+SHA-256-Digest: /2a6AAf67KjTN5nXyP6KR8l5cRx67pzpHXOLy30BHuc=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_4d000
+ 000.webp
+SHA-256-Digest: V+LO7xq1YEZrbvGJPcJNmsEPZm+LUKuP64R0QDjw46s=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_4dfff
+ fff.webp
+SHA-256-Digest: bGhK2N5H7VTaruQXjMXrgK6X0AUWrQ3QyvQZWzndwkY=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_74380
+ b.webp
+SHA-256-Digest: Xs9cwwMkI+dnz1FK8EH5cMOi88Duu2VSq5Xl/8oEUEo=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_80000
+ 000.webp
+SHA-256-Digest: ed6TEGJDC+0zv8KQR4eUSWG8Rs5wFOxvZlaoClwOQw4=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_80fff
+ fff.webp
+SHA-256-Digest: lUTPs7Sd9a5WLFXkShE85IF27FjyFEwImvrZ2ofxJ3k=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_b2fff
+ fff.webp
+SHA-256-Digest: HxufyYf1HbHTrp2Y0fJyT0iXXEZmwjVw+tYEm3OXr54=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_b66e1
+ 8.webp
+SHA-256-Digest: 1wXeD7te/A9a4KJrKEuFFzLteOd+p6vrOZkWE3fsuTI=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_bf000
+ 000.webp
+SHA-256-Digest: j7dC2S/PQ0/E7tkFSN2DDpM5LZ2Nzf4iMdQq9OUhjC8=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_bfce9
+ 238.webp
+SHA-256-Digest: /YH1fNUvMimxNWdjy+B679PNP3pTk7qqIA8KAIDnRmg=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_bff4c
+ a32.webp
+SHA-256-Digest: GilRD5hOIDq6YJ2/mG0Xsmm0ewSB/b65XAXEqAsywAc=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_bffff
+ fff.webp
+SHA-256-Digest: 2VTa+hrNAiP2Tob1utY2UxX4R0YrMIS9KpeK/qwMQYk=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_black
+ .webp
+SHA-256-Digest: cC1lw/bNmZR0z8DtGsn9i2y+0VT2cypaYKcpttE2lug=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_black
+ _shadow.webp
+SHA-256-Digest: fjCviaMAHXulq9E6w38dpSybwwNYJgvMDeGP6ZSoCh0=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_cc000
+ 000.webp
+SHA-256-Digest: cyXuqQKXvcLLqk6Hhxfuu9O6hEFJzPtaB3pUx3+yIBE=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ccfff
+ fff.webp
+SHA-256-Digest: va3eq6CdOcKqJmvH+BHVPOx3TzI+LCVt1wpQwBUnqGI=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ccfff
+ fff_shadow.webp
+SHA-256-Digest: wZJ+HZgzzlsVF4QY/qR1z78xFcJP3IEdejlNQQlNW+0=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ce923
+ 8.webp
+SHA-256-Digest: DDl8fqz975/zPszWWvxNxilgzv1XffSGrehfyq9nrH0=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_de101
+ 0.webp
+SHA-256-Digest: moTdty2s20xNEm4Mhe4oQrmTSIxEENXf15oD6jCaoa0=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_e2433
+ b.webp
+SHA-256-Digest: qeqZqgwDHvRt4V5gzpH++QLq3bJYm/z9B51VjidJC40=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_e6a54
+ f.webp
+SHA-256-Digest: 2Dln/aAmVs3F+BrXGN8K+HDEqsU/YXXoJ/6UGKYawJc=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_f4ca3
+ 2.webp
+SHA-256-Digest: 5HbeDOSQ3MIaSKRYFAL4QvTXwBTmpgFtIBlOAWn5V0w=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_f6c56
+ 6.webp
+SHA-256-Digest: qBaYIyY46oRL6BGuZCyRtnnze1eukAW3wYx6iMvT6A0=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff000
+ 000.webp
+SHA-256-Digest: KLMskrfqmMEQnmhEksnF+h9JeuU37usaA6iXC7pbTQg=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff121
+ 212.webp
+SHA-256-Digest: IaVEezNxusHYmtVoFdgMnFPjdKDdNGoJ4/BKe6zgFxc=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ff141
+ 414.webp
+SHA-256-Digest: se85lvYSi3IOj8Fo/h9e4NTCMzKzZkq5lgifp1N12ck=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe09
+ 9.webp
+SHA-256-Digest: dajPaqacP28UeALbIafKINrS6PbrGfhOXq7QCdg3+IE=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe20
+ 612.webp
+SHA-256-Digest: 1HQttZsoc59K9xa3lAHjgsmcHpbQGXmV50mq9PIwAL0=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_ffe6a
+ 54f.webp
+SHA-256-Digest: zD9TrQ5A3AJZdj6Hvx0V7VyHru0zjajnz+b8TQCfZGU=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_fff38
+ 3.webp
+SHA-256-Digest: HTZj7JOpPwezsDVcUdigaj2xT+kK4nzOCeciWG1oGXk=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_fffff
+ fff.webp
+SHA-256-Digest: ZoGuzT8QroOFDEY/bRYAJWJ4kADm8buDBkuZ+8xuEJk=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_white
+ .webp
+SHA-256-Digest: Pr3iVYNL5ExQXIqAwHuVZAFyfb3CSd2HahMgR+OZQ34=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_white
+ _shadow.webp
+SHA-256-Digest: MjG5VMmALKus5gAuL5b8tg7r3caxLbEDZmLrZpq/78w=
+
+Name: assets/prometheus/watermark-suffix/prometheus_leica_suffix_yello
+ w.webp
+SHA-256-Digest: 2Gqxl0/8t+2DcWHYIWrOvx+zpPP/70oFS0V8xC3K+Qk=
+
+Name: assets/video_quality.dex
+SHA-256-Digest: wAMNEhGU1DlRfoOhykrEmMsSYSe7IOf0Gbd2LaHBBzc=
+
+Name: assets/xposed_init
+SHA-256-Digest: yN5vGnWe9o9zWiiz6wF7HB2Q4z3aXlN2STjN5QBcfwA=
+
+Name: classes.dex
+SHA-256-Digest: raYQ/rKTpb/rHrPoNp+zWnZJKgb7tn2bHNvPX47g2p8=
+
+Name: classes10.dex
+SHA-256-Digest: BvMRtTWXAmEzW6DQGJQVVk0kFfcVPEVx1SnEFeOYS4w=
+
+Name: classes11.dex
+SHA-256-Digest: +V2hZKppTSQPbyVDlb/JsEaF8q7aiobPJi1DN9lo4xE=
+
+Name: classes2.dex
+SHA-256-Digest: p4K6lAVFBu/wlb4b/ppKLHmcF28u8cFAWHA8JIQzuz0=
+
+Name: classes3.dex
+SHA-256-Digest: wrRz690RwPZKyGloPW8oSQd2E6K4D07cOttKIQsYGUQ=
+
+Name: classes4.dex
+SHA-256-Digest: bj3qWptbnfkWHQvm4yrgQd1d5rhY9jUFQbVekt4nGuo=
+
+Name: classes5.dex
+SHA-256-Digest: bPRvHfF4IkVbge89aE/xyhA336Pouitk4WpPbuExFNg=
+
+Name: classes6.dex
+SHA-256-Digest: W4ZewmPt3DshY7OUc6ef4fCTY3NBnyfonaqeO3J2pgU=
+
+Name: classes7.dex
+SHA-256-Digest: yQW2xHxOb4JSQKqHYqhPL22fI0Q4S8XXplIfltqWUDo=
+
+Name: classes8.dex
+SHA-256-Digest: A1bLfCRKFoImqMEFcZouNCmlvg+CwP4yLh7qiMGQEQ4=
+
+Name: classes9.dex
+SHA-256-Digest: k272ukJBHNQvghMe4H1KrMxzoSCBPqSWjWl/KwAMpNY=
+
+Name: resources.arsc
+SHA-256-Digest: WI7ra9otg9dpCR3VQ1+hGvOUf/iB0oxzAf1HWkM8CU4=
+

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA-256-Digest: yU8Fw2xyc/vDCa+yLJ0zw3wxr4yMrbC6P3TPzZydjLw=
+
+Name: assets/phoenix_m3/leica_filter_param_m3.bin
+SHA-256-Digest: bpIX7oxZhyo9cAYUaBwwdC3wHZvJtEt/KhcO6qtoBSs=
+
+Name: assets/xposed_init
+SHA-256-Digest: gb6fTrbRMBw1eswFdu1jCnzcfO27cqBUMY1WwTkrNsU=
+
+Name: classes.dex
+SHA-256-Digest: 72S6pSNVyL+BAMoVqHcHJ4MeWNEIIZqlotqys36LKSg=
+
+Name: resources.arsc
+SHA-256-Digest: qtTCTuiCBxcAvRJR+sneitONxMEXp3SV2YMaWenRzTM=
+

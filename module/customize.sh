@@ -1,9 +1,9 @@
 #!/system/bin/sh
 
-VERSION="Phoenix-1.3.0"
+VERSION="Phoenix-1.3.0-M3-r17"
 LSP_PACKAGE="com.prometheus.camera.rev"
 CAMERA_PACKAGE="com.android.camera"
-LSP_APK="$MODPATH/Phoenix_LSP_Phoenix-1.3.0.apk"
+LSP_APK="$MODPATH/Phoenix_LSP_AllInOne-1.3.0.apk"
 CAMERA_APK="$MODPATH/Phoenix_Camera_Phoenix-1.3.0.apk"
 AUDIT="$MODPATH/install-audit.log"
 
@@ -180,6 +180,15 @@ ui_print "- 环境检查｜相册编辑器依赖｜通过"
 [ -f "$CAMERA_APK" ] || fail "缺少相机 APK"
 ui_print "- 安装输入｜LSP 与相机 APK 均已找到"
 
+stage "合并旧 M3 模块"
+if [ -d /data/adb/modules/phoenix_m3 ]; then
+  touch /data/adb/modules/phoenix_m3/remove 2>/dev/null \
+    || ui_print "  · 警告：无法标记旧 phoenix_m3，请重启后手动删除"
+  ui_print "  · 已标记旧 phoenix_m3，重启后自动移除"
+else
+  ui_print "  · 未发现旧 phoenix_m3"
+fi
+
 stage "安装 Prometheus LSP"
 install_apk "$LSP_PACKAGE" "$LSP_APK"
 LSP_PATH="$(pm path "$LSP_PACKAGE" 2>/dev/null | sed -n 's/^package://p' | head -n 1)"
@@ -227,6 +236,13 @@ set_perm "$MODPATH/sync-local-watermarks.sh" 0 0 0755
 set_perm "$MODPATH/install-self-check.sh" 0 0 0755
 set_perm "$MODPATH/verify-mount-owner.sh" 0 0 0755
 set_perm "$MODPATH/sync-by-leica-assets.sh" 0 0 0755
+set_perm "$MODPATH/post-fs-data-camera.sh" 0 0 0755
+set_perm "$MODPATH/service-camera.sh" 0 0 0755
+set_perm "$MODPATH/post-fs-data-m3.sh" 0 0 0755
+set_perm "$MODPATH/service-m3.sh" 0 0 0755
+set_perm "$MODPATH/refresh-gallery-cache.sh" 0 0 0755
+set_perm "$MODPATH/bin/m3_aux_relay" 0 0 0755
+rm -f "$MODPATH/.gallery-cache-refreshed"
 set_perm_recursive "$MODPATH/payload" 0 0 0755 0644
 
 stage "停止相机与相册编辑器，准备写入文件"

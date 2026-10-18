@@ -5,6 +5,19 @@
 
 > **二改署名：槐蔭區2改**　｜　上游：`benbaobaoshigemi/Prometheus-Camera`（GPL-3.0-only）
 
+## 2026-10-18 最新版
+
+当前推荐直接使用二合一 Magisk 模块，不再需要分别刷相机模块和 M3 模块：
+
+| 文件 | 说明 |
+| --- | --- |
+| `成品/Phoenix_15Pro_Camera_M3_AllInOne-1.3.0.zip` | 相机 + 徕卡一瞬 M3 二合一 Magisk 模块，内含相机 APK 与 AllInOne LSP |
+| `成品/Phoenix_LSP_AllInOne-1.3.0-槐蔭區2改.apk` | 主 LSP + M3 + NaturalTuning 三合一 LSPosed 模块 |
+| `成品/PhoenixAddon-NaturalTuning-15Pro-V1.4.0-槐蔭區2改.apk` | 15 Pro 版 NaturalTuning 附加件 |
+| `成品/源码-PhoenixAddon-NaturalTuning-15Pro-V1.4.0-槐蔭區2改.zip` | NaturalTuning 源码归档 |
+
+二合一模块刷入后，旧的 `phoenix_m3` 会自动标记移除；重启后 Magisk 中只保留 `phoenix_camera_15pro`。
+
 ## 一、适配对象与前置条件
 
 | 项 | 要求 |
@@ -16,22 +29,28 @@
 
 ## 二、成品（`成品/`）
 
+### 最新二合一方案
+
 | 文件 | 大小 (B) | 说明 |
 | --- | --- | --- |
-| `Phoenix_Camera_Phoenix-1.3.0.apk` | 222,392,852 | 相机本体（versionCode `760010300`），覆盖安装 |
-| `Phoenix_LSP_Phoenix-1.3.0.apk` | 13,037,169 | LSPosed 模块（versionCode `2010300`） |
-| `Phoenix_Phoenix-1.3.0_AllInOne.zip` | 212,110,975 | Magisk 模块（内含上面两个 APK + ODM 资产 + 模块脚本） |
-| `PhoenixAddon-LegendM3-V2.0.0-15Pro-Module-r17-final.zip` | 15,569,626 | 「徕卡一瞬 M3」Magisk 模块（附加件） |
-| `PhoenixAddon-LegendM3-V1.0.0-LSP.apk` | 61,984 | 「徕卡一瞬 M3」LSPosed 模块（附加件） |
+| `Phoenix_15Pro_Camera_M3_AllInOne-1.3.0.zip` | 227,802,709 | 相机 + M3 二合一 Magisk 模块（推荐） |
+| `Phoenix_LSP_AllInOne-1.3.0-槐蔭區2改.apk` | 13,205,469 | 主 LSP + M3 + NaturalTuning 三合一 |
+| `PhoenixAddon-NaturalTuning-15Pro-V1.4.0-槐蔭區2改.apk` | 98,872 | 15 Pro 版 NaturalTuning |
+| `源码-PhoenixAddon-NaturalTuning-15Pro-V1.4.0-槐蔭區2改.zip` | 57,327 | NaturalTuning 源码归档 |
+| `Phoenix_Camera_Phoenix-1.3.0.apk` | 222,392,852 | 相机单体，与二合一模块内 APK 同源，供核心破解直接覆盖安装 |
 
-完整 SHA-256 见 `成品/SHA256校验清单.md`。大文件以 **Git LFS** 存放。
+旧版 `Phoenix_LSP_Phoenix-1.3.0.apk`、`Phoenix_Phoenix-1.3.0_AllInOne.zip`、
+`PhoenixAddon-LegendM3-V2.0.0-15Pro-Module-r17-final.zip` 与
+`PhoenixAddon-LegendM3-V1.0.0-LSP.apk` 已在 2026-10-18 清理，不再提供。
 
-## 三、安装顺序
+完整 SHA-256 见 `成品/SHA256-20261018.txt`。大文件以 **Git LFS** 存放。
 
-1. Magisk 刷 `Phoenix_Phoenix-1.3.0_AllInOne.zip` → 重启。
-2. 安装 `Phoenix_Camera_Phoenix-1.3.0.apk`（覆盖安装，一般无需清数据）。
-3. LSPosed 安装 `Phoenix_LSP_Phoenix-1.3.0.apk`，作用域勾 `com.android.camera` / `com.miui.mediaeditor` / `system`，重启。
-4. 需要「徕卡一瞬」时，再刷 `PhoenixAddon-LegendM3-V2.0.0-15Pro-Module-r17-final.zip` 并安装 `PhoenixAddon-LegendM3-V1.0.0-LSP.apk`。
+## 三、安装顺序（最新版）
+
+1. Magisk 刷 `成品/Phoenix_15Pro_Camera_M3_AllInOne-1.3.0.zip`。
+2. 直接重启；模块会自动安装相机 APK 和 AllInOne LSP。
+3. 重启后 LSPosed 会自动勾选作用域，不需要再单独安装相机或 LSP。
+4. 如果设备上还有 `phoenix_m3`，本模块刷入时会自动标记移除。
 
 ## 四、本二改相对上游做了什么
 
@@ -54,9 +73,10 @@
 ```
 camera/patch/    相机 APK 的外挂补丁（1131 个文件，含 patch.json）
 lsp/             LSPosed 模块源码（smali + AndroidManifest.xml + assets）
-module/          Magisk 模块（module.prop / customize.sh / 资产）
+lsp-allinone/    三合一 LSP 的合并脚本、清单和解包源码
+module/          Magisk 二合一模块（module.prop / 脚本 / 相机与 M3 资产）
 tools/           构建脚本（build_phoenix.py 等）
-addons/          上游附加件（LegendM3 / AUTHVignette）
+addons/          LegendM3、NaturalTuning、AUTHVignette 源码
 文档/            适配与修复报告
 成品/            预编译产物
 ```

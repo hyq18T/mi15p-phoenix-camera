@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA-256-Digest-Manifest: /ePCTEQ0b1KxoCTzeY2bGWCr1CqNhGqr/8QQKd4JO1s=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 4DqwECipTzhUkhast0WAqkuWjgG2HcsYB+ttBM/4RdI=
+
+Name: assets/prometheus/natural-15pro/lut_cvstyle_natural.png
+SHA-256-Digest: yrlZfcWzhhn+gQxHtKhxcU24GjB0mCtB3b8pdXLEE+0=
+
+Name: assets/xposed_init
+SHA-256-Digest: MpFESEP1CXrCLbEVNlSsPNMxBRPaWE8ofucmsvhzosk=
+
+Name: classes.dex
+SHA-256-Digest: evpm34NkT7woRt2I9E9iLM3uF+WG+E5wseY1qt+J/0g=
+
+Name: resources.arsc
+SHA-256-Digest: mjaIIJhEmkkSLceLTEGmb7oKZS/SCnvwP1ED8VdJRh0=
+

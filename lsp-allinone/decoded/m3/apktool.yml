@@ -1,0 +1,16 @@
+version: 2.12.1
+apkFileName: m3.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 31
+  targetSdkVersion: 35
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 2011000
+  versionName: PhoenixAddon-LegendM3-V1.0.0
+doNotCompress:
+- arsc
+- dex

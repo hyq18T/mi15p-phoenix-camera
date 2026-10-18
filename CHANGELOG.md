@@ -1,8 +1,13 @@
 # Phoenix 1.3.0
 
+- 新增小米 15 Pro 相机 + 徕卡一瞬 M3 二合一 Magisk 模块。
+- 新增主 LSP + M3 + NaturalTuning 三合一 LSPosed 模块。
+- 新增 NaturalTuning v1.4.0 的 15 Pro 适配源码与成品。
+- 二合一模块内置相机 APK 与 AllInOne LSP，刷入后旧 `phoenix_m3` 自动移除。
 - 合并已验收的徕卡经典/生动入口与专业视频滤镜注入修复。
 - 纳入电影画幅、滤镜快门抽动和备份/恢复适配。
 - Camera、LSP、模块版本统一为 1.3.0；同步可重建源码包。
+- 清理旧 M3 单独模块、旧 M3 LSP、旧主 LSP 与旧 AllInOne 成品，成品目录只保留最新交付。
 
 以下为历史 1.1.0 记录。
 

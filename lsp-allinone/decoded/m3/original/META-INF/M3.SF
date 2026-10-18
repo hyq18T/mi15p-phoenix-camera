@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA-256-Digest-Manifest: DKnxBTs+SwN1qJIVOweqmGM0gMfck03hWtxKTdsDv9g=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA-256-Digest: 2zFTV3Ju00FI8UbYQA9ry/W1rULAyOnGLnq0K110M0w=
+
+Name: assets/phoenix_m3/leica_filter_param_m3.bin
+SHA-256-Digest: PjUCCoXo8/IN5Srsh0RrXRBOLzysyGl8/zpQKzIpczI=
+
+Name: assets/xposed_init
+SHA-256-Digest: uXElh3t1Mg6ARvMYYf77GxE0ZIsgK+6/VHn1BFpUs2o=
+
+Name: classes.dex
+SHA-256-Digest: mctvpdO1X9AI6oSP3Y1OfmOIkSPUy9XwJ2eXalKR3wY=
+
+Name: resources.arsc
+SHA-256-Digest: Y0xbUxAmp9tie54EwC/4zkyn7bbqkc7zAr5lU8+6hwE=
+

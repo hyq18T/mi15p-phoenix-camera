@@ -1,0 +1,52 @@
+{
+  "name": "PhoenixAddon-NaturalTuning-15Pro",
+  "mapping": "out = 18PM_natural(15Pro_vivid_inverse(input)); luma-preserving saturation trim",
+  "lut_size": 64,
+  "lut_png": "D:\\GPT\\2026-09-27_小米15Pro_Phoenix相机适配\\03_输出\\NaturalTuning-15Pro-V1.4.0-20261018\\lut\\lut_cvstyle_natural.png",
+  "vivid_curve": {
+    "source": "D:\\GPT\\2026-09-27_小米15Pro_Phoenix相机适配\\03_输出\\NaturalTuning-15Pro-V1.4.0-20261018\\lut\\15pro_vivid_gamma_57633.json",
+    "region": "gamma152_ipe_v2",
+    "sid": 57633
+  },
+  "natural_curve": {
+    "source": "D:\\GPT\\2026-09-27_小米15Pro_Phoenix相机适配\\02_数据\\NaturalTuning_V1.4.0\\natural_curve_18pm.json",
+    "points": 257
+  },
+  "vivid_probe": {
+    "x0.0625": 0.220919,
+    "x0.125": 0.369501,
+    "x0.25": 0.577713,
+    "x0.5": 0.793744,
+    "x0.75": 0.916911
+  },
+  "natural_probe": {
+    "x0.0625": 0.206256,
+    "x0.125": 0.331378,
+    "x0.25": 0.489736,
+    "x0.5": 0.70479,
+    "x0.75": 0.869013
+  },
+  "saturation_trim": 0.97,
+  "probe": {
+    "in_0.10": {
+      "vivid_out": 0.02534,
+      "natural_out": 0.09268
+    },
+    "in_0.25": {
+      "vivid_out": 0.07235,
+      "natural_out": 0.22994
+    },
+    "in_0.50": {
+      "vivid_out": 0.19782,
+      "natural_out": 0.42738
+    },
+    "in_0.75": {
+      "vivid_out": 0.43392,
+      "natural_out": 0.65518
+    },
+    "in_0.90": {
+      "vivid_out": 0.70449,
+      "natural_out": 0.8433
+    }
+  }
+}

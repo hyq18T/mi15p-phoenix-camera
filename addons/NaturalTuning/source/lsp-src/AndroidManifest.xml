@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prometheus.camera.natural15pro">
+    <uses-sdk android:minSdkVersion="31" android:targetSdkVersion="35" />
+    <application
+        android:label="PhoenixAddon-NaturalTuning-15Pro-槐蔭區2改"
+        android:allowBackup="false"
+        android:hasCode="true"
+        android:extractNativeLibs="false">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="PhoenixAddon-NaturalTuning 15Pro：仅将徕卡生动的 MIVI 后处理替换为 18PM 原色 LUT（槐蔭區2改）" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+        <meta-data android:name="xposedscope" android:resource="@array/xposed_scope" />
+    </application>
+</manifest>
