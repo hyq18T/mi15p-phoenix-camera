@@ -1,116 +1,77 @@
 # Phoenix Camera · 小米 15 Pro 二改（槐蔭區2改）
 
-把上游 [Prometheus-Camera / Phoenix](https://github.com/benbaobaoshigemi/Prometheus-Camera) 的 **Phoenix 1.3.0**
-移植到 **小米 15 Pro（代号 `haotian` / `2410DPN6CC`）**，并在此基础上修复实机遇到的若干问题。
+把上游 [Prometheus-Camera / Phoenix](https://github.com/benbaobaoshigemi/Prometheus-Camera) 的 Phoenix 1.3.0 适配到小米 15 Pro（`haotian` / `2410DPN6CC`），并保留已验证的相机、徕卡一瞬 M3、NaturalTuning 与相册编辑器扩展。
 
-> **二改署名：槐蔭區2改**　｜　上游：`benbaobaoshigemi/Prometheus-Camera`（GPL-3.0-only）
+> 二改署名：槐蔭區2改　｜　上游：`benbaobaoshigemi/Prometheus-Camera`（GPL-3.0-only）
 
-## 2026-10-18 最新版
+## 当前推荐版本
 
-当前推荐直接使用二合一 Magisk 模块，不再需要分别刷相机模块和 M3 模块：
+当前推荐使用 2026-10-30 的 MEditor210 整合版：
 
-| 文件 | 说明 |
+| 文件 | 用途 |
 | --- | --- |
-| `成品/Phoenix_15Pro_Camera_M3_AllInOne-1.3.0.zip` | 相机 + 徕卡一瞬 M3 二合一 Magisk 模块，内含相机 APK 与 AllInOne LSP |
-| `成品/Phoenix_LSP_AllInOne-1.3.0-槐蔭區2改.apk` | 主 LSP + M3 + NaturalTuning 三合一 LSPosed 模块 |
-| `成品/PhoenixAddon-NaturalTuning-15Pro-V1.4.0-槐蔭區2改.apk` | 15 Pro 版 NaturalTuning 附加件 |
-| `成品/源码-PhoenixAddon-NaturalTuning-15Pro-V1.4.0-槐蔭區2改.zip` | NaturalTuning 源码归档 |
+| `成品/Phoenix_15Pro_Camera_M3_MEditor210_AllInOne-1.3.0.zip` | 推荐 Magisk 整合包，包含相机、相册编辑器 2.10.43.0.8、三合一 LSP 与 M3/ODM 资产 |
+| `成品/Phoenix_LSP_AllInOne-MEditor210-1.3.0-15Pro.apk` | 独立三合一 LSPosed 模块，versionCode `2010503` |
+| `成品/MediaEditor_2.10.43.0.8.apk` | 官方相册编辑器，versionCode `210994308` |
+| `成品/Phoenix_15Pro_MEditor210_Source.zip` | 本轮源码归档，不含签名私钥 |
 
-二合一模块刷入后，旧的 `phoenix_m3` 会自动标记移除；重启后 Magisk 中只保留 `phoenix_camera_15pro`。
+正常使用只刷整合包即可；它已经包含相机、相册编辑器、三合一 LSP 和 M3/ODM 资产。只有需要单独回退或调试时，才使用独立 APK。
 
-## 一、适配对象与前置条件
+## 已验证功能
 
-| 项 | 要求 |
-| --- | --- |
-| 机型 | 小米 15 Pro（`haotian`），澎湃 OS |
-| 相机底包 | 官方相机 **6.6.000510.0**（SHA-256 `6bf98a86a8e6090b86cf41cb178ef44512171503d3edb685e2564954af47b662`）——上游仅支持该版本 |
-| 必需环境 | ROOT + LSPosed + 核心破解，三者缺一不可 |
-| 相册编辑器 | `com.miui.mediaeditor` 建议 `2.4.0.4.3`（本机实测 `2.4.0.5.2` 上滤镜投射链路失效） |
+- 42 个 Phoenix 滤镜预设及正确名称。
+- 滤镜调色盘的饱和度、影调调整与保存出图。
+- AI 超清实际处理与保存出图。
+- 徕卡一瞬 M3 预览与实拍。
+- 15 Pro 相机的 EV、夜景经典风格、实况运镜和超清实况修复。
 
-## 二、成品（`成品/`）
+其他云端 AI 入口已开放，但实际出图仍取决于账号、网络、资源下载和服务端状态，未逐项验收。
 
-### 最新二合一方案
+## 安装要求
 
-| 文件 | 大小 (B) | 说明 |
-| --- | --- | --- |
-| `Phoenix_15Pro_Camera_M3_AllInOne-1.3.0.zip` | 227,802,709 | 相机 + M3 二合一 Magisk 模块（推荐） |
-| `Phoenix_LSP_AllInOne-1.3.0-槐蔭區2改.apk` | 13,205,469 | 主 LSP + M3 + NaturalTuning 三合一 |
-| `PhoenixAddon-NaturalTuning-15Pro-V1.4.0-槐蔭區2改.apk` | 98,872 | 15 Pro 版 NaturalTuning |
-| `源码-PhoenixAddon-NaturalTuning-15Pro-V1.4.0-槐蔭區2改.zip` | 57,327 | NaturalTuning 源码归档 |
-| `Phoenix_Camera_Phoenix-1.3.0.apk` | 222,392,852 | 相机单体，与二合一模块内 APK 同源，供核心破解直接覆盖安装 |
+- 小米 15 Pro（`haotian`），ROOT、Magisk、LSPosed 和核心破解环境。
+- 相机功能基于项目已验证的官方相机底包 `6.6.000510.0`。
+- 不要清除相机或相册编辑器数据；整合包采用覆盖升级。
+- 如果手机已有更高版本相册编辑器，整合包不会强制降级。
 
-旧版 `Phoenix_LSP_Phoenix-1.3.0.apk`、`Phoenix_Phoenix-1.3.0_AllInOne.zip`、
-`PhoenixAddon-LegendM3-V2.0.0-15Pro-Module-r17-final.zip` 与
-`PhoenixAddon-LegendM3-V1.0.0-LSP.apk` 已在 2026-10-18 清理，不再提供。
+## 安装方式
 
-完整 SHA-256 见 `成品/SHA256-20261018.txt`。大文件以 **Git LFS** 存放。
+1. 在 Magisk 中刷入 `成品/Phoenix_15Pro_Camera_M3_MEditor210_AllInOne-1.3.0.zip`。
+2. 重启手机并解锁一次。
+3. 确认 LSPosed 保持启用；整合包会自动安装相机、编辑器和三合一 LSP。
 
-## 三、安装顺序（最新版）
+不需要另外刷旧版相机模块、旧版 M3 模块或旧版 NaturalTuning APK。旧成品已从本仓库移除，避免误刷降级。
 
-1. Magisk 刷 `成品/Phoenix_15Pro_Camera_M3_AllInOne-1.3.0.zip`。
-2. 直接重启；模块会自动安装相机 APK 和 AllInOne LSP。
-3. 重启后 LSPosed 会自动勾选作用域，不需要再单独安装相机或 LSP。
-4. 如果设备上还有 `phoenix_m3`，本模块刷入时会自动标记移除。
+## 本二改包含的主要适配
 
-## 四、本二改相对上游做了什么
+- 机型标识、模块名称和水印资产改为小米 15 Pro。
+- 修复 `/odm` 资产挂载、夜景徕卡经典出绿、超清/夜景/人像 EV 入口。
+- 修复实况运镜的 EIS、片尾回程和 5x 物理切镜头问题。
+- 补齐超清实况与徕卡一瞬的档位资产；红毯预设因 15 Pro HAL 缺少 `enableMasterLivePhoto`，当前按兼容策略移除。
+- 将相册编辑器更新到 2.10.43.0.8，加入 Phoenix 滤镜、调色盘、AI 超清和相关检测接口。
 
-| 项 | 说明 | 落点 |
-| --- | --- | --- |
-| 机型标识 15 Pro 化 | 水印 / 机型 / 模块名由 14 Ultra 改为 15 Pro | `camera/patch`、`module/module.prop` |
-| `/odm` 挂载永久修复 | 改为真复制 + 目录级 bind，消除 0 字节占位 | `module/` |
-| 夜景 · 徕卡经典出绿 | 保留经典风格前提下修正常生效 | `camera/patch` |
-| 超清 / 夜景 EV 面板空白 | EV 刻度恢复可调 | `lsp/` |
-| 人像模式 EV 面板 | 扩展 DEVCFG 白名单 + 插入 EV 入口 | `lsp/`（`CameraV51Bridge$71` / `$72`） |
-| 实况运镜 · 红毯卡死 | 15 Pro HAL 缺 `enableMasterLivePhoto`，摘除红毯预设 | `camera/patch/smali/v2.1/d0.1.smali` |
-| 实况运镜内嵌视频 EIS 回归 | 恢复全幅 | `lsp/` |
-| 实况运镜片尾回程 | 回程不再闪回最小倍率 | `lsp/` |
-| 超清实况子档 + 广角 | 档位补齐 `1.0 / 1.2 / 1.5 / 2.0 / 5.0 / 10.0 / 20` | `camera/patch` |
-| 莱卡一瞬 M3 档位子档 | 机型子档位表补 `0x100` | `camera/patch` |
-| 自由运镜跨 5x 物理切镜头 | 去程区间 `4.2 → 8.4` 改为 `5.0 → 8.4` | `lsp/`（`PhoenixMasterLiveTailBridge$7`） |
+## 源码目录
 
-## 五、源码结构
-
-```
-camera/patch/    相机 APK 的外挂补丁（1131 个文件，含 patch.json）
-lsp/             LSPosed 模块源码（smali + AndroidManifest.xml + assets）
-lsp-allinone/    三合一 LSP 的合并脚本、清单和解包源码
-module/          Magisk 二合一模块（module.prop / 脚本 / 相机与 M3 资产）
-tools/           构建脚本（build_phoenix.py 等）
-addons/          LegendM3、NaturalTuning、AUTHVignette 源码
-文档/            适配与修复报告
-成品/            预编译产物
+```text
+camera/                 相机 APK 外挂补丁
+lsp/                    原三合一 LSP 源码
+lsp-allinone/           LSP 合并脚本与解包源码
+module/                 Magisk 模块源码和资产
+addons/                 M3、NaturalTuning 等附加源码
+tools/                  原项目构建工具
+源码/meditor210_update/ 相册 2.10 更新的最终合并源码与重建脚本
+文档/                   适配、验证和回退说明
+成品/                   当前交付文件
 ```
 
-## 六、构建
+源码归档不包含官方底包、签名私钥或 `allinone.keystore`。重建 MEditor210 版本需要 JDK、Python、Apktool 2.12.1、Android Build-Tools 35.0.0，以及项目内既有回退输入。
 
-需要 Python 3.11+、JDK 17+、Android SDK Build-Tools 35.0.0、**apktool 2.12.1**（自行下载放入 `tools/vendor/`）、
-以及官方相机底包 6.6.000510.0。
+## 已知限制
 
-```bash
-python tools/build_phoenix.py --mode all \
-  --camera-apk /path/to/6.6.000510.0.apk \
-  --android-sdk /path/to/android-sdk \
-  --apktool tools/vendor/apktool_2.12.1.jar
-```
+- 红毯运镜入口因 15 Pro HAL 硬缺 `enableMasterLivePhoto` 暂不恢复。
+- 17U 到 15 Pro 的 DRC 全链字段映射尚未收敛，本仓库没有把未验证的整链移植标成已完成。
+- 云端 AI 和各种水印模板未逐项做长时间日常测试。
 
-注意：**构建路径必须是纯 ASCII**（apktool 内置 aapt2 无法处理中文路径）。
+## 许可证与免责声明
 
-## 七、署名
-
-本次为**二改**，署名 **槐蔭區2改**，已写入：
-
-- `module/module.prop`：`name=Phoenix Camera - Xiaomi 15 Pro（槐蔭區2改）`、`author=Prometheus Port / 槐蔭區2改`
-- `module/customize.sh`：刷入横幅追加 `二改：槐蔭區2改`
-- `lsp/AndroidManifest.xml`：`android:label="Prometheus Camera Bridge · 槐蔭區2改"`，`xposeddescription` 追加适配与署名
-
-## 八、免责声明
-
-仅供个人学习与自用。刷机有风险，请自行备份数据并确认可回退到原厂相机。
-上游授权 **GPL-3.0-only**；第三方资产（滤镜 / 水印 / 字体等）版权归各自权利人，详见 `third-party.json`。
-
-## 九、已知未完成
-
-- ~~主角运镜片尾 `t≈1.73s` 有一次缩放台阶~~ → **2026-10-09 复测判定不成立**（VFR→CFR 重采样 + 动画起点边界帧造成的假象）；真实现象只有一处 0.324 s 帧空洞，落在静止预录段，观感不可辨。见 `文档/实况运镜台阶-复测与根因-20261009.md`。
-- 「徕卡一瞬」入口：点 1x/10x 时档位标签不切成 35mm/480mm；第三方「装了三件套看不到 M3 入口」待干净重装复核。
-- 红毯运镜入口：HAL 缺 vendor tag `enableMasterLivePhoto`（硬缺，当前策略是摘除预设）。
-- 17U ↔ 15 Pro 字段映射（`asf352` / `ltm203`）未收敛，Legend M3 的 DRC / 整链 19 钩子未落地。
+上游代码按 GPL-3.0-only 发布；第三方滤镜、水印、字体和官方 APK 的权利归各自权利人。仅供个人学习和自用，刷机前请自行备份并确认可以回退。

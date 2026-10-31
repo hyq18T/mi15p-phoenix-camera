@@ -1,8 +1,10 @@
 {
-  "versionName": "Phoenix-1.3.0-M3-AllInOne",
+  "versionName": "Phoenix-1.3.0-M3-MEditor210-r3",
   "cameraVersionCode": 760010300,
-  "lspVersionCode": 2010400,
-  "moduleVersionCode": 2013000,
+  "lspVersionCode": 2010503,
+  "moduleVersionCode": 2013004,
+  "mediaEditorVersionName": "2.10.43.0.8",
+  "mediaEditorVersionCode": 210994308,
   "package": "com.android.camera",
   "targetDevice": "haotian"
 }

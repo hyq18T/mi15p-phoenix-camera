@@ -1,5 +1,14 @@
 # Phoenix 1.3.0
 
+## 2026-10-30 MEditor210 更新
+
+- 新增官方相册编辑器 `2.10.43.0.8`，versionCode `210994308`。
+- 新增 MEditor210 三合一 LSP，versionCode `2010503`。
+- 新增相册 42 个 Phoenix 滤镜预设、名称修复、调色盘保存和 AI 超清保存链路。
+- 新增 `Phoenix_15Pro_Camera_M3_MEditor210_AllInOne-1.3.0.zip` 整合包与可重建源码归档。
+- 清理被新版取代的旧相机 APK、旧 LSP APK、旧整合包和旧 NaturalTuning 成品，避免重复和误刷降级。
+- 保留相机、M3、NaturalTuning、EV 和实况运镜的已验证适配；未把未验证的 17U DRC 整链移植描述为已完成。
+
 - 新增小米 15 Pro 相机 + 徕卡一瞬 M3 二合一 Magisk 模块。
 - 新增主 LSP + M3 + NaturalTuning 三合一 LSPosed 模块。
 - 新增 NaturalTuning v1.4.0 的 15 Pro 适配源码与成品。
