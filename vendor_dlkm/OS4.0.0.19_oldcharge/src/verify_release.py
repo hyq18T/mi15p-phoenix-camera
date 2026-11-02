@@ -60,6 +60,8 @@ def main():
             failures.append(f"模块哈希不匹配: {name}")
 
     artifact_dir = os.path.join(root, "artifacts")
+    if not os.path.isdir(artifact_dir):
+        artifact_dir = root
     image_hashes = read_hashes(
         os.path.join(root, "镜像SHA256.txt"), artifact_dir
     )
