@@ -1,0 +1,11 @@
+Filesystem magic number:                      0xE0F5E1E2
+Filesystem blocks:                            21086
+Filesystem inode metadata start block:        0
+Filesystem shared xattr metadata start block: 0
+Filesystem root nid:                          39
+Filesystem lz4_max_distance:                  65535
+Filesystem sb_extslots:                       0
+Filesystem inode count:                       413
+Filesystem created:                           Thu Jan  1 08:00:00 2009
+Filesystem features:                          sb_csum mtime xattr_filter 0padding 
+Filesystem UUID:                              e3611c9c-5568-5aed-97f3-4806df331338

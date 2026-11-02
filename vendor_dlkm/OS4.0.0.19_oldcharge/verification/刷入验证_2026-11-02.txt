@@ -1,0 +1,84 @@
+小米 15 Pro OS4.0.0.19 旧版快充镜像刷入验证
+日期：2026-11-02
+
+设备信息
+--------
+ADB 序列号：dc16f1e0
+型号：2410DPN6CC
+代号：haotian
+系统版本：OS4.0.0.19.XOBCNXM
+当前槽位：_a
+
+刷入过程
+--------
+模式：fastbootd
+is-userspace：yes
+current-slot：a
+逻辑分区：vendor_dlkm_a
+分区大小：0x5499000（88,707,072 字节）
+
+fastboot flash vendor_dlkm_a 结果：
+Resizing 'vendor_dlkm_a'  OKAY
+Sending 'vendor_dlkm_a'   OKAY
+Writing 'vendor_dlkm_a'   OKAY
+
+刷入结果
+--------
+手机正常重启并进入系统：
+sys.boot_completed = 1
+init.svc.bootanim = stopped
+
+手机分区 SHA-256：
+e237dd6e4094102a9ce49f0f7476380f5344c92dc6a5b1940afe30fec4544ed4
+
+该值与 vendor_dlkm_米15p_4.0.19.img 完全一致。
+
+模块加载
+--------
+已确认以下关键模块加载成功：
+mca_strategy_quickchg
+mca_strategy_buckchg
+mca_strategy_fg_comp
+mca_strategy_fg_class
+mca_smart_charge
+bq27z561
+sc8581
+charger_partition
+
+未发现以下模块加载错误：
+Unknown symbol
+disagrees about version
+module verification failed
+exec format error
+
+日志说明
+--------
+开机日志中存在一条 Unbalanced IRQ 469 wake disable 告警，调用栈来自
+cnss2 / cnss_disable_dev_sol_irq / cnss_power_off_device，属于 Wi-Fi PCIe
+关闭路径，不涉及 MCA、bq27z561 或 SC8581 充电模块。
+
+崩溃缓冲区另有一条 SIGABRT 记录。进一步核对内核日志后，确认对应服务为
+dcc_dump-script-8750，是由 vendor trace/debug 服务启动的一次性诊断脚本；
+不是 init 主进程，也不在充电模块调用链中。该服务退出后系统继续正常启动。
+
+SystemUI 进程正常运行，sys.boot_completed 保持为 1，未出现因本次分区导致的
+重启、SystemUI 崩溃或充电模块失败。
+
+当前电源状态
+------------
+手机仍在通过电脑 USB 口取电，无法验证原装 90W 快充曲线。
+
+本次读取示例：
+USB 电压：5.018 V
+USB 电流：0.644 A
+USB 输入功率：约 3.23 W
+电池电压：3.704 V
+电池温度：36.0°C
+充电状态：Charging
+无线充电在线：0
+
+结论
+----
+镜像写入、分区哈希、正常开机和充电模块加载均验证通过。
+原装 90W 充电器的爬升速度、最高功率、温度墙和完整充电曲线仍需接入
+原装充电器后实测。

@@ -1,0 +1,91 @@
+base_modules=397
+author16_modules=400
+stock19_modules=399
+replacement_modules=28
+
+[module analysis]
+bq27z561.ko: imports=57 exports=0 version_patches=1 export_crc_patches=0 missing_vs_stock19=9 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: delayed_work_timer_fn, init_timer_key, mca_parse_dts_u32_array, mca_parse_dts_u32_count, memchr, queue_delayed_work_on, sscanf, strncpy, system_wq
+  version platform_fg_ic_ops_register: 0x6a652a09 -> 0x870b9e22
+charger_partition.ko: imports=35 exports=19 version_patches=0 export_crc_patches=0 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=6 text_equals_old=True depends_equal=True vermagic_patch=False
+mca_basic_wireless.ko: imports=137 exports=5 version_patches=1 export_crc_patches=0 missing_vs_stock19=3 extra_vs_stock19=0 removed_exports=1 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: memset, platform_class_cp_enable_vbus_errorhi, platform_class_cp_enable_vbus_errorlo
+  version mca_smartchg_if_ops_register: 0xf068973d -> 0x85e2f9d0
+  non-replaced consumers: mca_qcom_sysfs.ko(strategy_class_wireless_ops_get_wls_type)
+mca_bmd.ko: imports=32 exports=0 version_patches=0 export_crc_patches=0 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=True vermagic_patch=False
+mca_buckchg_jeita.ko: imports=44 exports=0 version_patches=1 export_crc_patches=0 missing_vs_stock19=7 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: mca_is_warsaw_p2_before, mca_parse_dts_u32_array, mca_rerun_election, of_get_child_by_name, platform_fg_ops_get_batt_cell_info, protocol_class_get_adapter_type, strategy_class_fg_set_dynamic_fv
+  version mca_smartchg_if_ops_register: 0xf068973d -> 0x85e2f9d0
+mca_business_battery_comp.ko: imports=34 exports=0 version_patches=0 export_crc_patches=0 missing_vs_stock19=2 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=True vermagic_patch=False
+  stock19 imports not imported by old: strategy_class_fg_get_comp_fcc, strategy_class_fg_get_comp_rm
+mca_business_charger_comp.ko: imports=88 exports=0 version_patches=0 export_crc_patches=0 missing_vs_stock19=9 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: __of_parse_phandle_with_args, fsa4480_switch_event, ktime_get_with_offset, mca_find_votable, mca_get_client_vote, mca_strategy_is_support_pps_100w, memset, of_find_property, protocol_class_pd_get_cid_status
+mca_charge_mievent.ko: imports=12 exports=2 version_patches=0 export_crc_patches=0 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=True vermagic_patch=False
+  non-replaced consumers: mca_ibat_ocp_monitor.ko(mca_charge_mievent_report)
+mca_charger_thermal.ko: imports=40 exports=2 version_patches=1 export_crc_patches=0 missing_vs_stock19=3 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: mca_get_hwid_info, of_get_child_by_name, strcmp
+  version mca_smartchg_if_ops_register: 0xf068973d -> 0x85e2f9d0
+  non-replaced consumers: mca_qcom_sysfs.ko(mca_get_wls_charger_thermal_remove,mca_set_wls_charger_thermal_remove)
+mca_connector_antiburn.ko: imports=47 exports=1 version_patches=0 export_crc_patches=0 missing_vs_stock19=3 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=True vermagic_patch=False
+  stock19 imports not imported by old: memset, of_get_child_by_name, strcmp
+mca_event.ko: imports=19 exports=4 version_patches=0 export_crc_patches=0 missing_vs_stock19=2 extra_vs_stock19=0 removed_exports=1 text_equals_old=True depends_equal=True vermagic_patch=False
+  stock19 imports not imported by old: __kmalloc, memset
+  non-replaced consumers: hl7603.ko(mca_event_block_notify_register,mca_event_block_notify_unregister), mca_charge_interface.ko(mca_event_block_notify), mca_ibat_ocp_monitor.ko(mca_event_block_notify), mca_log.ko(mca_event_report_uevent), mca_pwm_fan.ko(mca_event_report_uevent), mca_qcom_panel.ko(mca_event_block_notify), mca_soc_limit.ko(mca_event_block_notify), mca_vbat_ovp_monitor.ko(mca_event_block_notify), mi_thermal_interface.ko(mca_event_block_notify), nuvolta_1652.ko(mca_event_block_notify), qcom_adsp_pd_protocol.ko(mca_event_block_notify_register)
+mca_hwid.ko: imports=12 exports=1 version_patches=0 export_crc_patches=0 missing_vs_stock19=2 extra_vs_stock19=0 removed_exports=1 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: __stack_chk_fail, get_smem_battery_is_new_batt_sn
+  non-replaced consumers: mca_pwm_fan.ko(mca_get_hwid_info), mca_vbat_ovp_monitor.ko(mca_get_hwid_info)
+mca_pd_auth.ko: imports=32 exports=0 version_patches=0 export_crc_patches=0 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=True vermagic_patch=False
+mca_platform_buckchg_class.ko: imports=2 exports=83 version_patches=0 export_crc_patches=1 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=1 text_equals_old=True depends_equal=True vermagic_patch=False
+  export platform_class_buckchg_ops_register: 0x6fc9751a -> 0x129fc036 (reference=mca_platform_buckchg_class.ko)
+  non-replaced consumers: mca_ibat_ocp_monitor.ko(platform_class_buckchg_ops_get_online), mca_lpd_detect.ko(platform_class_buckchg_ops_get_lpd_cc1,platform_class_buckchg_ops_get_lpd_cc2,platform_class_buckchg_ops_get_lpd_control,platform_class_buckchg_ops_get_lpd_dm,platform_class_buckchg_ops_get_lpd_dp,platform_class_buckchg_ops_get_lpd_enable,platform_class_buckchg_ops_get_lpd_sbu1,platform_class_buckchg_ops_get_lpd_sbu2,platform_class_buckchg_ops_get_lpd_status,platform_class_buckchg_ops_get_lpd_uart_control,platform_class_buckchg_ops_set_lpd_control,platform_class_buckchg_ops_set_lpd_sbu1,platform_class_buckchg_ops_set_lpd_uart_control), mca_path_control.ko(platform_class_buckchg_ops_get_online,platform_class_buckchg_ops_get_otg_boost_enable_status,platform_class_buckchg_ops_get_otg_boost_src), mca_qcom_sysfs.ko(platform_class_buckchg_ops_get_pack_ibat,platform_class_buckchg_ops_get_ship_mode,platform_class_buckchg_ops_is_support_cid,platform_class_buckchg_ops_set_ship_mode), mca_vbat_ovp_monitor.ko(platform_class_buckchg_ops_get_online)
+mca_platform_cp_class.ko: imports=16 exports=52 version_patches=0 export_crc_patches=1 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=2 text_equals_old=True depends_equal=True vermagic_patch=False
+  export platform_class_cp_register_ops: 0xce284cad -> 0x901217e7 (reference=mca_platform_cp_class.ko)
+  non-replaced consumers: mca_path_control.ko(platform_class_cp_enable_ovpgate), mca_qcom_sysfs.ko(platform_class_cp_enable_ovpgate,platform_class_cp_get_ovpgate_status)
+mca_platform_fg_ic_ops.ko: imports=2 exports=67 version_patches=0 export_crc_patches=2 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=12 text_equals_old=True depends_equal=True vermagic_patch=False
+  export platform_fg_ic_ops_register: 0x6a652a09 -> 0x870b9e22 (reference=mca_platform_fg_ic_ops.ko)
+  export platform_fg_ops_qbg_send_chg_data: 0x7db31002 -> 0x1f521b43 (reference=mca_platform_fg_ic_ops.ko)
+  non-replaced consumers: mca_ibat_ocp_monitor.ko(platform_fg_ops_get_curr)
+mca_protocol_pd_class.ko: imports=13 exports=52 version_patches=0 export_crc_patches=0 missing_vs_stock19=1 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=True vermagic_patch=False
+  stock19 imports not imported by old: of_find_property
+  non-replaced consumers: mca_platform_bc12_class.ko(protocol_class_pd_get_pd_active), mca_qcom_sysfs.ko(protocol_class_pd_get_cc_toggle,protocol_class_pd_get_cid_status,protocol_class_pd_get_has_dp,protocol_class_pd_set_cc_toggle), qcom_adsp_pd_protocol.ko(protocol_class_pd_register_ops)
+mca_qcom_smem.ko: imports=3 exports=3 version_patches=0 export_crc_patches=0 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=1 text_equals_old=True depends_equal=True vermagic_patch=False
+mca_qcom_subpmic_proxy.ko: imports=48 exports=3 version_patches=1 export_crc_patches=0 missing_vs_stock19=2 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=True vermagic_patch=False
+  stock19 imports not imported by old: kfree, memset
+  version platform_class_buckchg_ops_register: 0x6fc9751a -> 0x129fc036
+  non-replaced consumers: leds-qti-flash.ko(qti_battery_charger_get_prop), qcom-hv-haptics.ko(register_hboost_event_notifier,unregister_hboost_event_notifier), swr_haptics_dlkm.ko(register_hboost_event_notifier,unregister_hboost_event_notifier)
+mca_quick_wireless.ko: imports=82 exports=0 version_patches=1 export_crc_patches=0 missing_vs_stock19=1 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=True vermagic_patch=False
+  stock19 imports not imported by old: strategy_wireless_enable_cp_error_irq
+  version mca_smartchg_if_ops_register: 0xf068973d -> 0x85e2f9d0
+mca_smart_charge.ko: imports=60 exports=7 version_patches=0 export_crc_patches=1 missing_vs_stock19=7 extra_vs_stock19=0 removed_exports=1 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: charger_partition_read_batt_safe_vlim, charger_partition_write_batt_emerg_sn, charger_partition_write_batt_safe_ilim, charger_partition_write_batt_safe_vlim, mca_find_votable, of_get_child_by_name, strcmp
+  export mca_smartchg_if_ops_register: 0xf068973d -> 0x85e2f9d0 (reference=mca_smart_charge.ko)
+  non-replaced consumers: mi_thermal_interface.ko(mca_smartchg_set_scene)
+mca_strategy_buckchg.ko: imports=107 exports=0 version_patches=1 export_crc_patches=0 missing_vs_stock19=9 extra_vs_stock19=1 removed_exports=0 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: __mutex_init, mca_parse_dts_string_array, mca_strategy_is_support_pps_100w, mca_wireless_rev_get_user_reverse_chg, memset, mutex_lock, mutex_unlock, of_get_child_by_name, strategy_class_fg_ops_get_cyclecount
+  old imports not represented in stock19 import set: platform_class_cp_get_pmid2out_uvp_dis
+  version mca_smartchg_if_ops_register: 0xf068973d -> 0x85e2f9d0
+mca_strategy_class.ko: imports=2 exports=4 version_patches=0 export_crc_patches=0 missing_vs_stock19=1 extra_vs_stock19=0 removed_exports=1 text_equals_old=True depends_equal=True vermagic_patch=False
+  stock19 imports not imported by old: __stack_chk_fail
+  non-replaced consumers: mca_qcom_sysfs.ko(mca_strategy_func_get_status), nuvolta_1652.ko(mca_strategy_func_process)
+mca_strategy_fg_class.ko: imports=2 exports=27 version_patches=0 export_crc_patches=1 missing_vs_stock19=0 extra_vs_stock19=0 removed_exports=4 text_equals_old=True depends_equal=True vermagic_patch=False
+  export strategy_class_fg_ops_register: 0x378db201 -> 0x944e1834 (reference=mca_strategy_fg_class.ko)
+  non-replaced consumers: mca_ibat_ocp_monitor.ko(strategy_class_fg_get_fastcharge), mca_qcom_sysfs.ko(strategy_class_fg_get_soh,strategy_class_fg_ops_get_soc_decimal), mca_soc_limit.ko(strategy_class_fg_ops_get_soc), mca_vbat_ovp_monitor.ko(strategy_class_fg_get_fastcharge,strategy_class_fg_ops_get_temperature,strategy_class_fg_ops_get_voltage)
+mca_strategy_fg_comp.ko: imports=132 exports=0 version_patches=2 export_crc_patches=0 missing_vs_stock19=29 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: __mutex_init, charger_partition_read_batt_emerg_sn, charger_partition_read_batt_safe_ilim, charger_partition_read_batt_safe_vlim, charger_partition_write_batt_emerg_sn, charger_partition_write_batt_safe_ilim, charger_partition_write_batt_safe_vlim, fortify_panic, mca_smartchg_set_batt_emerg_soc_limit, memcpy, memset, mutex_lock, mutex_unlock, of_get_child_by_name, platform_fg_ops_get_batt_qmax, platform_fg_ops_get_batt_sn, platform_fg_ops_get_cc_coulomb_integral, platform_fg_ops_get_csd_flag, platform_fg_ops_get_fast_mode_times, platform_fg_ops_get_fcc_default, platform_fg_ops_get_fg_vendor, platform_fg_ops_get_iaver, platform_fg_ops_get_vsiloss, platform_fg_ops_set_dynamic_fv, platform_fg_ops_set_fast_mode_times, register_reboot_notifier, strategy_class_fg_ops_get_soc, strlen, strnlen
+  version strategy_class_fg_ops_register: 0x378db201 -> 0x944e1834
+  version platform_fg_ops_qbg_send_chg_data: 0x7db31002 -> 0x1f521b43
+mca_strategy_quickchg.ko: imports=107 exports=0 version_patches=1 export_crc_patches=0 missing_vs_stock19=11 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: __msecs_to_jiffies, charger_partition_read_batt_safe_ilim, charger_partition_write_batt_safe_ilim, mca_is_warsaw_p2_before, mca_strategy_is_support_pps_100w, of_get_child_by_name, platform_class_buckchg_ops_get_chg_status, platform_class_buckchg_ops_set_cp_vendor_id, protocol_class_get_adapter_type, strategy_class_fg_ops_get_cyclecount, strategy_class_fg_set_allow_new_soc_smooth
+  version mca_smartchg_if_ops_register: 0xf068973d -> 0x85e2f9d0
+mca_wireless_revchg.ko: imports=83 exports=15 version_patches=0 export_crc_patches=0 missing_vs_stock19=2 extra_vs_stock19=0 removed_exports=0 text_equals_old=True depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: mca_event_report_multiple_uevent, memset
+  non-replaced consumers: mca_path_control.ko(mca_wireless_rev_get_rev_boost_default,mca_wireless_rev_get_reverse_chg), mca_qcom_sysfs.ko(mca_wireless_rev_enable_reverse_charge,mca_wireless_rev_get_reverse_chg,mca_wireless_rev_get_reverse_chg_state,mca_wireless_rev_set_user_reverse_chg,mca_wireless_rev_update_fw_version)
+sc8581_sy6541.ko: imports=42 exports=0 version_patches=1 export_crc_patches=0 missing_vs_stock19=1 extra_vs_stock19=0 removed_exports=3 text_equals_old=old-missing depends_equal=False vermagic_patch=False
+  stock19 imports not imported by old: mca_charge_mievent_report
+  version platform_class_cp_register_ops: 0xce284cad -> 0x901217e7
+
+[summary]
+version_crc_patches=11
+export_crc_patches=6
+vermagic_patches=0
+failures=0

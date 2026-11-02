@@ -1,0 +1,3 @@
+Verifying image vendor_dlkm.img using embedded public key
+vbmeta: Successfully verified footer and NONE vbmeta struct in vendor_dlkm.img
+vendor_dlkm: Successfully verified sha256 hashtree of vendor_dlkm.img for image of 86368256 bytes

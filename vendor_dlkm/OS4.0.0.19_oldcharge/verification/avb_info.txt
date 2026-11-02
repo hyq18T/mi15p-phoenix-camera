@@ -1,0 +1,33 @@
+Footer version:           1.0
+Image size:               88707072 bytes
+Original image size:      86368256 bytes
+VBMeta offset:            87752704
+VBMeta size:              768 bytes
+--
+Minimum libavb version:   1.0
+Header Block:             256 bytes
+Authentication Block:     0 bytes
+Auxiliary Block:          512 bytes
+Algorithm:                NONE
+Rollback Index:           0
+Flags:                    0
+Rollback Index Location:  0
+Release String:           'avbtool 1.3.0'
+Descriptors:
+    Hashtree descriptor:
+      Version of dm-verity:  1
+      Image Size:            86368256 bytes
+      Tree Offset:           86368256
+      Tree Size:             688128 bytes
+      Data Block Size:       4096 bytes
+      Hash Block Size:       4096 bytes
+      FEC num roots:         2
+      FEC offset:            87056384
+      FEC size:              696320 bytes
+      Hash Algorithm:        sha256
+      Partition Name:        vendor_dlkm
+      Salt:                  a8367d32a09ff6ce8b8687bbb571a7f78a728c72e148bf4d6770c9cce6a1e095
+      Root Digest:           5055070137fce5a4d9113e98e93ca35f37e8e20362a62c3d57ea1f60956431cf
+      Flags:                 0
+    Prop: com.android.build.vendor_dlkm.os_version -> '15'
+    Prop: com.android.build.vendor_dlkm.fingerprint -> 'Xiaomi/haotian/haotian:15/AQ3A.250226.002/OS4.0.0.19.XOBCN:user/release-keys'
